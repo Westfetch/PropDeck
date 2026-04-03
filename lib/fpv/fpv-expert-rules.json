@@ -1,0 +1,804 @@
+{
+  "version": "1.0.0",
+  "description": "FPV expert knowledge rules. Each rule encodes real-world FPV knowledge for build validation, swap fairness, and beginner guidance.",
+  "severity_levels": {
+    "hard_constraint": "Physically impossible or dangerous. Must block.",
+    "strong_recommendation": "Will work badly. Should warn prominently.",
+    "soft_guidance": "Best practice. Show as tip.",
+    "info": "Educational context only."
+  },
+  "categories": {
+    "tinywhoop_class": [
+      {
+        "rule_id": "TW-01",
+        "summary": "65mm frames pair with 0702 or 0802 motors",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["0702", "0802"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "65mm whoops need 0702 or 0802 motors. Anything larger won't fit the frame ducts.",
+        "message_advanced": "65mm duct diameter constrains motor stator to 07xx-08xx class. Larger stators exceed motor mount spacing.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-02",
+        "summary": "75mm frames pair with 0802, 1002, or 1102 motors",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["75mm whoop frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["0802", "1002", "1102"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "75mm whoops use 0802, 1002, or 1102 motors. 0802 for gentle 1S, 1102 for punchy 2S.",
+        "message_advanced": "75mm duct fits 08xx-11xx stators. 0802 is standard 1S, 1002 bridges 1S-2S, 1102 is 2S optimised.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-03",
+        "summary": "65mm frames use 31mm props exclusively",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.size",
+          "operator": "equals",
+          "values": ["31mm"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "65mm whoops only fit 31mm props. They're the only size that clears the ducts.",
+        "message_advanced": "65mm duct inner diameter constrains prop to 31mm class. Gemfan 31mm 3-blade is community standard.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-04",
+        "summary": "75mm frames use 40mm props",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["75mm whoop frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.size",
+          "operator": "equals",
+          "values": ["40mm"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "75mm whoops use 40mm props. Tri-blade is standard, quad-blade gives more grip but draws more current.",
+        "message_advanced": "75mm duct fits 40mm prop class. Tri-blade balances thrust and efficiency. Quad-blade draws 15-20% more current.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-05",
+        "summary": "65mm and 75mm 1S builds require a 1S whoop AIO",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["65mm whoop frame", "75mm whoop frame"],
+        "condition": {
+          "part_type": "aio",
+          "field": "specs.cell_count",
+          "operator": "equals",
+          "values": ["1S"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "1S whoops need a 1S AIO board. This has the flight controller and motor drivers built in.",
+        "message_advanced": "Whoop AIO integrates FC+4-in-1 ESC, sometimes VTX/RX. 1S AIO cannot handle 2S voltage. Do not substitute 20x20 stack.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-06",
+        "summary": "75mm 2S builds require a 2S whoop AIO",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["75mm whoop frame"],
+        "condition": {
+          "part_type": "aio",
+          "field": "specs.cell_count",
+          "operator": "equals",
+          "values": ["2S"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "2S whoops need a 2S-rated AIO. Using a 1S board on 2S voltage will burn the electronics.",
+        "message_advanced": "2S whoop AIO handles 7.4-8.4V input. 1S AIO max is 4.35V. Substituting a 20x20 stack is wrong form factor.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-07",
+        "summary": "0702 motors above 26000KV are race-tuned, not beginner-friendly",
+        "category": "tinywhoop_class",
+        "severity": "soft_guidance",
+        "applies_to": ["0702 motor"],
+        "condition": {
+          "field": "variant.kv",
+          "operator": "greater_than",
+          "values": [26000]
+        },
+        "action": "warn",
+        "message_beginner": "Very high KV motors (26000+) are twitchy and hard to control indoors. 19000-22000KV is a better starting point.",
+        "message_advanced": "0702 >26000KV optimised for race, not learning. Motor output limit to 80-85% recommended if running high-KV on 1S indoor.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-08",
+        "summary": "Motor KV must match cell count",
+        "category": "tinywhoop_class",
+        "severity": "strong_recommendation",
+        "applies_to": ["0702 motor", "0802 motor", "1002 motor", "1102 motor"],
+        "condition": {
+          "field": "variant.kv_range",
+          "operator": "match_cell_count"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Motor KV needs to match your battery. High-KV motors on too many cells means too much power and burned props.",
+        "message_advanced": "1S targets: 19000-26000KV. 2S targets: 9000-15000KV depending on stator. Running 25000KV on 2S exceeds prop and ESC limits.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-09",
+        "summary": "Whoop canopy must match camera width class",
+        "category": "tinywhoop_class",
+        "severity": "strong_recommendation",
+        "applies_to": ["65mm whoop frame", "75mm whoop frame"],
+        "condition": {
+          "part_type": "camera",
+          "field": "specs.size",
+          "operator": "equals",
+          "values": ["nano"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Whoop canopies are sized for nano cameras (14mm wide). Micro cameras (19mm) won't fit without modification.",
+        "message_advanced": "Standard whoop canopy aperture is 14mm for nano class. Micro (19mm) requires canopy swap or trimming. DJI O3/O4 physically cannot fit sub-75mm.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-10",
+        "summary": "Indoor whoops should target sub-25g AUW",
+        "category": "tinywhoop_class",
+        "severity": "soft_guidance",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "field": "weight_state.auw_g",
+          "operator": "less_than",
+          "values": [25]
+        },
+        "action": "info",
+        "message_beginner": "Keeping your whoop under 25g total means you avoid registration requirements in most countries.",
+        "message_advanced": "Sub-25g AUW avoids UK CAA and EU EASA registration. 65mm 1S builds typically land 20-24g with battery. Check local rules.",
+        "confidence": "medium",
+        "source": "regulatory_guidance"
+      },
+      {
+        "rule_id": "TW-11",
+        "summary": "Battery capacity sweet spots by frame size",
+        "category": "tinywhoop_class",
+        "severity": "soft_guidance",
+        "applies_to": ["65mm whoop frame", "75mm whoop frame"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.capacity_range"
+        },
+        "action": "info",
+        "message_beginner": "65mm: 300-450mAh batteries. 75mm 1S: 450-550mAh. 75mm 2S: 300-450mAh. Aim for 2-4 minute flights per pack.",
+        "message_advanced": "Capacity vs weight tradeoff. 65mm: 300mAh (8g) optimal, 450mAh (11g) max practical. 75mm 1S: 450-550mAh. 75mm 2S: 300-450mAh.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-12",
+        "summary": "Whoop motors use 1mm shaft press-fit",
+        "category": "tinywhoop_class",
+        "severity": "hard_constraint",
+        "applies_to": ["0702 motor", "0802 motor"],
+        "condition": {
+          "field": "specs.shaft_diameter",
+          "operator": "equals",
+          "values": ["1.0mm"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Whoop motors use 1mm shaft with press-fit props. If a motor says 'M2 mounting' or 'T-mount' it's not a whoop motor.",
+        "message_advanced": "0702/0802 standard: 1.0mm shaft, press-fit prop. 1102+ may use 1.5mm shaft. T-mount is incompatible with whoop prop hubs.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "receiver_protocol": [
+      {
+        "rule_id": "RX-01",
+        "summary": "ELRS is recommended for all new builds",
+        "category": "receiver_protocol",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "rx",
+          "field": "specs.protocol",
+          "operator": "equals",
+          "values": ["ELRS"]
+        },
+        "action": "recommend",
+        "message_beginner": "ELRS (ExpressLRS) is the community standard. Open-source, low latency, cheap, and widely supported.",
+        "message_advanced": "ELRS: open-source, sub-5ms latency at 500Hz, 2.4GHz for whoops/micros, 900MHz for long range. Community standard since 2023.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-02",
+        "summary": "SPI ELRS is soldered to AIO, not replaceable",
+        "category": "receiver_protocol",
+        "severity": "info",
+        "applies_to": ["SPI ELRS receiver"],
+        "condition": {
+          "field": "specs.type",
+          "operator": "equals",
+          "values": ["SPI"]
+        },
+        "action": "info",
+        "message_beginner": "SPI ELRS is built into the board. It's lighter and cheaper but you can't swap it for a different protocol.",
+        "message_advanced": "SPI ELRS uses SPI bus instead of UART. Saves weight (~0.5g) and a UART, but locks the board to ELRS. Cannot be replaced without changing AIO.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-03",
+        "summary": "ELRS major version mismatch breaks binding",
+        "category": "receiver_protocol",
+        "severity": "hard_constraint",
+        "applies_to": ["ELRS receiver", "SPI ELRS receiver"],
+        "condition": {
+          "field": "software_state.receiver_major_version",
+          "operator": "mismatch"
+        },
+        "action": "warn",
+        "message_beginner": "Your radio and receiver must be on the same ELRS major version (both v3 or both v4). If they don't match, they won't bind.",
+        "message_advanced": "ELRS v3.x TX will not bind to v2.x RX and vice versa. Most common beginner binding failure. Flash both to same major version.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-04",
+        "summary": "Start at 250Hz packet rate for beginners",
+        "category": "receiver_protocol",
+        "severity": "soft_guidance",
+        "applies_to": ["ELRS receiver", "SPI ELRS receiver"],
+        "condition": {
+          "field": "software_state.elrs_packet_rate"
+        },
+        "action": "info",
+        "message_beginner": "250Hz packet rate is plenty for learning. Higher rates (500Hz) are for racing where milliseconds matter.",
+        "message_advanced": "250Hz: good range, low latency. 500Hz: racing optimised, reduced range. 150Hz: long-range cruising. Match TX and RX packet rate.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-05",
+        "summary": "Crossfire adds weight, avoid for whoops",
+        "category": "receiver_protocol",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "rx",
+          "field": "specs.protocol",
+          "operator": "equals",
+          "values": ["Crossfire", "Tracer"]
+        },
+        "action": "warn",
+        "message_beginner": "Crossfire/Tracer receivers are heavier than ELRS. On tiny whoops, every gram matters. ELRS is lighter and cheaper.",
+        "message_advanced": "TBS Nano RX: ~1.5g vs ELRS EP1: ~0.5g. On sub-25g builds, 1g is 4-5% of AUW. ELRS also has better community support.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-06",
+        "summary": "Serial ELRS receiver needs a free UART",
+        "category": "receiver_protocol",
+        "severity": "hard_constraint",
+        "applies_to": ["ELRS receiver"],
+        "condition": {
+          "field": "practical_constraints.uart_budget_used",
+          "operator": "check_availability"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "An external ELRS receiver needs a spare connection port (UART) on your flight controller. Most whoop boards only have 1-2.",
+        "message_advanced": "Serial ELRS requires one free UART. Most whoop AIOs have 2 UARTs total. If VTX smart audio uses one, only one remains for RX.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "RX-07",
+        "summary": "FrSky D8/D16 is legacy, avoid for new builds",
+        "category": "receiver_protocol",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "rx",
+          "field": "specs.protocol",
+          "operator": "in",
+          "values": ["FrSky", "D8", "D16"]
+        },
+        "action": "warn",
+        "message_beginner": "FrSky is an older protocol. The FPV community has moved to ELRS. New builds should use ELRS.",
+        "message_advanced": "FrSky D8/D16/ACCESS ecosystem is fragmented and declining. ELRS is open-source, cheaper, lower latency. Converting FrSky to ELRS is a common upgrade path.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "video_system": [
+      {
+        "rule_id": "VID-01",
+        "summary": "Analog video is standard for tinywhoop class",
+        "category": "video_system",
+        "severity": "strong_recommendation",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "part_type": "vtx",
+          "field": "specs.video",
+          "operator": "equals",
+          "values": ["analog"]
+        },
+        "action": "recommend",
+        "message_beginner": "Analog video is the standard for tiny whoops. It's lighter, cheaper, and has lower latency than digital.",
+        "message_advanced": "Analog: sub-1ms latency, ~2g VTX weight. Digital options exist for 75mm+ but add significant weight and cost.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-02",
+        "summary": "DJI O3 does not fit whoops under 3 inches",
+        "category": "video_system",
+        "severity": "hard_constraint",
+        "applies_to": ["DJI O3 Air Unit"],
+        "condition": {
+          "field": "specs.size",
+          "operator": "minimum_frame",
+          "values": ["3inch"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "The DJI O3 camera is too big and heavy for whoops. You need at least a 3-inch frame to fit it.",
+        "message_advanced": "DJI O3 Air Unit: 12.5g, 30.5x30.5mm mounting. Minimum viable platform is 3-inch cinewhoop. Does not fit any whoop AIO or 2-inch frame.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-03",
+        "summary": "HDZero Whoop Lite is the only sub-3-inch digital option",
+        "category": "video_system",
+        "severity": "info",
+        "applies_to": ["HDZero Whoop Lite VTX"],
+        "condition": {
+          "field": "specs.video",
+          "operator": "equals",
+          "values": ["HDZero"]
+        },
+        "action": "info",
+        "message_beginner": "HDZero Whoop Lite is the only digital video system light enough for whoops. It needs HDZero goggles though.",
+        "message_advanced": "HDZero Whoop Lite: ~2g, fits on whoop AIO. Only digital option for 65-75mm class. Requires HDZero-compatible goggles (not DJI, not analog).",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-04",
+        "summary": "Video system must match goggles",
+        "category": "video_system",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "field": "rf_state.video_link_type",
+          "operator": "match_ecosystem"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Your goggles must match your video system. Analog goggles can't see DJI, DJI goggles can't see analog.",
+        "message_advanced": "No cross-compatibility: analog requires analog RX module, DJI requires DJI goggles, HDZero requires HDZero goggles, Walksnail requires Walksnail goggles.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-05",
+        "summary": "Analog VTX power: 25mW for indoor",
+        "category": "video_system",
+        "severity": "soft_guidance",
+        "applies_to": ["whoop VTX", "standalone analog VTX"],
+        "condition": {
+          "field": "rf_state.vtx_power_mw",
+          "operator": "less_than_or_equal",
+          "values": [25]
+        },
+        "action": "info",
+        "message_beginner": "Use 25mW power for flying indoors. Higher power doesn't help in a living room and can interfere with other pilots.",
+        "message_advanced": "25mW for indoor/proximity. 200mW+ for outdoor range. Race events mandate 25mW pit mode. Higher power causes multipath interference indoors.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-06",
+        "summary": "Walksnail Avatar Nano fits 75mm+ with weight penalty",
+        "category": "video_system",
+        "severity": "soft_guidance",
+        "applies_to": ["Walksnail Avatar Nano"],
+        "condition": {
+          "field": "specs.size",
+          "operator": "minimum_frame",
+          "values": ["75mm"]
+        },
+        "action": "info",
+        "message_beginner": "Walksnail Avatar Nano can fit on 75mm whoops but adds 5-7g. Only practical on 2S builds with enough power to carry the weight.",
+        "message_advanced": "Walksnail Avatar Nano: ~5-7g, fits 75mm+ frames. Feasible on 75mm 2S with 1102 motors. Weight penalty significant on 1S builds.",
+        "confidence": "medium",
+        "source": "community_consensus"
+      }
+    ],
+    "battery_connector": [
+      {
+        "rule_id": "BAT-01",
+        "summary": "BT2.0 has lower resistance than PH2.0",
+        "category": "battery_connector",
+        "severity": "info",
+        "applies_to": ["BT2.0 1S battery", "PH2.0 1S battery"],
+        "condition": {
+          "field": "specs.connector",
+          "operator": "compare"
+        },
+        "action": "info",
+        "message_beginner": "BT2.0 connectors deliver more power than PH2.0. If you're buying new batteries, BT2.0 is the better choice.",
+        "message_advanced": "BT2.0: ~4 milliohm contact resistance vs PH2.0: 10-20 milliohm. On 1S, this is 5-10% power delivery difference. BT2.0 is newer standard.",
+        "confidence": "high",
+        "source": "manufacturer_specs"
+      },
+      {
+        "rule_id": "BAT-02",
+        "summary": "BT2.0 and PH2.0 are not cross-compatible",
+        "category": "battery_connector",
+        "severity": "hard_constraint",
+        "applies_to": ["BT2.0 1S battery", "PH2.0 1S battery"],
+        "condition": {
+          "field": "specs.connector",
+          "operator": "mismatch"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "BT2.0 and PH2.0 batteries use different connectors. They don't plug into each other. Check which your board uses.",
+        "message_advanced": "BT2.0 and PH2.0 have different pin spacing and physical form factor. No direct cross-compatibility. Adapters exist but add resistance, defeating the purpose.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BAT-03",
+        "summary": "Battery capacity must match frame size",
+        "category": "battery_connector",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.capacity_mAh",
+          "operator": "range_check"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Bigger batteries are heavier. A 550mAh battery on a 65mm whoop makes it sluggish and hard to fly.",
+        "message_advanced": "65mm 1S: max practical 450mAh (~11g). Above that, thrust-to-weight ratio drops below acceptable. 300mAh (8-9g) is optimal for indoor.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BAT-04",
+        "summary": "Store batteries at 3.8V per cell",
+        "category": "battery_connector",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "battery_health_state.storage_compliant_recently"
+        },
+        "action": "warn",
+        "message_beginner": "Always storage charge your batteries (3.8V) if you won't fly within a day. Leaving them fully charged ruins them within weeks.",
+        "message_advanced": "Full charge (4.2V/cell) degrades capacity within 1-2 weeks. Full depletion (<3.3V/cell) can permanently damage cells. Storage voltage: 3.8V/cell.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BAT-05",
+        "summary": "Puffed batteries should be retired",
+        "category": "battery_connector",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "battery_health_state.puffed",
+          "operator": "equals",
+          "values": [true]
+        },
+        "action": "warn",
+        "message_beginner": "Puffed batteries are a fire risk. Don't sell or swap them. Dispose of them safely at a recycling point.",
+        "message_advanced": "Puffed LiPo indicates internal gas generation from cell damage. Fire risk during charging. Should not enter swap listings. Flag for safe disposal.",
+        "confidence": "high",
+        "source": "safety_consensus"
+      }
+    ],
+    "motor_prop_sizing": [
+      {
+        "rule_id": "MP-01",
+        "summary": "Stator volume determines thrust class",
+        "category": "motor_prop_sizing",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size"
+        },
+        "action": "info",
+        "message_beginner": "Motor size numbers tell you what they're for. 0702 = tiny indoor, 0802 = standard whoop, 1404 = cinewhoop, 2306 = 5-inch freestyle.",
+        "message_advanced": "Stator volume (diameter x height) determines thrust class. 0702: 1S micro. 0802: 1S whoop. 1102: 2S whoop/2-inch. 1404: 3-inch. 1505: 3.5-inch. 2306: 5-inch.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "MP-02",
+        "summary": "Prop size must match frame exactly",
+        "category": "motor_prop_sizing",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.size",
+          "operator": "match_frame"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Props must fit your frame. Whoop ducts are a fixed diameter, so only one prop size works per frame.",
+        "message_advanced": "Whoop ducts: fixed diameter, zero clearance tolerance. Open frames: prop must not exceed arm length. 65mm=31mm, 75mm=40mm, 3-inch=3-inch, 5-inch=5-inch.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "MP-03",
+        "summary": "Higher blade count means more thrust but more current",
+        "category": "motor_prop_sizing",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.blade_count"
+        },
+        "action": "info",
+        "message_beginner": "More prop blades = more grip and power, but your batteries drain faster. Tri-blade is the standard balance.",
+        "message_advanced": "Tri-blade is community standard. Quad-blade adds 15-20% current draw for ~10% more thrust. Bi-blade: efficient but less responsive.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "MP-04",
+        "summary": "Prop shaft diameter must match motor shaft",
+        "category": "motor_prop_sizing",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.shaft_diameter",
+          "operator": "match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Props must fit your motor shaft. Whoop motors use 1mm shaft. Bigger motors use 1.5mm or 5mm (M5).",
+        "message_advanced": "Shaft standards: 0702/0802: 1.0mm press-fit. 1102/1203: 1.5mm. 1404+: 1.5mm or M5. T-mount props won't fit press-fit motors.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "bnf_upgrade_pathway": [
+      {
+        "rule_id": "BNF-01",
+        "summary": "BNF means Bind-and-Fly, no radio or goggles included",
+        "category": "bnf_upgrade_pathway",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "BNF (Bind-and-Fly) means you get the drone but need your own radio and goggles. Check the receiver protocol before buying.",
+        "message_advanced": "BNF: quad only. Verify receiver protocol matches your TX (ELRS, FrSky, etc). Common beginner mistake: buying wrong protocol BNF.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BNF-02",
+        "summary": "RTF kits include everything to start flying",
+        "category": "bnf_upgrade_pathway",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "RTF (Ready to Fly) kits include the drone, radio, goggles, batteries, and charger. Everything you need in one box.",
+        "message_advanced": "RTF kits (Cetus X, Tinyhawk III RTF): complete ecosystem. Entry-level components but functional. Ecosystem lock to manufacturer radio/goggles.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BNF-03",
+        "summary": "Common upgrade path: radio first, then goggles",
+        "category": "bnf_upgrade_pathway",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "If you started with an RTF kit, upgrading the radio first gives the biggest improvement. RadioMaster Pocket or Zorro are popular choices.",
+        "message_advanced": "Upgrade priority: 1) Radio (RadioMaster Pocket/Zorro/Boxer with ELRS). 2) Goggles. 3) Additional quads. Radio upgrade unlocks all ELRS BNF builds.",
+        "confidence": "medium",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BNF-04",
+        "summary": "Swapping receiver protocol requires soldering on serial, impossible on SPI",
+        "category": "bnf_upgrade_pathway",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {},
+        "action": "warn",
+        "message_beginner": "Changing the receiver protocol on a whoop means soldering a new receiver chip. If it's built into the board (SPI), it can't be changed at all.",
+        "message_advanced": "Serial RX swap: desolder old, solder new to same UART pads. SPI RX: hardware bus on AIO PCB, not replaceable. SPI lock = protocol lock for life of that board.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "BNF-05",
+        "summary": "Stock BNF holds swap value better than modified builds",
+        "category": "bnf_upgrade_pathway",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Unmodified BNF drones are easier to sell or swap because buyers know exactly what they're getting.",
+        "message_advanced": "Stock BNF: model name acts as strong evidence bundle for all components. Modified builds reduce model-match confidence and require more disclosure.",
+        "confidence": "medium",
+        "source": "community_consensus"
+      }
+    ],
+    "charger_storage": [
+      {
+        "rule_id": "CHG-01",
+        "summary": "1S charger must match battery connector family",
+        "category": "charger_storage",
+        "severity": "hard_constraint",
+        "applies_to": ["LiPo charger"],
+        "condition": {
+          "field": "specs.connector",
+          "operator": "match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "BT2.0 charger boards only charge BT2.0 batteries. PH2.0 boards only charge PH2.0. Make sure they match.",
+        "message_advanced": "1S parallel charging boards are connector-specific. BT2.0 and PH2.0 are physically incompatible. Verify board matches battery connector.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CHG-02",
+        "summary": "Storage mode is mandatory for batteries not used within 24 hours",
+        "category": "charger_storage",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "battery_health_state.storage_compliant_recently"
+        },
+        "action": "warn",
+        "message_beginner": "Always put batteries in storage mode if you won't fly tomorrow. It's the single biggest thing you can do to make them last.",
+        "message_advanced": "Storage charge (3.8V/cell) is the primary factor in LiPo longevity. Full charge stored >48hrs measurably degrades capacity. Number one cause of premature 1S battery death.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CHG-03",
+        "summary": "Charge rate should not exceed 1C",
+        "category": "charger_storage",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "charge_rate"
+        },
+        "action": "info",
+        "message_beginner": "Charge your batteries gently. A 300mAh battery should charge at 0.3A or less for longest life.",
+        "message_advanced": "1C charge rate: 300mAh = 0.3A, 450mAh = 0.45A. Higher rates reduce cycle life. Some charger boards default to aggressive rates.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CHG-04",
+        "summary": "Parallel charging requires matched batteries",
+        "category": "charger_storage",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "part_type": "battery",
+          "field": "parallel_charge_safety"
+        },
+        "action": "warn",
+        "message_beginner": "Only parallel charge batteries of the same type and similar voltage. Mixing sizes or charge levels is a fire risk.",
+        "message_advanced": "Parallel charging: same capacity, same cell count, voltage within 0.1V of each other. Never mix 300mAh and 550mAh. Never mix fresh and degraded cells.",
+        "confidence": "high",
+        "source": "safety_consensus"
+      }
+    ],
+    "cinewhoop_micro": [
+      {
+        "rule_id": "CINE-01",
+        "summary": "3-inch is the smallest viable DJI platform",
+        "category": "cinewhoop_micro",
+        "severity": "strong_recommendation",
+        "applies_to": ["3 inch cinewhoop frame"],
+        "condition": {
+          "part_type": "vtx",
+          "field": "specs.video",
+          "operator": "in",
+          "values": ["DJI"]
+        },
+        "action": "info",
+        "message_beginner": "3-inch is the smallest frame that can carry a DJI camera. Use 1404 motors on 4S with prop guards.",
+        "message_advanced": "3-inch cinewhoop: 1404-1505 motors, 4S, ducted props, 150-200g AUW. DJI O3 Air Unit fits 20x20 mount. Minimum viable DJI platform.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CINE-02",
+        "summary": "2-inch bridges whoop and cinewhoop classes",
+        "category": "cinewhoop_micro",
+        "severity": "info",
+        "applies_to": ["2 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "2-inch builds sit between whoops and cinewhoops. More powerful than a whoop but too small for DJI video.",
+        "message_advanced": "2-inch: 1102-1203 motors, 2S-3S, analog or HDZero only. Too small for DJI O3. Bridge class between whoop and cinewhoop.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CINE-03",
+        "summary": "3.5-inch offers more camera payload than 3-inch",
+        "category": "cinewhoop_micro",
+        "severity": "info",
+        "applies_to": ["3.5 inch cinewhoop frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "3.5-inch frames can carry heavier cameras than 3-inch. Better for full action cameras if you need the footage quality.",
+        "message_advanced": "3.5-inch: 1505-2004 motors, 4S-6S, supports naked GoPro or full action camera. Better payload margin than 3-inch for camera builds.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CINE-04",
+        "summary": "Naked GoPro for lightweight camera on 3-inch",
+        "category": "cinewhoop_micro",
+        "severity": "soft_guidance",
+        "applies_to": ["3 inch cinewhoop frame", "3.5 inch cinewhoop frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "A 'naked GoPro' is a stripped-down action camera that weighs about 30g instead of 120g. Popular for cinewhoops.",
+        "message_advanced": "Naked GoPro: ~30g vs 120g full. SMO4K: ~30g purpose-built. For 3-inch builds, full-size camera is marginal. 3.5-inch handles full-size better.",
+        "confidence": "medium",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "CINE-05",
+        "summary": "5-inch freestyle is not a cinewhoop",
+        "category": "cinewhoop_micro",
+        "severity": "info",
+        "applies_to": ["5 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "5-inch freestyle quads are open-frame, no prop guards, and much more powerful. They're not cinewhoops. Different flying style entirely.",
+        "message_advanced": "5-inch freestyle: 2204-2306 motors, 4S-6S, open frame, no ducts. Not safe for proximity/indoor. Cinewhoop = ducted props + camera focus.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ]
+  }
+}

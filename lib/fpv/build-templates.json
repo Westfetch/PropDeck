@@ -1,0 +1,568 @@
+[
+  {
+    "build_name": "65mm 1S whoop",
+    "description": "Standard indoor/race tinywhoop. Gentle, beginner-friendly.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["65mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0702 motor", "0802 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["1S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["31mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["whoop VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver", "SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["1S LiPo battery", "BT2.0 1S battery", "PH2.0 1S battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "65mm 1S freestyle whoop",
+    "description": "Performance 65mm build. 0802 motors for outdoor-capable freestyle.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["65mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0802 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["1S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["31mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["whoop VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver", "SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["1S LiPo battery", "BT2.0 1S battery", "PH2.0 1S battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "75mm 1S whoop",
+    "description": "Outdoor-capable 1S whoop. Gentle power, good for learning outside.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["75mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0802 motor", "1002 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["1S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["40mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["whoop VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver", "SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["1S LiPo battery", "BT2.0 1S battery", "PH2.0 1S battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "75mm 2S whoop",
+    "description": "Performance outdoor whoop. 2S power for punchy flight.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["75mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0802 motor", "1002 motor", "1102 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["2S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["40mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["whoop VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver", "SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["2S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "75mm HD micro",
+    "description": "75mm with digital video (HDZero Whoop Lite). Lightest digital whoop option.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["75mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0802 motor", "1002 motor", "1102 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["2S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["40mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["HDZero Whoop Lite VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver", "SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["2S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "2-inch micro",
+    "description": "Bridge class between whoop and cinewhoop. More power, still compact.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["2 inch frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["1102 motor", "1203 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["20x20 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["2 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera", "micro analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["standalone analog VTX", "Walksnail Avatar Nano"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["2S LiPo battery", "3S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "3-inch cinewhoop",
+    "description": "Smallest viable DJI platform. Ducted props, camera-focused.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["3 inch cinewhoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["1404 motor", "1505 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["20x20 stack", "25.5x25.5 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["3 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "Walksnail Avatar Nano", "standalone analog VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["4S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "3.5-inch cinewhoop",
+    "description": "Payload-capable cinewhoop. Can carry full action cameras.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["3.5 inch cinewhoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["1505 motor", "2004 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["25.5x25.5 stack", "30x30 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["3.5 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "Walksnail Avatar Nano", "standalone analog VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["4S LiPo battery", "6S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "5-inch freestyle",
+    "description": "Standard FPV freestyle. Open frame, high power, no prop guards.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["5 inch frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["2306 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["30x30 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["5 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "standalone analog VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["4S LiPo battery", "6S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "RTF kit (Cetus X style)",
+    "description": "Complete ready-to-fly starter kit. Includes quad, radio, goggles, batteries, and charger.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["65mm whoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["0702 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["1S whoop AIO"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["31mm propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "camera",
+        "match": ["nano analog camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "vtx",
+        "match": ["whoop VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["SPI ELRS receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["BT2.0 1S battery", "PH2.0 1S battery"],
+        "quantity": 2
+      }
+    ],
+    "kit_includes": [
+      {
+        "part_type": "radio",
+        "match": ["ELRS radio transmitter"],
+        "quantity": 1,
+        "note": "Entry-level bundled radio (e.g. LiteRadio 2 SE)"
+      },
+      {
+        "part_type": "goggles",
+        "match": ["analog FPV goggles"],
+        "quantity": 1,
+        "note": "Entry-level bundled goggles (e.g. VR02/VR03)"
+      },
+      {
+        "part_type": "charger",
+        "match": ["LiPo charger"],
+        "quantity": 1,
+        "note": "USB charger board"
+      }
+    ]
+  }
+]

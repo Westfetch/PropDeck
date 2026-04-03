@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+client/.env
+uploads/
+*.log
+.claude/
+*.docx
+*.txt
+GRAFT_FPV_KNOWLEDGE_PACK_COMPILED.md
+MASTER_BUILD_BRIEF.md
+PropDeck/

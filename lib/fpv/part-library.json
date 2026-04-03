@@ -1,0 +1,1765 @@
+[
+  {
+    "canonical_name": "0702 motor",
+    "part_type": "motor",
+    "aliases": [
+      "0702",
+      "0702 motor",
+      "tiny motor",
+      "whoop motor small"
+    ],
+    "specs": {
+      "stator_size": "0702",
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "65mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-0702-19000kv-se",
+        "product_name": "BETAFPV 0702 19000KV SE",
+        "brand": "BETAFPV",
+        "kv": "19000",
+        "weight_g": 2.3,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "betafpv-0702-26000kv",
+        "product_name": "BETAFPV 0702 26000KV",
+        "brand": "BETAFPV",
+        "kv": "26000",
+        "weight_g": 2.3,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "happymodel-se0702-26000kv",
+        "product_name": "Happymodel SE0702 26000KV",
+        "brand": "Happymodel",
+        "kv": "26000",
+        "weight_g": 2.1,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "happymodel-se0702-23000kv",
+        "product_name": "Happymodel SE0702 23000KV",
+        "brand": "Happymodel",
+        "kv": "23000",
+        "weight_g": 2.1,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-champion",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Champion",
+        "brand": "BETAFPV",
+        "kv": "36000"
+      },
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-racing",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Racing",
+        "brand": "BETAFPV",
+        "kv": "36000"
+      },
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-freestyle",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Freestyle",
+        "brand": "BETAFPV",
+        "kv": "36000"
+      },
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702-ii-30000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702 II 30000KV",
+        "brand": "BETAFPV",
+        "kv": "30000",
+        "weight_g": 1.55,
+        "shaft": "1mm"
+      },
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702se-ii-23000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702SE II 23000KV",
+        "brand": "BETAFPV",
+        "kv": "23000",
+        "weight_g": 1.55,
+        "shaft": "1mm"
+      },
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702se-ii-27000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702SE II 27000KV",
+        "brand": "BETAFPV",
+        "kv": "27000",
+        "weight_g": 1.55,
+        "shaft": "1mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "0802 motor",
+    "part_type": "motor",
+    "aliases": [
+      "0802",
+      "0802 motor",
+      "tinywhoop motor",
+      "mobula motor"
+    ],
+    "specs": {
+      "stator_size": "0802",
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "65mm",
+      "75mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-0802-19500kv",
+        "product_name": "BETAFPV 0802 19500KV",
+        "brand": "BETAFPV",
+        "kv": "19500",
+        "weight_g": 2.6,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "betafpv-0802-22000kv",
+        "product_name": "BETAFPV 0802 22000KV",
+        "brand": "BETAFPV",
+        "kv": "22000",
+        "weight_g": 2.6,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "happymodel-se0802-19500kv",
+        "product_name": "Happymodel SE0802 19500KV",
+        "brand": "Happymodel",
+        "kv": "19500",
+        "weight_g": 2.4,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "happymodel-se0802-25000kv",
+        "product_name": "Happymodel SE0802 25000KV",
+        "brand": "Happymodel",
+        "kv": "25000",
+        "weight_g": 2.4,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "emax-0802-19500kv",
+        "product_name": "EMAX TH0802 19500KV",
+        "brand": "EMAX",
+        "kv": "19500",
+        "weight_g": 2.7,
+        "shaft": "1.0mm"
+      },
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-champion",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Champion",
+        "brand": "BETAFPV",
+        "kv": "28000"
+      },
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-racing",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Racing",
+        "brand": "BETAFPV",
+        "kv": "28000"
+      },
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-freestyle",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Freestyle",
+        "brand": "BETAFPV",
+        "kv": "28000"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-23000kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 23000KV",
+        "brand": "BETAFPV",
+        "kv": "23000",
+        "weight_g": 1.83,
+        "shaft": "1mm"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-22000kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 22000KV",
+        "brand": "BETAFPV",
+        "kv": "22000",
+        "weight_g": 1.83,
+        "shaft": "1mm"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-19500kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 19500KV",
+        "brand": "BETAFPV",
+        "kv": "19500",
+        "weight_g": 1.83,
+        "shaft": "1mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "1002 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1002",
+      "1002 motor"
+    ],
+    "specs": {
+      "stator_size": "1002"
+    },
+    "compatibility_tags": [
+      "75mm",
+      "2inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-1002-21000kv",
+        "product_name": "BETAFPV 1002 21000KV",
+        "brand": "BETAFPV",
+        "kv": "21000",
+        "weight_g": 3,
+        "shaft": "1.0mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "1102 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1102",
+      "1102 motor"
+    ],
+    "specs": {
+      "stator_size": "1102"
+    },
+    "compatibility_tags": [
+      "2inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1102-brushless-motors-22mm",
+        "product_name": "BETAFPV LAVA Series 1102 Brushless Motors 22mm",
+        "brand": "BETAFPV",
+        "kv": "14000",
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1102-brushless-motors-44mm",
+        "product_name": "BETAFPV LAVA Series 1102 Brushless Motors 44mm",
+        "brand": "BETAFPV",
+        "kv": "14000",
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "kv": "18000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-22000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 22000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "kv": "22000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-22000kv-37mm-2022-blue",
+        "product_name": "BETAFPV 1102 Brushless Motors 22000KV-37mm (2022) / Blue",
+        "brand": "BETAFPV",
+        "kv": "22000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-37mm-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-37mm / Black",
+        "brand": "BETAFPV",
+        "kv": "18000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-50mm-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-50mm / Black",
+        "brand": "BETAFPV",
+        "kv": "18000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-14000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 14000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "kv": "14000",
+        "weight_g": 2.95,
+        "shaft": "1.5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "1103 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1103",
+      "1103 motor"
+    ],
+    "specs": {
+      "stator_size": "1103"
+    },
+    "compatibility_tags": [
+      "2inch",
+      "75mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-1103-brushless-motors-15000kv-1s",
+        "product_name": "BETAFPV 1103 Brushless Motors 15000KV-1S",
+        "brand": "BETAFPV",
+        "kv": "15000"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-11000kv-2s",
+        "product_name": "BETAFPV 1103 Brushless Motors 11000KV-2S",
+        "brand": "BETAFPV",
+        "kv": "11000"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8000kv-3s-35mm",
+        "product_name": "BETAFPV 1103 Brushless Motors 8000KV-3S (35mm)",
+        "brand": "BETAFPV",
+        "kv": "8000"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8000kv-3s-55mm",
+        "product_name": "BETAFPV 1103 Brushless Motors 8000KV-3S (55mm)",
+        "brand": "BETAFPV",
+        "kv": "8000"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8500kv",
+        "product_name": "BETAFPV 1103 Brushless Motors 8500KV",
+        "brand": "BETAFPV",
+        "kv": "8500"
+      }
+    ]
+  },
+  {
+    "canonical_name": "1104 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1104",
+      "1104 motor"
+    ],
+    "specs": {
+      "stator_size": "1104"
+    },
+    "compatibility_tags": [
+      "2inch",
+      "3inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1104-7200kv-brushless-motors-24mm",
+        "product_name": "BETAFPV LAVA Series 1104 | 7200KV Brushless Motors 24mm",
+        "brand": "BETAFPV",
+        "kv": "7200",
+        "weight_g": 5.3,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1104-7200kv-brushless-motors-80mm",
+        "product_name": "BETAFPV LAVA Series 1104 | 7200KV Brushless Motors 80mm",
+        "brand": "BETAFPV",
+        "kv": "7200",
+        "weight_g": 5.3,
+        "shaft": "1.5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "1203 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1203",
+      "1203 motor",
+      "micro motor"
+    ],
+    "specs": {
+      "stator_size": "1203"
+    },
+    "compatibility_tags": [
+      "2inch",
+      "3inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "1404 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1404",
+      "1404 motor",
+      "cinewhoop motor"
+    ],
+    "specs": {
+      "stator_size": "1404"
+    },
+    "compatibility_tags": [
+      "3inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "1505 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1505",
+      "1505 motor"
+    ],
+    "specs": {
+      "stator_size": "1505"
+    },
+    "compatibility_tags": [
+      "3inch",
+      "3.5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "1506 motor",
+    "part_type": "motor",
+    "aliases": [
+      "1506",
+      "1506 motor"
+    ],
+    "specs": {
+      "stator_size": "1506"
+    },
+    "compatibility_tags": [
+      "2.5inch",
+      "3inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1506-4200kv-brushless-motors-80mm",
+        "product_name": "BETAFPV LAVA Series 1506 4200KV Brushless Motors 80mm",
+        "brand": "BETAFPV",
+        "kv": "4600",
+        "weight_g": 13.6,
+        "shaft": "1.5mm"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1506-4200kv-brushless-motors-34mm",
+        "product_name": "BETAFPV LAVA Series 1506 4200KV Brushless Motors 34mm",
+        "brand": "BETAFPV",
+        "kv": "4600",
+        "weight_g": 13.6,
+        "shaft": "1.5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2004 motor",
+    "part_type": "motor",
+    "aliases": [
+      "2004",
+      "2004 motor"
+    ],
+    "specs": {
+      "stator_size": "2004"
+    },
+    "compatibility_tags": [
+      "3.5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "2006 motor",
+    "part_type": "motor",
+    "aliases": [
+      "2006",
+      "2006 motor"
+    ],
+    "specs": {
+      "stator_size": "2006"
+    },
+    "compatibility_tags": [
+      "3.5inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-series-2006-brushless-motors",
+        "product_name": "BETAFPV LAVA Series 2006 Brushless Motors",
+        "brand": "BETAFPV",
+        "kv": "2400",
+        "weight_g": 22.2,
+        "shaft": "1.5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2204 motor",
+    "part_type": "motor",
+    "aliases": [
+      "2204",
+      "2204 motor"
+    ],
+    "specs": {
+      "stator_size": "2204"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-2204-brushless-motors",
+        "product_name": "BETAFPV 2204 Brushless Motors",
+        "brand": "BETAFPV",
+        "kv": "2400",
+        "weight_g": 21,
+        "shaft": "1.5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2306 motor",
+    "part_type": "motor",
+    "aliases": [
+      "2306",
+      "2306 motor",
+      "freestyle motor",
+      "5 inch motor"
+    ],
+    "specs": {
+      "stator_size": "2306"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-snow-2306-brushless-motors-1pcs-1860kv",
+        "product_name": "BETAFPV Snow 2306 Brushless Motors 1pcs / 1860KV",
+        "brand": "BETAFPV",
+        "kv": "1860",
+        "weight_g": 34,
+        "shaft": "5mm"
+      },
+      {
+        "variant_id": "betafpv-snow-2306-brushless-motors-1pcs-2500kv",
+        "product_name": "BETAFPV Snow 2306 Brushless Motors 1pcs / 2500KV",
+        "brand": "BETAFPV",
+        "kv": "2500",
+        "weight_g": 34,
+        "shaft": "5mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "65mm whoop frame",
+    "part_type": "frame",
+    "aliases": [
+      "65mm frame",
+      "mobula6 frame",
+      "tinywhoop frame"
+    ],
+    "specs": {
+      "size": "65mm"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "1S"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-meteor65-frame",
+        "product_name": "BETAFPV Meteor65 Frame",
+        "brand": "BETAFPV",
+        "weight_g": 4.5,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "happymodel-mobula6-frame",
+        "product_name": "Happymodel Mobula6 Frame",
+        "brand": "Happymodel",
+        "weight_g": 4.2,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "betafpv-air65-frame",
+        "product_name": "BETAFPV Air65 Frame",
+        "brand": "BETAFPV",
+        "weight_g": 3.8,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "betafpv-cetus-x-frame",
+        "product_name": "BETAFPV Cetus X Frame",
+        "brand": "BETAFPV",
+        "weight_g": 4.6,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "betafpv-air65-champion-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 Champion Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 2.2,
+        "size": "65mm"
+      },
+      {
+        "variant_id": "betafpv-pavo-pico-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Pico II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 19
+      },
+      {
+        "variant_id": "betafpv-air65-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 2.65
+      },
+      {
+        "variant_id": "betafpv-pavo-femto-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Femto Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 8.64
+      },
+      {
+        "variant_id": "betafpv-air65-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 2.67,
+        "size": "65mm"
+      },
+      {
+        "variant_id": "betafpv-pavo-pico-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Pico Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 13.8
+      },
+      {
+        "variant_id": "betafpv-meteor65-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor65 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 3.2
+      },
+      {
+        "variant_id": "betafpv-meteor65-micro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor65 Micro Brushless Whoop Frame",
+        "brand": "BETAFPV"
+      }
+    ]
+  },
+  {
+    "canonical_name": "75mm whoop frame",
+    "part_type": "frame",
+    "aliases": [
+      "75mm frame",
+      "mobula7 frame",
+      "75 pro frame"
+    ],
+    "specs": {
+      "size": "75mm"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "1S",
+      "2S"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-meteor75-frame",
+        "product_name": "BETAFPV Meteor75 Frame",
+        "brand": "BETAFPV",
+        "weight_g": 5.8,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "betafpv-meteor75-pro-frame",
+        "product_name": "BETAFPV Meteor75 Pro Frame",
+        "brand": "BETAFPV",
+        "weight_g": 6.2,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "happymodel-mobula7-frame",
+        "product_name": "Happymodel Mobula7 Frame",
+        "brand": "Happymodel",
+        "weight_g": 5.5,
+        "material": "PA12"
+      },
+      {
+        "variant_id": "emax-tinyhawk3-frame",
+        "product_name": "EMAX Tinyhawk III Frame",
+        "brand": "EMAX",
+        "weight_g": 6,
+        "material": "polypropylene"
+      },
+      {
+        "variant_id": "betafpv-air75-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Air75 II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 4
+      },
+      {
+        "variant_id": "betafpv-meteor75-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor75 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 7.73
+      },
+      {
+        "variant_id": "betafpv-meteor75-micro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor75 Micro Brushless Whoop Frame",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-air75-brushless-whoop-frame",
+        "product_name": "BETAFPV Air75 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 4.45,
+        "size": "75mm"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2 inch frame",
+    "part_type": "frame",
+    "aliases": [
+      "2inch frame",
+      "2 inch frame"
+    ],
+    "specs": {
+      "size": "2inch"
+    },
+    "compatibility_tags": [
+      "2inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-pavo20-pro-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Pro II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 35.7
+      },
+      {
+        "variant_id": "betafpv-pavo20-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 33.3
+      },
+      {
+        "variant_id": "betafpv-pavo20-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 26.7
+      },
+      {
+        "variant_id": "betafpv-pavo25-v2-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo25 V2 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 70
+      }
+    ]
+  },
+  {
+    "canonical_name": "3 inch cinewhoop frame",
+    "part_type": "frame",
+    "aliases": [
+      "3inch frame",
+      "3 inch frame",
+      "cinewhoop frame",
+      "3 inch cinewhoop"
+    ],
+    "specs": {
+      "size": "3inch"
+    },
+    "compatibility_tags": [
+      "3inch",
+      "cinewhoop"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "3.5 inch cinewhoop frame",
+    "part_type": "frame",
+    "aliases": [
+      "3.5inch frame",
+      "3.5 inch frame",
+      "3.5 inch cinewhoop"
+    ],
+    "specs": {
+      "size": "3.5inch"
+    },
+    "compatibility_tags": [
+      "3.5inch",
+      "cinewhoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-pavo35-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo35 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "weight_g": 113.9
+      }
+    ]
+  },
+  {
+    "canonical_name": "5 inch frame",
+    "part_type": "frame",
+    "aliases": [
+      "5inch frame",
+      "5 inch frame",
+      "freestyle frame"
+    ],
+    "specs": {
+      "size": "5inch"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "1S whoop AIO",
+    "part_type": "aio",
+    "aliases": [
+      "whoop aio",
+      "1s aio",
+      "x12 aio",
+      "aio board"
+    ],
+    "specs": {
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "65mm",
+      "75mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-f4-1s-12a-aio-elrs",
+        "product_name": "BETAFPV F4 1S 12A AIO (ELRS)",
+        "brand": "BETAFPV",
+        "protocol": "ELRS",
+        "firmware": "Betaflight",
+        "amperage": "12A",
+        "receiver": "SPI ELRS"
+      },
+      {
+        "variant_id": "betafpv-f4-1s-12a-aio-frsky",
+        "product_name": "BETAFPV F4 1S 12A AIO (FrSky)",
+        "brand": "BETAFPV",
+        "protocol": "FrSky",
+        "firmware": "Betaflight",
+        "amperage": "12A",
+        "receiver": "SPI FrSky"
+      },
+      {
+        "variant_id": "happymodel-crazybee-f4-v3",
+        "product_name": "Happymodel CrazyBee F4 V3",
+        "brand": "Happymodel",
+        "protocol": "ELRS",
+        "firmware": "Betaflight",
+        "amperage": "10A",
+        "receiver": "SPI ELRS"
+      },
+      {
+        "variant_id": "happymodel-x12-aio",
+        "product_name": "Happymodel X12 AIO",
+        "brand": "Happymodel",
+        "protocol": "ELRS",
+        "firmware": "Betaflight",
+        "amperage": "12A",
+        "receiver": "SPI ELRS"
+      },
+      {
+        "variant_id": "emax-tinyhawk3-aio",
+        "product_name": "EMAX Tinyhawk III AIO",
+        "brand": "EMAX",
+        "protocol": "ELRS",
+        "firmware": "Betaflight",
+        "amperage": "10A",
+        "receiver": "SPI ELRS"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2S whoop AIO",
+    "part_type": "aio",
+    "aliases": [
+      "2s aio",
+      "whoop 2s board"
+    ],
+    "specs": {
+      "cell_count": "2S"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "75mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-f4-2s-12a-aio-elrs",
+        "product_name": "BETAFPV F4 2S 12A AIO (ELRS)",
+        "brand": "BETAFPV",
+        "protocol": "ELRS",
+        "firmware": "Betaflight",
+        "amperage": "12A",
+        "receiver": "SPI ELRS"
+      }
+    ]
+  },
+  {
+    "canonical_name": "20x20 stack",
+    "part_type": "aio",
+    "aliases": [
+      "20x20 fc",
+      "20x20 esc",
+      "20x20 stack"
+    ],
+    "specs": {
+      "mount": "20x20"
+    },
+    "compatibility_tags": [
+      "2inch",
+      "5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "25.5x25.5 stack",
+    "part_type": "aio",
+    "aliases": [
+      "25.5x25.5 fc",
+      "25.5x25.5 stack",
+      "25.5 stack"
+    ],
+    "specs": {
+      "mount": "25.5x25.5"
+    },
+    "compatibility_tags": [
+      "3inch",
+      "3.5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "30x30 stack",
+    "part_type": "aio",
+    "aliases": [
+      "30x30 fc",
+      "30x30 esc",
+      "30x30 stack"
+    ],
+    "specs": {
+      "mount": "30x30"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "nano analog camera",
+    "part_type": "camera",
+    "aliases": [
+      "nano cam",
+      "tiny fpv camera"
+    ],
+    "specs": {
+      "size": "nano",
+      "video": "analog"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "caddx-ant-nano",
+        "product_name": "Caddx Ant Nano",
+        "brand": "Caddx",
+        "sensor": "1/3 CMOS",
+        "fov": "140"
+      },
+      {
+        "variant_id": "betafpv-c02",
+        "product_name": "BETAFPV C02 Camera",
+        "brand": "BETAFPV",
+        "sensor": "1/4 CMOS",
+        "fov": "160"
+      },
+      {
+        "variant_id": "betafpv-c03",
+        "product_name": "BETAFPV C03 Camera",
+        "brand": "BETAFPV",
+        "sensor": "1/3 CMOS",
+        "fov": "160"
+      },
+      {
+        "variant_id": "runcam-nano4",
+        "product_name": "RunCam Nano 4",
+        "brand": "RunCam",
+        "sensor": "1/3 CMOS",
+        "fov": "140"
+      },
+      {
+        "variant_id": "happymodel-nano-camera",
+        "product_name": "Happymodel Nano Camera",
+        "brand": "Happymodel",
+        "sensor": "1/4 CMOS",
+        "fov": "150"
+      }
+    ]
+  },
+  {
+    "canonical_name": "micro analog camera",
+    "part_type": "camera",
+    "aliases": [
+      "micro cam"
+    ],
+    "specs": {
+      "size": "micro",
+      "video": "analog"
+    },
+    "compatibility_tags": [],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "whoop VTX",
+    "part_type": "vtx",
+    "aliases": [
+      "aio vtx",
+      "whoop vtx"
+    ],
+    "specs": {
+      "video": "analog"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-m04-vtx",
+        "product_name": "BETAFPV M04 VTX",
+        "brand": "BETAFPV",
+        "power": "350mW",
+        "frequency": "5.8GHz"
+      },
+      {
+        "variant_id": "betafpv-a03-vtx",
+        "product_name": "BETAFPV A03 VTX",
+        "brand": "BETAFPV",
+        "power": "400mW",
+        "frequency": "5.8GHz"
+      },
+      {
+        "variant_id": "happymodel-ov-pro",
+        "product_name": "Happymodel OVX300 Pro",
+        "brand": "Happymodel",
+        "power": "300mW",
+        "frequency": "5.8GHz"
+      },
+      {
+        "variant_id": "emax-tinyhawk3-vtx",
+        "product_name": "EMAX Tinyhawk III VTX",
+        "brand": "EMAX",
+        "power": "25-200mW",
+        "frequency": "5.8GHz"
+      }
+    ]
+  },
+  {
+    "canonical_name": "standalone analog VTX",
+    "part_type": "vtx",
+    "aliases": [
+      "vtx module",
+      "5.8ghz vtx",
+      "analog vtx"
+    ],
+    "specs": {
+      "video": "analog"
+    },
+    "compatibility_tags": [],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "HDZero Whoop Lite VTX",
+    "part_type": "vtx",
+    "aliases": [
+      "hdzero whoop",
+      "hdzero lite",
+      "whoop lite vtx",
+      "hdzero whoop lite"
+    ],
+    "specs": {
+      "video": "HDZero",
+      "size": "whoop"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "75mm",
+      "digital"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "DJI O3 Air Unit",
+    "part_type": "vtx",
+    "aliases": [
+      "o3 air unit",
+      "dji o3",
+      "o3 unit",
+      "dji digital vtx"
+    ],
+    "specs": {
+      "video": "DJI",
+      "mount": "20x20"
+    },
+    "compatibility_tags": [
+      "3inch",
+      "3.5inch",
+      "5inch",
+      "digital"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "Walksnail Avatar Nano",
+    "part_type": "vtx",
+    "aliases": [
+      "walksnail nano",
+      "avatar nano",
+      "walksnail whoop vtx"
+    ],
+    "specs": {
+      "video": "Walksnail",
+      "size": "nano"
+    },
+    "compatibility_tags": [
+      "75mm",
+      "2inch",
+      "digital"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "ELRS receiver",
+    "part_type": "rx",
+    "aliases": [
+      "elrs rx",
+      "ep1",
+      "expresslrs receiver"
+    ],
+    "specs": {
+      "protocol": "ELRS"
+    },
+    "compatibility_tags": [],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-ep2-elrs",
+        "product_name": "BETAFPV EP2 ELRS RX",
+        "brand": "BETAFPV",
+        "protocol": "ELRS",
+        "frequency": "2.4GHz"
+      },
+      {
+        "variant_id": "happymodel-ep1-elrs",
+        "product_name": "Happymodel EP1 ELRS RX",
+        "brand": "Happymodel",
+        "protocol": "ELRS",
+        "frequency": "2.4GHz"
+      },
+      {
+        "variant_id": "radiomaster-rp1-elrs",
+        "product_name": "RadioMaster RP1 ELRS RX",
+        "brand": "RadioMaster",
+        "protocol": "ELRS",
+        "frequency": "2.4GHz"
+      }
+    ]
+  },
+  {
+    "canonical_name": "SPI ELRS receiver",
+    "part_type": "rx",
+    "aliases": [
+      "spi elrs",
+      "built-in elrs"
+    ],
+    "specs": {
+      "protocol": "ELRS",
+      "type": "SPI"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-spi-elrs",
+        "product_name": "BETAFPV SPI ELRS (onboard)",
+        "brand": "BETAFPV",
+        "protocol": "ELRS",
+        "type": "SPI"
+      },
+      {
+        "variant_id": "happymodel-spi-elrs",
+        "product_name": "Happymodel SPI ELRS (onboard)",
+        "brand": "Happymodel",
+        "protocol": "ELRS",
+        "type": "SPI"
+      }
+    ]
+  },
+  {
+    "canonical_name": "31mm propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "31mm props",
+      "whoop props"
+    ],
+    "specs": {
+      "size": "31mm"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "65mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "gemfan-31mm-3blade",
+        "product_name": "Gemfan 31mm 3-Blade",
+        "brand": "Gemfan",
+        "blades": "3"
+      },
+      {
+        "variant_id": "betafpv-31mm-3blade",
+        "product_name": "BETAFPV 31mm 3-Blade",
+        "brand": "BETAFPV",
+        "blades": "3"
+      },
+      {
+        "variant_id": "happymodel-31mm-3blade",
+        "product_name": "Happymodel 31mm 3-Blade",
+        "brand": "Happymodel",
+        "blades": "3"
+      },
+      {
+        "variant_id": "betafpv-gemfan-1207-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1207 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-hq-31mm-ultralight-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV HQ 31mm Ultralight 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-35mm-3-blade-propellers-1-0mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 35mm 3-Blade Propellers (1.0mm Shaft 4PCS)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-31mm-4-blade-micro-whoop-propellers",
+        "product_name": "BETAFPV Gemfan 31mm 4-blade Micro Whoop Propellers",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-1208-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1208 3-blade Propellers(1.0mm Shaft)",
+        "brand": "BETAFPV"
+      }
+    ]
+  },
+  {
+    "canonical_name": "40mm propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "40mm props"
+    ],
+    "specs": {
+      "size": "40mm"
+    },
+    "compatibility_tags": [
+      "75mm"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "gemfan-40mm-3blade",
+        "product_name": "Gemfan 40mm 3-Blade",
+        "brand": "Gemfan",
+        "blades": "3"
+      },
+      {
+        "variant_id": "betafpv-40mm-4blade",
+        "product_name": "BETAFPV 40mm 4-Blade",
+        "brand": "BETAFPV",
+        "blades": "4"
+      },
+      {
+        "variant_id": "emax-avan-40mm",
+        "product_name": "EMAX Avan 40mm",
+        "brand": "EMAX",
+        "blades": "3"
+      },
+      {
+        "variant_id": "betafpv-gemfan-1614-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1614 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 45mm 2-Blade & 3-Blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-2218-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2218 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-2020-4-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2020 4-Blade Propellers 1.5mm Shaft",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-40mm-2-blade-propellers-1-0mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 40mm 2-Blade Propellers (1.0mm Shaft 4PCS)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-1611-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 1611 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-40mm-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 40mm 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-2015-2-blade-propellers-4pcs-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2015 2-Blade Propellers 4PCS (1.5mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-beta-45mm-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Beta-45mm 3-Blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-40mm-4-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 40mm 4-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-gemfan-2023-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 2023 3-blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2 inch propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "2 inch props",
+      "2inch props"
+    ],
+    "specs": {
+      "size": "2inch"
+    },
+    "compatibility_tags": [
+      "2inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-65mm-2-blade-propellers-for-hx100-fpv-quad-1-5mm-shaft",
+        "product_name": "BETAFPV 65mm 2-Blade Propellers for HX100 FPV Quad (1.5mm Shaft)",
+        "brand": "BETAFPV"
+      }
+    ]
+  },
+  {
+    "canonical_name": "3 inch propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "3 inch props",
+      "3inch props",
+      "cinewhoop props"
+    ],
+    "specs": {
+      "size": "3inch"
+    },
+    "compatibility_tags": [
+      "3inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "3.5 inch propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "3.5 inch props",
+      "3.5inch props"
+    ],
+    "specs": {
+      "size": "3.5inch"
+    },
+    "compatibility_tags": [
+      "3.5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "5 inch propeller",
+    "part_type": "propeller",
+    "aliases": [
+      "5 inch props",
+      "5inch props"
+    ],
+    "specs": {
+      "size": "5inch"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "1S LiPo battery",
+    "part_type": "battery",
+    "aliases": [
+      "1s battery",
+      "whoop battery"
+    ],
+    "specs": {
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-1s-battery",
+        "product_name": "BETAFPV LAVA II 1S Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "280",
+        "connector": "BT2.0",
+        "cell_count": "1S"
+      },
+      {
+        "variant_id": "betafpv-lava-1s-260mah-80c-battery-5pcs",
+        "product_name": "BETAFPV LAVA 1S 260mAh 80C Battery (5PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "260",
+        "connector": "BT2.0"
+      },
+      {
+        "variant_id": "betafpv-lava-1s-450mah-75c-battery-4pcs",
+        "product_name": "BETAFPV LAVA 1S 450mAh 75C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "450",
+        "connector": "BT2.0"
+      },
+      {
+        "variant_id": "betafpv-lava-1s-300mah-75c-battery-5pcs",
+        "product_name": "BETAFPV LAVA 1S 300mAh 75C Battery (5PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "300",
+        "connector": "BT2.0"
+      },
+      {
+        "variant_id": "betafpv-lava-1s-550mah-75c-battery-4pcs",
+        "product_name": "BETAFPV LAVA 1S 550mAh 75C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "550",
+        "connector": "BT2.0"
+      }
+    ]
+  },
+  {
+    "canonical_name": "BT2.0 1S battery",
+    "part_type": "battery",
+    "aliases": [
+      "bt2.0 battery"
+    ],
+    "specs": {
+      "connector": "BT2.0",
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-bt20-450mah",
+        "product_name": "BETAFPV BT2.0 450mAh 1S",
+        "brand": "BETAFPV",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-bt20-300mah",
+        "product_name": "BETAFPV BT2.0 300mAh 1S",
+        "brand": "BETAFPV",
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      },
+      {
+        "variant_id": "gnb-bt20-450mah",
+        "product_name": "GNB BT2.0 450mAh 1S",
+        "brand": "GNB",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-bt2-0-550mah-1s-battery-4pcs",
+        "product_name": "BETAFPV BT2.0 550mAh 1S Battery (4PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "550",
+        "connector": "BT2.0",
+        "cell_count": "1S"
+      },
+      {
+        "variant_id": "betafpv-bt2-0-450mah-1s-30c-battery-4pcs",
+        "product_name": "BETAFPV BT2.0 450mAh 1S 30C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "450",
+        "connector": "BT2.0",
+        "cell_count": "1S"
+      },
+      {
+        "variant_id": "betafpv-bt2-0-300mah-1s-30c-battery-8pcs",
+        "product_name": "BETAFPV BT2.0 300mAh 1S 30C Battery (8PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "300",
+        "connector": "BT2.0",
+        "cell_count": "1S"
+      }
+    ]
+  },
+  {
+    "canonical_name": "PH2.0 1S battery",
+    "part_type": "battery",
+    "aliases": [
+      "ph2.0 battery"
+    ],
+    "specs": {
+      "connector": "PH2.0",
+      "cell_count": "1S"
+    },
+    "compatibility_tags": [
+      "whoop"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "gnb-ph20-300mah",
+        "product_name": "GNB PH2.0 300mAh 1S",
+        "brand": "GNB",
+        "connector": "PH2.0",
+        "capacity_mah": "300"
+      },
+      {
+        "variant_id": "betafpv-ph20-300mah",
+        "product_name": "BETAFPV PH2.0 300mAh 1S",
+        "brand": "BETAFPV",
+        "connector": "PH2.0",
+        "capacity_mah": "300"
+      }
+    ]
+  },
+  {
+    "canonical_name": "2S LiPo battery",
+    "part_type": "battery",
+    "aliases": [
+      "2s battery",
+      "2s lipo",
+      "2s pack"
+    ],
+    "specs": {
+      "cell_count": "2S"
+    },
+    "compatibility_tags": [
+      "whoop",
+      "2inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-2s-battery",
+        "product_name": "BETAFPV LAVA II 2S Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "680",
+        "connector": "XT30",
+        "cell_count": "2S"
+      },
+      {
+        "variant_id": "betafpv-lava-2s-3s-4s-550mah-75c-battery-2pcs",
+        "product_name": "BETAFPV LAVA 2S/3S/4S 550mAh 75C Battery (2PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "550",
+        "connector": "XT30",
+        "cell_count": "3S"
+      },
+      {
+        "variant_id": "betafpv-lava-2s-3s-4s-450mah-75c-battery-2pcs",
+        "product_name": "BETAFPV LAVA 2S/3S/4S 450mAh 75C Battery (2PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "300",
+        "connector": "XT30",
+        "cell_count": "3S"
+      },
+      {
+        "variant_id": "betafpv-450mah-2s-45c-lipo-battery-2pcs",
+        "product_name": "BETAFPV 450mAh 2S 45C Lipo Battery (2PCS)",
+        "brand": "BETAFPV",
+        "capacity_mah": "450",
+        "connector": "XT30"
+      }
+    ]
+  },
+  {
+    "canonical_name": "3S LiPo battery",
+    "part_type": "battery",
+    "aliases": [
+      "3s battery",
+      "3s lipo",
+      "3s pack"
+    ],
+    "specs": {
+      "cell_count": "3S"
+    },
+    "compatibility_tags": [
+      "2inch",
+      "3inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-3s-battery",
+        "product_name": "BETAFPV LAVA II 3S Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "680",
+        "connector": "XT30",
+        "cell_count": "3S"
+      }
+    ]
+  },
+  {
+    "canonical_name": "4S LiPo battery",
+    "part_type": "battery",
+    "aliases": [
+      "4s battery",
+      "4s pack"
+    ],
+    "specs": {
+      "cell_count": "4S"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-4s-battery",
+        "product_name": "BETAFPV LAVA II 4S Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "680",
+        "connector": "XT30",
+        "cell_count": "4S"
+      },
+      {
+        "variant_id": "betafpv-lava-4s-850mah-lipo-battery",
+        "product_name": "BETAFPV LAVA 4S 850mAh LiPo Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "850",
+        "connector": "XT30"
+      }
+    ]
+  },
+  {
+    "canonical_name": "6S LiPo battery",
+    "part_type": "battery",
+    "aliases": [
+      "6s battery",
+      "6s pack"
+    ],
+    "specs": {
+      "cell_count": "6S"
+    },
+    "compatibility_tags": [
+      "5inch"
+    ],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-lava-6s-1100mah-lipo-battery",
+        "product_name": "BETAFPV LAVA 6S 1100mAh LiPo Battery",
+        "brand": "BETAFPV",
+        "capacity_mah": "1100",
+        "connector": "XT60"
+      }
+    ]
+  },
+  {
+    "canonical_name": "analog FPV goggles",
+    "part_type": "goggles",
+    "aliases": [
+      "box goggles",
+      "fatshark goggles",
+      "analog goggles"
+    ],
+    "specs": {
+      "video": "analog"
+    },
+    "compatibility_tags": [],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "ELRS radio transmitter",
+    "part_type": "radio",
+    "aliases": [
+      "elrs radio",
+      "radio controller",
+      "tx16s elrs"
+    ],
+    "specs": {
+      "protocol": "ELRS"
+    },
+    "compatibility_tags": [],
+    "common_variants": []
+  },
+  {
+    "canonical_name": "LiPo charger",
+    "part_type": "charger",
+    "aliases": [
+      "battery charger",
+      "lipo charger"
+    ],
+    "specs": {},
+    "compatibility_tags": [],
+    "common_variants": [
+      {
+        "variant_id": "betafpv-6-ports-1s-battery-charger-adapter",
+        "product_name": "BETAFPV 6 Ports 1S Battery Charger & Adapter",
+        "brand": "BETAFPV"
+      },
+      {
+        "variant_id": "betafpv-bt2-0-battery-charger-and-voltage-tester-v2",
+        "product_name": "BETAFPV BT2.0 Battery Charger and Voltage Tester V2",
+        "brand": "BETAFPV"
+      }
+    ]
+  },
+  {
+    "canonical_name": "FPV antenna",
+    "part_type": "antenna",
+    "aliases": [
+      "5.8ghz antenna",
+      "fpv antenna",
+      "stubby antenna"
+    ],
+    "specs": {},
+    "compatibility_tags": [],
+    "common_variants": []
+  }
+]

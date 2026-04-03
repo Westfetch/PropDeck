@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+.env
+output/variants.json
+output/products.json
+output/diff.json

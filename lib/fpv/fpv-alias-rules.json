@@ -1,0 +1,346 @@
+{
+  "version": "1.0.0",
+  "description": "Alias parsing rules for extracting structured FPV data from raw text input. Used by the 3-stage parsing pipeline: regex extraction, LLM interpretation, canonical lookup.",
+
+  "signal_extractors": [
+    {
+      "signal": "stator_size",
+      "pattern": "\\b(0[5-9]\\d{2}|1[0-9]\\d{2}|2[0-3]\\d{2})\\b",
+      "description": "4-digit motor stator size: 0702, 0802, 1102, 1404, 2306 etc",
+      "maps_to": "specs.stator_size",
+      "examples": ["0702", "0802", "1404", "2306"]
+    },
+    {
+      "signal": "kv_rating",
+      "pattern": "\\b(\\d{3,5})\\s*[Kk][Vv]\\b",
+      "description": "Motor KV rating, 3-5 digits followed by KV/kv",
+      "maps_to": "variant.kv",
+      "examples": ["19000KV", "22000kv", "2500KV"]
+    },
+    {
+      "signal": "cell_count",
+      "pattern": "\\b([1-6])\\s*[Ss]\\b",
+      "description": "Battery cell count: 1S through 6S",
+      "maps_to": "specs.cell_count",
+      "examples": ["1S", "2s", "4S", "6S"]
+    },
+    {
+      "signal": "frame_size_mm",
+      "pattern": "\\b(65|75|85|100|120|150)\\s*mm\\b",
+      "description": "Frame size in millimetres for whoop/micro class",
+      "maps_to": "specs.size",
+      "examples": ["65mm", "75mm"]
+    },
+    {
+      "signal": "prop_size_mm",
+      "pattern": "\\b(31|40|51)\\s*mm\\b",
+      "description": "Prop diameter in mm for whoop class",
+      "maps_to": "specs.size",
+      "examples": ["31mm", "40mm"]
+    },
+    {
+      "signal": "prop_size_inch",
+      "pattern": "\\b([2-7])\\s*(?:inch|in|\")\\b",
+      "description": "Prop size in inches for larger builds",
+      "maps_to": "specs.size",
+      "examples": ["3 inch", "5in", "5\""]
+    },
+    {
+      "signal": "video_system",
+      "pattern": "\\b(analog|hdzero|walksnail|avatar|dji\\s*(?:o[34])?|digital)\\b",
+      "description": "Video transmission system family",
+      "maps_to": "specs.video",
+      "examples": ["analog", "HDZero", "DJI O3", "Walksnail"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "protocol",
+      "pattern": "\\b(elrs|expresslrs|crossfire|tracer|frsky|flysky|dsmx|dsm2|spi\\s*elrs)\\b",
+      "description": "Control link protocol",
+      "maps_to": "specs.protocol",
+      "examples": ["ELRS", "ExpressLRS", "Crossfire", "FrSky", "SPI ELRS"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "connector",
+      "pattern": "\\b(bt\\s*2\\.0|ph\\s*2\\.0|xt30|xt60)\\b",
+      "description": "Battery/power connector family",
+      "maps_to": "specs.connector",
+      "examples": ["BT2.0", "PH2.0", "XT30", "XT60"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "mount_pattern",
+      "pattern": "\\b(20\\s*x\\s*20|25\\.?5\\s*x\\s*25\\.?5|30\\.?5?\\s*x\\s*30\\.?5?)\\b",
+      "description": "FC/ESC mounting pattern in mm",
+      "maps_to": "specs.mount",
+      "examples": ["20x20", "25.5x25.5", "30x30"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "integration_mode",
+      "pattern": "\\b(aio|all[\\s-]*in[\\s-]*one|spi|stack|standalone)\\b",
+      "description": "Component integration level",
+      "maps_to": "specs.integration",
+      "examples": ["AIO", "all-in-one", "stack"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "camera_size",
+      "pattern": "\\b(nano|micro|mini|full[\\s-]*size)\\b",
+      "description": "Camera form factor class",
+      "maps_to": "specs.size",
+      "examples": ["nano", "micro", "mini"],
+      "case_insensitive": true
+    },
+    {
+      "signal": "motor_shaft",
+      "pattern": "\\b(1\\.0|1\\.5|5\\.0)\\s*mm\\s*shaft\\b",
+      "description": "Motor shaft diameter",
+      "maps_to": "specs.shaft_diameter",
+      "examples": ["1.0mm shaft", "1.5mm shaft"]
+    },
+    {
+      "signal": "frequency_band",
+      "pattern": "\\b(5\\.8\\s*(?:ghz|g)|2\\.4\\s*(?:ghz|g)|900\\s*(?:mhz|m))\\b",
+      "description": "RF frequency band",
+      "maps_to": "specs.frequency",
+      "examples": ["5.8GHz", "2.4GHz", "900MHz"],
+      "case_insensitive": true
+    }
+  ],
+
+  "noise_strippers": [
+    {
+      "name": "year_token",
+      "pattern": "\\b(20[12]\\d)\\b",
+      "action": "extract_then_strip",
+      "extract_to": "variant.year",
+      "description": "Extract year then remove from matching string"
+    },
+    {
+      "name": "version_number",
+      "pattern": "\\b[Vv](\\d+(?:\\.\\d+)?)\\b",
+      "action": "extract_then_strip",
+      "extract_to": "variant.version",
+      "description": "Extract version number (V2, V3.1) then strip"
+    },
+    {
+      "name": "marketing_suffix",
+      "pattern": "\\b(pro|lite|se|plus|new|latest|upgraded|improved|advanced)\\b",
+      "action": "strip",
+      "description": "Remove marketing suffixes before canonical matching",
+      "case_insensitive": true
+    },
+    {
+      "name": "bundle_keyword",
+      "pattern": "\\b(kit|combo|bundle|set|package)\\b",
+      "action": "flag_and_strip",
+      "flag": "is_bundle",
+      "description": "Flag as potential bundle listing, then strip keyword",
+      "case_insensitive": true
+    },
+    {
+      "name": "completeness_class",
+      "pattern": "\\b(BNF|RTF|PNP|DIY|ARF)\\b",
+      "action": "extract_then_strip",
+      "extract_to": "build_type",
+      "description": "Extract build completeness class then strip",
+      "case_insensitive": true
+    },
+    {
+      "name": "brackets",
+      "pattern": "[\\(\\)\\[\\]\\{\\}]",
+      "action": "strip",
+      "description": "Remove all bracket characters"
+    },
+    {
+      "name": "excess_whitespace",
+      "pattern": "\\s{2,}",
+      "action": "collapse",
+      "replace_with": " ",
+      "description": "Collapse multiple spaces to single space"
+    }
+  ],
+
+  "normalisation_rules": [
+    { "from": "expresslrs", "to": "ELRS", "case_insensitive": true },
+    { "from": "spi elrs", "to": "SPI ELRS", "case_insensitive": true },
+    { "from": "bt 2.0", "to": "BT2.0", "case_insensitive": true },
+    { "from": "bt2.0", "to": "BT2.0", "case_insensitive": true },
+    { "from": "ph 2.0", "to": "PH2.0", "case_insensitive": true },
+    { "from": "ph2.0", "to": "PH2.0", "case_insensitive": true },
+    { "from": "dji o3", "to": "DJI", "case_insensitive": true },
+    { "from": "dji o4", "to": "DJI", "case_insensitive": true },
+    { "from": "avatar", "to": "Walksnail", "case_insensitive": true },
+    { "from": "digital", "to": null, "note": "Ambiguous without context, do not map" },
+    { "from": "1s", "to": "1S", "case_insensitive": true },
+    { "from": "2s", "to": "2S", "case_insensitive": true },
+    { "from": "4s", "to": "4S", "case_insensitive": true },
+    { "from": "6s", "to": "6S", "case_insensitive": true },
+    { "from": "20 x 20", "to": "20x20" },
+    { "from": "25.5 x 25.5", "to": "25.5x25.5" },
+    { "from": "30 x 30", "to": "30x30" },
+    { "from": "30.5 x 30.5", "to": "30x30" }
+  ],
+
+  "product_patterns": [
+    {
+      "pattern": "meteor\\s*65",
+      "case_insensitive": true,
+      "brand": "BETAFPV",
+      "model": "Meteor65",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "65mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-meteor65-frame" },
+        { "canonical_name": "0702 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-0702-19000kv-se" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-f4-1s-12a-aio-elrs" },
+        { "canonical_name": "31mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "gemfan-31mm-3blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-c03" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-m04-vtx" }
+      ],
+      "version_variants": [
+        {
+          "year": "2021",
+          "overrides": {
+            "receiver": { "canonical_name": "SPI ELRS receiver", "evidence_weight": "medium", "variant_id": "betafpv-spi-elrs" },
+            "camera": { "canonical_name": "nano analog camera", "variant_id": "betafpv-c02" },
+            "connector": "PH2.0 or BT2.0"
+          }
+        },
+        {
+          "year": "2022",
+          "overrides": {
+            "receiver": { "canonical_name": "ELRS receiver", "evidence_weight": "medium", "variant_id": "betafpv-ep2-elrs" },
+            "camera": { "canonical_name": "nano analog camera", "variant_id": "betafpv-c03" },
+            "connector": "BT2.0"
+          }
+        }
+      ]
+    },
+    {
+      "pattern": "meteor\\s*75(?!\\s*pro)",
+      "case_insensitive": true,
+      "brand": "BETAFPV",
+      "model": "Meteor75",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "75mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-meteor75-frame" },
+        { "canonical_name": "0802 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-0802-19500kv" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-f4-1s-12a-aio-elrs" },
+        { "canonical_name": "40mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "gemfan-40mm-3blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-c03" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-m04-vtx" }
+      ]
+    },
+    {
+      "pattern": "meteor\\s*75\\s*pro",
+      "case_insensitive": true,
+      "brand": "BETAFPV",
+      "model": "Meteor75 Pro",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "75mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-meteor75-pro-frame" },
+        { "canonical_name": "1002 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-1002-21000kv" },
+        { "canonical_name": "2S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-f4-2s-12a-aio-elrs" },
+        { "canonical_name": "40mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-40mm-4blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-c03" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-m04-vtx" }
+      ]
+    },
+    {
+      "pattern": "mobula\\s*6",
+      "case_insensitive": true,
+      "brand": "Happymodel",
+      "model": "Mobula6",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "65mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "happymodel-mobula6-frame" },
+        { "canonical_name": "0802 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "happymodel-se0802-19500kv" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "happymodel-crazybee-f4-v3" },
+        { "canonical_name": "31mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "happymodel-31mm-3blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "runcam-nano4" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "happymodel-ov-pro" }
+      ]
+    },
+    {
+      "pattern": "mobula\\s*7",
+      "case_insensitive": true,
+      "brand": "Happymodel",
+      "model": "Mobula7",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "75mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "happymodel-mobula7-frame" },
+        { "canonical_name": "0802 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "happymodel-se0802-19500kv" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "happymodel-x12-aio" },
+        { "canonical_name": "40mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "gemfan-40mm-3blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "runcam-nano4" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "happymodel-ov-pro" }
+      ]
+    },
+    {
+      "pattern": "air\\s*65",
+      "case_insensitive": true,
+      "brand": "BETAFPV",
+      "model": "Air65",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "65mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-air65-frame" },
+        { "canonical_name": "0702 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-0702-19000kv-se" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-f4-1s-12a-aio-elrs" },
+        { "canonical_name": "31mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "gemfan-31mm-3blade" },
+        { "canonical_name": "ELRS receiver", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-ep2-elrs" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "caddx-ant-nano" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-a03-vtx" }
+      ]
+    },
+    {
+      "pattern": "cetus\\s*x",
+      "case_insensitive": true,
+      "brand": "BETAFPV",
+      "model": "Cetus X",
+      "build_type": "RTF",
+      "is_rtf_kit": true,
+      "fan_out": [
+        { "canonical_name": "65mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-cetus-x-frame" },
+        { "canonical_name": "0702 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-0702-19000kv-se" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-f4-1s-12a-aio-elrs" },
+        { "canonical_name": "SPI ELRS receiver", "evidence_weight": "strong", "quantity": 1, "variant_id": "betafpv-spi-elrs" },
+        { "canonical_name": "31mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "betafpv-31mm-3blade" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-c03" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "betafpv-m04-vtx" }
+      ],
+      "kit_includes": [
+        { "canonical_name": "ELRS radio transmitter", "note": "LiteRadio 2 SE" },
+        { "canonical_name": "analog FPV goggles", "note": "VR02 or VR03" },
+        { "canonical_name": "BT2.0 1S battery", "quantity": 2 },
+        { "canonical_name": "LiPo charger", "note": "USB charger board" }
+      ],
+      "beginner_note": "Complete FPV setup in one box. Radio and goggles are entry-level BetaFPV ecosystem.",
+      "ecosystem_lock": "LiteRadio / BetaFPV ecosystem",
+      "upgrade_path": "Radio first (RadioMaster Pocket/Zorro with ELRS) to unlock all ELRS BNF builds"
+    },
+    {
+      "pattern": "tinyhawk\\s*(iii|3)",
+      "case_insensitive": true,
+      "brand": "EMAX",
+      "model": "Tinyhawk III",
+      "build_type": "BNF",
+      "is_rtf_kit": false,
+      "fan_out": [
+        { "canonical_name": "75mm whoop frame", "evidence_weight": "strong", "quantity": 1, "variant_id": "emax-tinyhawk3-frame" },
+        { "canonical_name": "0802 motor", "evidence_weight": "strong", "quantity": 4, "variant_id": "emax-0802-19500kv" },
+        { "canonical_name": "1S whoop AIO", "evidence_weight": "strong", "quantity": 1, "variant_id": "emax-tinyhawk3-aio" },
+        { "canonical_name": "40mm propeller", "evidence_weight": "strong", "quantity": 4, "variant_id": "emax-avan-40mm" },
+        { "canonical_name": "nano analog camera", "evidence_weight": "medium", "quantity": 1, "variant_id": "runcam-nano4" },
+        { "canonical_name": "whoop VTX", "evidence_weight": "medium", "quantity": 1, "variant_id": "emax-tinyhawk3-vtx" }
+      ]
+    }
+  ]
+}

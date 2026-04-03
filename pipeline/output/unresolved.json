@@ -1,0 +1,51 @@
+[
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/0802se-22000kv-brushless-motors",
+    "title": "0802SE Brushless Motors",
+    "part_type": "motor",
+    "variant_name": "BETAFPV 0802SE Brushless Motors 19500KV (2022 Version)"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/o4-air-unit-bracket-ii",
+    "title": "O4 Air Unit Bracket II",
+    "part_type": "frame",
+    "variant_name": "BETAFPV O4 Air Unit Bracket II"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-1219s-3-blade-propellers-1-0mm-shaft",
+    "title": "Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "variant_name": "BETAFPV Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-d90s-3-blade-propellers1-5mm-shaft",
+    "title": "GemFan D90S 3-Blade Propellers (1.5mm Shaft)",
+    "part_type": "propeller",
+    "variant_name": "BETAFPV GemFan D90S 3-Blade Propellers (1.5mm Shaft)"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/aquila20-exclusive-battery-2pcs",
+    "title": "Aquila20 Exclusive Battery (2PCS)",
+    "part_type": "battery",
+    "variant_name": "BETAFPV Aquila20 Exclusive Battery (2PCS)"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/aquila16-exclusive-battery-2pcs",
+    "title": "Aquila16 Exclusive Battery (2PCS)",
+    "part_type": "battery",
+    "variant_name": "BETAFPV Aquila16 Exclusive Battery (2PCS)"
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt3-0-550mah-2s-battery-2pcs",
+    "title": "BT3.0 550mAh 2S Battery (2PCS)",
+    "part_type": "battery",
+    "variant_name": "BETAFPV BT3.0 550mAh 2S Battery (2PCS)"
+  }
+]

@@ -1,0 +1,384 @@
+/* Search view */
+
+.search-view {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.search-header {
+  margin-bottom: 1rem;
+}
+
+.search-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.search-subtitle {
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin: 0.1rem 0 0;
+}
+
+/* Search bar */
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text);
+  font-size: 0.85rem;
+  margin: 0;
+  width: auto;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Quick suggestions */
+
+.search-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.search-suggestion {
+  padding: 0.25rem 0.55rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--muted);
+  font-size: 0.65rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.search-suggestion:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Results */
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.search-result-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.15rem;
+}
+
+.search-product-card {
+  border-color: var(--accent);
+  border-width: 1px;
+}
+
+.search-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-result-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.search-result-type {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: rgba(210, 108, 255, 0.1);
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.search-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.search-upgrade {
+  font-size: 0.7rem;
+  color: var(--accent-2);
+  margin: 0.5rem 0 0;
+}
+
+/* Variant notes */
+
+.search-variant-notes {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-variant-tag {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.4rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text);
+}
+
+/* Parts breakdown table */
+
+.search-section-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.6rem;
+}
+
+.search-parts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.search-part-row td {
+  padding: 0.35rem 0;
+  vertical-align: middle;
+}
+
+.search-part-row:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.search-part-type {
+  width: 60px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.search-part-name {
+  color: var(--text);
+  padding-left: 0.4rem;
+}
+
+.search-part-evidence {
+  width: 55px;
+  text-align: right;
+  font-size: 0.6rem;
+  color: var(--muted);
+}
+
+.search-part-price {
+  width: 40px;
+  text-align: right;
+  color: var(--accent-2);
+  font-size: 0.7rem;
+}
+
+.search-total-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.search-total-price {
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.search-add-btn {
+  margin-top: 0.85rem;
+  width: 100%;
+}
+
+/* Kit includes */
+
+.search-kit-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.search-kit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 0.3rem 0;
+}
+
+.search-kit-name {
+  color: var(--text);
+}
+
+.search-kit-note {
+  font-size: 0.65rem;
+  color: var(--muted);
+}
+
+/* Specs + compatibility */
+
+.search-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-spec-tag {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.4rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text);
+}
+
+.search-compat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.search-compat-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.search-compat-tag {
+  font-size: 0.6rem;
+  padding: 0.1rem 0.35rem;
+  background: rgba(96, 211, 148, 0.1);
+  border: 1px solid rgba(96, 211, 148, 0.2);
+  border-radius: 3px;
+  color: var(--ok);
+}
+
+.search-price {
+  font-size: 0.8rem;
+  color: var(--accent-2);
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.search-alternatives {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.search-alt-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Extracted signals (transparency) */
+
+.search-signals {
+  opacity: 0.7;
+}
+
+.search-signal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.search-signal-tag {
+  font-size: 0.6rem;
+  padding: 0.12rem 0.35rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--muted);
+}
+
+/* Expert tips */
+
+.search-tips {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.search-tip {
+  font-size: 0.72rem;
+  color: var(--text);
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 2px solid var(--accent);
+  border-radius: 0 3px 3px 0;
+  line-height: 1.4;
+}
+
+/* Fuzzy match note */
+
+.search-fuzzy-note {
+  font-size: 0.7rem;
+  color: var(--warn);
+  padding: 0.4rem 0.6rem;
+  background: rgba(255, 184, 108, 0.06);
+  border: 1px solid rgba(255, 184, 108, 0.15);
+  border-radius: 4px;
+}
+
+.search-suggestions-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* Empty state */
+
+.search-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.search-empty p {
+  margin: 0.25rem 0;
+}

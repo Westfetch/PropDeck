@@ -1,0 +1,417 @@
+/* Feed view mk5 — unified with deck.css dark-native palette */
+
+.feed-view {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.feed-header {
+  margin-bottom: 0.75rem;
+}
+
+.feed-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.feed-subtitle {
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin: 0.1rem 0 0;
+}
+
+.feed-empty {
+  color: var(--muted);
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 0.85rem;
+}
+
+/* Filter bar */
+
+.feed-filters {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.feed-filter-btn {
+  padding: 0.3rem 0.7rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.feed-filter-btn:hover {
+  border-color: var(--muted);
+  color: var(--text);
+}
+
+.feed-filter-btn.active {
+  background: var(--accent);
+  color: #000;
+  border-color: var(--accent);
+}
+
+.feed-filter-count {
+  font-weight: 400;
+  opacity: 0.7;
+  margin-left: 0.25rem;
+}
+
+/* Feed grid */
+
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .feed-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Feed card */
+
+.feed-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.1s;
+}
+
+.feed-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* RIP card treatment */
+
+.feed-card-rip {
+  position: relative;
+}
+
+.feed-card-rip .feed-card-photo-placeholder {
+  filter: grayscale(1) brightness(0.5);
+}
+
+.feed-card-rip .feed-card-body {
+  opacity: 0.6;
+}
+
+.feed-card-rip-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.feed-card-rip-stamp {
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(255, 50, 50, 0.35);
+  transform: rotate(-15deg);
+  letter-spacing: 0.1em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Stripped card treatment */
+
+.feed-card-stripped .feed-card-photo-placeholder {
+  filter: grayscale(0.7) brightness(0.6);
+}
+
+.feed-card-stripped .feed-card-body {
+  opacity: 0.5;
+}
+
+/* Feed card photo */
+
+.feed-card-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--panel);
+}
+
+.feed-card-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.feed-card-photo-placeholder {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feed-card-type-icon {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.04);
+  letter-spacing: -0.02em;
+  user-select: none;
+}
+
+/* Single badge per card — top-left, consistent position */
+
+.feed-card-badge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  font-size: 0.55rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+}
+
+.trade-badge-for-sale {
+  background: rgba(96, 211, 148, 0.9);
+  color: #000;
+}
+
+.trade-badge-for-swap {
+  background: rgba(255, 184, 108, 0.9);
+  color: #000;
+}
+
+.trade-badge-lost {
+  background: rgba(255, 50, 50, 0.8);
+  color: #fff;
+}
+
+.trade-badge-stripped {
+  background: rgba(120, 120, 120, 0.8);
+  color: #fff;
+}
+
+.trade-badge-proof {
+  background: rgba(210, 108, 255, 0.85);
+  color: #fff;
+}
+
+/* Feed card body */
+
+.feed-card-body {
+  padding: 0.65rem 0.8rem;
+}
+
+.feed-card-pilot-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.feed-card-avatar {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.45rem;
+  font-weight: 700;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.feed-card-pilot-name {
+  font-size: 0.65rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.feed-card-proof-inline {
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.feed-card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 0.15rem;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.feed-card-note {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin: 0 0 0.35rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feed-card-meta {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+.feed-card-meta span:not(:last-child)::after {
+  content: '\00b7';
+  margin-left: 0.4rem;
+  color: var(--border);
+}
+
+.feed-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.feed-card-price {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--ok);
+}
+
+/* Detail view — RIP treatment */
+
+.build-card-rip {
+  position: relative;
+}
+
+.build-card-rip .photo-slot-main {
+  filter: grayscale(1) brightness(0.4);
+}
+
+.build-card-rip-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.build-card-rip-stamp {
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(255, 50, 50, 0.5);
+  transform: rotate(-15deg);
+  letter-spacing: 0.12em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Status selector (My Builds) */
+
+.status-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0 1.25rem 0.65rem;
+}
+
+.status-selector-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.status-select {
+  padding: 0.2rem 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 0.7rem;
+  width: auto;
+  margin: 0;
+}
+
+.status-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Sale price input */
+
+.sale-price-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0 1.25rem 0.65rem;
+}
+
+.sale-price-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.sale-price-input {
+  width: 80px;
+  padding: 0.2rem 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--ok);
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sale-price-input:focus {
+  outline: none;
+  border-color: var(--ok);
+}
+
+/* RIP note */
+
+.rip-note {
+  padding: 0.5rem 1.25rem 0.65rem;
+  font-size: 0.7rem;
+  color: #ff5050;
+  font-style: italic;
+}

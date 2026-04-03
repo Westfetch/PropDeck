@@ -1,0 +1,14 @@
+{
+  "name": "graft-fpv-pipeline",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Self-healing FPV product data scraping pipeline",
+  "scripts": {
+    "scrape": "node bin/scrape.js",
+    "apply": "node bin/apply.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "dotenv": "^16.4.7"
+  }
+}

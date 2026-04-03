@@ -1,0 +1,4518 @@
+[
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/0702-brushless-motors-2026",
+    "scraped_at": "2026-04-03T18:30:13.668Z",
+    "shopify_id": 7521925562502,
+    "title": "0702 Brushless Motors (2026)",
+    "part_type": "motor",
+    "tags": [
+      "0702 motors",
+      "_label_NEW",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/0702_Brushless_Motors_2026_Champion.jpg?v=1769069876",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43034588577926,
+        "title": "Champion",
+        "price": "44.99",
+        "sku": "01050025_1",
+        "weight": 20
+      },
+      {
+        "shopify_variant_id": 43034588610694,
+        "title": "Racing",
+        "price": "39.99",
+        "sku": "01050025_2",
+        "weight": 20
+      },
+      {
+        "shopify_variant_id": 43034588643462,
+        "title": "Freestyle",
+        "price": "39.99",
+        "sku": "01050025_3",
+        "weight": 20
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-champion",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Champion",
+        "brand": "BETAFPV",
+        "price": "44.99",
+        "kv": "36000",
+        "stator_size": "0702",
+        "cell_count": "1S",
+        "capacity_mah": "280"
+      },
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-racing",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Racing",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "36000",
+        "stator_size": "0702",
+        "cell_count": "1S",
+        "capacity_mah": "280"
+      },
+      {
+        "variant_id": "betafpv-0702-brushless-motors-2026-freestyle",
+        "product_name": "BETAFPV 0702 Brushless Motors (2026) Freestyle",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "36000",
+        "stator_size": "0702",
+        "cell_count": "1S",
+        "capacity_mah": "280"
+      }
+    ],
+    "raw_specs": {
+      "kv": "36000",
+      "stator_size": "0702",
+      "cell_count": "1S",
+      "capacity_mah": "280"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/0802-brushless-motors-2026",
+    "scraped_at": "2026-04-03T18:30:14.789Z",
+    "shopify_id": 7522028224646,
+    "title": "0802 Brushless Motors (2026)",
+    "part_type": "motor",
+    "tags": [
+      "0802 motors",
+      "_label_NEW",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/0802_Brushless_Motors_2026_Champion.jpg?v=1769069910",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43034729939078,
+        "title": "Champion",
+        "price": "44.99",
+        "sku": "01050026_1",
+        "weight": 21
+      },
+      {
+        "shopify_variant_id": 43034729971846,
+        "title": "Racing",
+        "price": "39.99",
+        "sku": "01050026_2",
+        "weight": 21
+      },
+      {
+        "shopify_variant_id": 43034730004614,
+        "title": "Freestyle",
+        "price": "39.99",
+        "sku": "01050026_3",
+        "weight": 21
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-champion",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Champion",
+        "brand": "BETAFPV",
+        "price": "44.99",
+        "kv": "28000",
+        "stator_size": "0802",
+        "cell_count": "1S",
+        "capacity_mah": "480"
+      },
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-racing",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Racing",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "28000",
+        "stator_size": "0802",
+        "cell_count": "1S",
+        "capacity_mah": "480"
+      },
+      {
+        "variant_id": "betafpv-0802-brushless-motors-2026-freestyle",
+        "product_name": "BETAFPV 0802 Brushless Motors (2026) Freestyle",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "28000",
+        "stator_size": "0802",
+        "cell_count": "1S",
+        "capacity_mah": "480"
+      }
+    ],
+    "raw_specs": {
+      "kv": "28000",
+      "stator_size": "0802",
+      "cell_count": "1S",
+      "capacity_mah": "480"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-series-1102-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:15.901Z",
+    "shopify_id": 7314296864902,
+    "title": "LAVA Series 1102 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "1102 motors",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_94640f3d-188f-4ac2-a252-c71e9812d78f.jpg?v=1736319609",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41498342719622,
+        "title": "22mm",
+        "price": "10.99",
+        "sku": "01050022_1",
+        "weight": 3.4
+      },
+      {
+        "shopify_variant_id": 41498342752390,
+        "title": "44mm",
+        "price": "10.99",
+        "sku": "01050022_2",
+        "weight": 3.6
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1102-brushless-motors-22mm",
+        "product_name": "BETAFPV LAVA Series 1102 Brushless Motors 22mm",
+        "brand": "BETAFPV",
+        "price": "10.99",
+        "kv": "14000",
+        "stator_size": "1102",
+        "shaft": "1.5mm",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1102-brushless-motors-44mm",
+        "product_name": "BETAFPV LAVA Series 1102 Brushless Motors 44mm",
+        "brand": "BETAFPV",
+        "price": "10.99",
+        "kv": "14000",
+        "stator_size": "1102",
+        "shaft": "1.5mm",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "14000",
+      "stator_size": "1102",
+      "shaft": "1.5mm",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/0702-ii-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:17.020Z",
+    "shopify_id": 7308600377478,
+    "title": "0702 II Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "0702 motors",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/0702_II_motor.jpg?v=1744079246",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41478718619782,
+        "title": "0702 II 30000KV",
+        "price": "48.99",
+        "sku": "01050020_1",
+        "weight": 1.55
+      },
+      {
+        "shopify_variant_id": 41478718685318,
+        "title": "0702SE II 23000KV",
+        "price": "43.99",
+        "sku": "01050021_1",
+        "weight": 1.45
+      },
+      {
+        "shopify_variant_id": 41478718750854,
+        "title": "0702SE II 27000KV",
+        "price": "43.99",
+        "sku": "01050021_2",
+        "weight": 1.47
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702-ii-30000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702 II 30000KV",
+        "brand": "BETAFPV",
+        "price": "48.99",
+        "kv": "30000",
+        "stator_size": "0702",
+        "weight_g": 1.55,
+        "shaft": "1mm",
+        "frame_size": "65mm",
+        "build_type": "KIT",
+        "capacity_mah": "260"
+      },
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702se-ii-23000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702SE II 23000KV",
+        "brand": "BETAFPV",
+        "price": "43.99",
+        "kv": "23000",
+        "stator_size": "0702",
+        "weight_g": 1.55,
+        "shaft": "1mm",
+        "frame_size": "65mm",
+        "build_type": "KIT",
+        "capacity_mah": "260"
+      },
+      {
+        "variant_id": "betafpv-0702-ii-brushless-motors-0702se-ii-27000kv",
+        "product_name": "BETAFPV 0702 II Brushless Motors 0702SE II 27000KV",
+        "brand": "BETAFPV",
+        "price": "43.99",
+        "kv": "27000",
+        "stator_size": "0702",
+        "weight_g": 1.55,
+        "shaft": "1mm",
+        "frame_size": "65mm",
+        "build_type": "KIT",
+        "capacity_mah": "260"
+      }
+    ],
+    "raw_specs": {
+      "kv": "30000",
+      "stator_size": "0702",
+      "weight_g": 1.55,
+      "shaft": "1mm",
+      "frame_size": "65mm",
+      "build_type": "KIT",
+      "capacity_mah": "260"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-series-1104-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:18.171Z",
+    "shopify_id": 7240670052486,
+    "title": "LAVA Series 1104 | 7200KV Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "1104 motors",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/74b96dbb2d19db9758ba306fc55ad040_c781690b-9b72-4c87-a386-e62abf1b99b7.jpg?v=1722392267",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41268777058438,
+        "title": "24mm",
+        "price": "12.99",
+        "sku": "01050017_2",
+        "weight": 5.3
+      },
+      {
+        "shopify_variant_id": 41273238749318,
+        "title": "80mm",
+        "price": "12.99",
+        "sku": "01050017_1",
+        "weight": 5.5
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1104-7200kv-brushless-motors-24mm",
+        "product_name": "BETAFPV LAVA Series 1104 | 7200KV Brushless Motors 24mm",
+        "brand": "BETAFPV",
+        "price": "12.99",
+        "kv": "7200",
+        "stator_size": "1104",
+        "weight_g": 5.3,
+        "shaft": "1.5mm",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1104-7200kv-brushless-motors-80mm",
+        "product_name": "BETAFPV LAVA Series 1104 | 7200KV Brushless Motors 80mm",
+        "brand": "BETAFPV",
+        "price": "12.99",
+        "kv": "7200",
+        "stator_size": "1104",
+        "weight_g": 5.3,
+        "shaft": "1.5mm",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "7200",
+      "stator_size": "1104",
+      "weight_g": 5.3,
+      "shaft": "1.5mm",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-series-1506-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:19.288Z",
+    "shopify_id": 6984282800262,
+    "title": "LAVA Series 1506 4200KV Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "1506 motors",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_30ede877-f065-413a-a67d-b4083a1c3b85.jpg?v=1706153218",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40513951957126,
+        "title": "80mm",
+        "price": "14.99",
+        "sku": "01050012_1",
+        "weight": 30.53
+      },
+      {
+        "shopify_variant_id": 42222366457990,
+        "title": "34mm",
+        "price": "14.99",
+        "sku": "01050012_2",
+        "weight": 30.53
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-series-1506-4200kv-brushless-motors-80mm",
+        "product_name": "BETAFPV LAVA Series 1506 4200KV Brushless Motors 80mm",
+        "brand": "BETAFPV",
+        "price": "14.99",
+        "kv": "4600",
+        "stator_size": "1506",
+        "weight_g": 13.6,
+        "shaft": "1.5mm",
+        "amperage": "35A",
+        "capacity_mah": "850"
+      },
+      {
+        "variant_id": "betafpv-lava-series-1506-4200kv-brushless-motors-34mm",
+        "product_name": "BETAFPV LAVA Series 1506 4200KV Brushless Motors 34mm",
+        "brand": "BETAFPV",
+        "price": "14.99",
+        "kv": "4600",
+        "stator_size": "1506",
+        "weight_g": 13.6,
+        "shaft": "1.5mm",
+        "amperage": "35A",
+        "capacity_mah": "850"
+      }
+    ],
+    "raw_specs": {
+      "kv": "4600",
+      "stator_size": "1506",
+      "weight_g": 13.6,
+      "shaft": "1.5mm",
+      "amperage": "35A",
+      "capacity_mah": "850"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-series-2006-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:20.463Z",
+    "shopify_id": 6955057021062,
+    "title": "LAVA Series 2006 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "2006 motors",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_be9ee072-d8fd-4ab0-9aa6-0424847b7f52.jpg?v=1700794948",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40378748928134,
+        "title": "Default Title",
+        "price": "19.99",
+        "sku": "01050011_1",
+        "weight": 60
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-series-2006-brushless-motors",
+        "product_name": "BETAFPV LAVA Series 2006 Brushless Motors",
+        "brand": "BETAFPV",
+        "price": "19.99",
+        "kv": "2400",
+        "stator_size": "2006",
+        "weight_g": 22.2,
+        "shaft": "1.5mm",
+        "cell_count": "6S",
+        "amperage": "35A",
+        "capacity_mah": "1100"
+      }
+    ],
+    "raw_specs": {
+      "kv": "2400",
+      "stator_size": "2006",
+      "weight_g": 22.2,
+      "shaft": "1.5mm",
+      "cell_count": "6S",
+      "amperage": "35A",
+      "capacity_mah": "1100"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/0802se-22000kv-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:21.594Z",
+    "shopify_id": 5156989665414,
+    "title": "0802SE Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "0802 motors",
+      "_label_28% OFF",
+      "Brushless Motors",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_4319d714-8323-44ca-bf80-77c15f7badf3.jpg?v=1666348352",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39991882219654,
+        "title": "19500KV (2022 Version)",
+        "price": "38.99",
+        "sku": "01050007_1",
+        "weight": 0.032
+      },
+      {
+        "shopify_variant_id": 40069450694790,
+        "title": "23000KV",
+        "price": "38.99",
+        "sku": "01050007_2",
+        "weight": 0.032
+      },
+      {
+        "shopify_variant_id": 40396791742598,
+        "title": "22000KV",
+        "price": "27.99",
+        "sku": "00313783",
+        "weight": 0.032
+      },
+      {
+        "shopify_variant_id": 34838007873670,
+        "title": "19500KV",
+        "price": "27.99",
+        "sku": "00313840",
+        "weight": 0.032
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-19500kv-2022-version",
+        "product_name": "BETAFPV 0802SE Brushless Motors 19500KV (2022 Version)",
+        "brand": "BETAFPV",
+        "price": "38.99",
+        "kv": "19500",
+        "weight_g": 1.83,
+        "shaft": "1mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "build_type": "KIT"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-23000kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 23000KV",
+        "brand": "BETAFPV",
+        "price": "38.99",
+        "kv": "23000",
+        "weight_g": 1.83,
+        "shaft": "1mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "build_type": "KIT"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-22000kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 22000KV",
+        "brand": "BETAFPV",
+        "price": "27.99",
+        "kv": "22000",
+        "weight_g": 1.83,
+        "shaft": "1mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "build_type": "KIT"
+      },
+      {
+        "variant_id": "betafpv-0802se-brushless-motors-19500kv",
+        "product_name": "BETAFPV 0802SE Brushless Motors 19500KV",
+        "brand": "BETAFPV",
+        "price": "27.99",
+        "kv": "19500",
+        "weight_g": 1.83,
+        "shaft": "1mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "build_type": "KIT"
+      }
+    ],
+    "raw_specs": {
+      "kv": "19500",
+      "weight_g": 1.83,
+      "shaft": "1mm",
+      "cell_count": "1S",
+      "protocol": "elrs",
+      "frame_size": "75mm",
+      "build_type": "KIT"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/1102-13500kv-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:22.750Z",
+    "shopify_id": 4352969310342,
+    "title": "1102 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "1102 motors",
+      "Brushless Motors",
+      "motor",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_f7a20941-d790-4480-9c37-a4e829a8cd8e.jpg?v=1662720960",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39916932857990,
+        "title": "18000KV-37mm (2022) / Black",
+        "price": "39.99",
+        "sku": "01050006_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40069450891398,
+        "title": "22000KV-37mm (2022) / Black",
+        "price": "39.99",
+        "sku": "01050006_2",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40162473902214,
+        "title": "22000KV-37mm (2022) / Blue",
+        "price": "39.99",
+        "sku": "01050006_3",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 31311010857094,
+        "title": "18000KV-37mm / Black",
+        "price": "39.99",
+        "sku": "00313662",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 39389817929862,
+        "title": "18000KV-50mm / Black",
+        "price": "39.99",
+        "sku": "01050002",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40143831105670,
+        "title": "14000KV-37mm (2022) / Black",
+        "price": "39.99",
+        "sku": "01050006_4",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "18000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-22000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 22000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "22000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-22000kv-37mm-2022-blue",
+        "product_name": "BETAFPV 1102 Brushless Motors 22000KV-37mm (2022) / Blue",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "22000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-37mm-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-37mm / Black",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "18000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-18000kv-50mm-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 18000KV-50mm / Black",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "18000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      },
+      {
+        "variant_id": "betafpv-1102-brushless-motors-14000kv-37mm-2022-black",
+        "product_name": "BETAFPV 1102 Brushless Motors 14000KV-37mm (2022) / Black",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "14000",
+        "stator_size": "1102",
+        "weight_g": 2.95,
+        "shaft": "1.5mm",
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "18000",
+      "stator_size": "1102",
+      "weight_g": 2.95,
+      "shaft": "1.5mm",
+      "cell_count": "1S",
+      "protocol": "elrs",
+      "frame_size": "75mm",
+      "connector": "BT2.0",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/1103-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:23.884Z",
+    "shopify_id": 1047973068844,
+    "title": "1103 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "_label_40% OFF",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_1a77febc-1122-4ff1-8a41-0370f0416580.jpg?v=1568718208",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 30086060638252,
+        "title": "15000KV-1S",
+        "price": "39.99",
+        "sku": "00313605",
+        "weight": 200
+      },
+      {
+        "shopify_variant_id": 14762596007980,
+        "title": "11000KV-2S",
+        "price": "39.99",
+        "sku": "00313290",
+        "weight": 200
+      },
+      {
+        "shopify_variant_id": 14735142682668,
+        "title": "8000KV-3S (35mm)",
+        "price": "39.99",
+        "sku": "00313529",
+        "weight": 200
+      },
+      {
+        "shopify_variant_id": 42394967801990,
+        "title": "8000KV-3S (55mm)",
+        "price": "39.99",
+        "sku": "01050008_1",
+        "weight": 200
+      },
+      {
+        "shopify_variant_id": 40241402806406,
+        "title": "8500KV",
+        "price": "23.99",
+        "sku": "01050008_2",
+        "weight": 200
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-1103-brushless-motors-15000kv-1s",
+        "product_name": "BETAFPV 1103 Brushless Motors 15000KV-1S",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "15000",
+        "stator_size": "1103",
+        "protocol": "frsky"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-11000kv-2s",
+        "product_name": "BETAFPV 1103 Brushless Motors 11000KV-2S",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "11000",
+        "stator_size": "1103",
+        "protocol": "frsky"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8000kv-3s-35mm",
+        "product_name": "BETAFPV 1103 Brushless Motors 8000KV-3S (35mm)",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "8000",
+        "stator_size": "1103",
+        "protocol": "frsky"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8000kv-3s-55mm",
+        "product_name": "BETAFPV 1103 Brushless Motors 8000KV-3S (55mm)",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "8000",
+        "stator_size": "1103",
+        "protocol": "frsky"
+      },
+      {
+        "variant_id": "betafpv-1103-brushless-motors-8500kv",
+        "product_name": "BETAFPV 1103 Brushless Motors 8500KV",
+        "brand": "BETAFPV",
+        "price": "23.99",
+        "kv": "8500",
+        "stator_size": "1103",
+        "protocol": "frsky"
+      }
+    ],
+    "raw_specs": {
+      "kv": "15000",
+      "stator_size": "1103",
+      "protocol": "frsky"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/snow-2306-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:24.997Z",
+    "shopify_id": 6742210150534,
+    "title": "Snow 2306 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "2306 motors",
+      "_label_30% OFF",
+      "Brushless Motors",
+      "motor",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_8d6e742b-da43-469c-9ac5-6656ebfba899.jpg?v=1656673726",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39805812015238,
+        "title": "1pcs / 1860KV",
+        "price": "16.79",
+        "sku": "01050005_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 39805813784710,
+        "title": "1pcs / 2500KV",
+        "price": "16.79",
+        "sku": "01050005_2",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-snow-2306-brushless-motors-1pcs-1860kv",
+        "product_name": "BETAFPV Snow 2306 Brushless Motors 1pcs / 1860KV",
+        "brand": "BETAFPV",
+        "price": "16.79",
+        "kv": "1860",
+        "stator_size": "2306",
+        "weight_g": 34,
+        "shaft": "5mm",
+        "cell_count": "6S",
+        "amperage": "40A",
+        "capacity_mah": "1500"
+      },
+      {
+        "variant_id": "betafpv-snow-2306-brushless-motors-1pcs-2500kv",
+        "product_name": "BETAFPV Snow 2306 Brushless Motors 1pcs / 2500KV",
+        "brand": "BETAFPV",
+        "price": "16.79",
+        "kv": "2500",
+        "stator_size": "2306",
+        "weight_g": 34,
+        "shaft": "5mm",
+        "cell_count": "6S",
+        "amperage": "40A",
+        "capacity_mah": "1500"
+      }
+    ],
+    "raw_specs": {
+      "kv": "1860",
+      "stator_size": "2306",
+      "weight_g": 34,
+      "shaft": "5mm",
+      "cell_count": "6S",
+      "amperage": "40A",
+      "capacity_mah": "1500"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/2204-brushless-motors",
+    "scraped_at": "2026-04-03T18:30:26.130Z",
+    "shopify_id": 6623821299846,
+    "title": "2204 Brushless Motors",
+    "part_type": "motor",
+    "tags": [
+      "Brushless Motors",
+      "Discontinued",
+      "motor"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_d4219bc8-b8e1-4304-87a3-ff83cda8fe66.jpg?v=1632573625",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39534734606470,
+        "title": "Default Title",
+        "price": "18.49",
+        "sku": "01050004",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-2204-brushless-motors",
+        "product_name": "BETAFPV 2204 Brushless Motors",
+        "brand": "BETAFPV",
+        "price": "18.49",
+        "kv": "2400",
+        "stator_size": "2204",
+        "weight_g": 21,
+        "shaft": "1.5mm",
+        "cell_count": "4S",
+        "amperage": "35A",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "2400",
+      "stator_size": "2204",
+      "weight_g": 21,
+      "shaft": "1.5mm",
+      "cell_count": "4S",
+      "amperage": "35A",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/air65-champion-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:27.252Z",
+    "shopify_id": 7522110505094,
+    "title": "Air65 Champion Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_NEW",
+      "air frame",
+      "brushless frame"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Air65_Champion_Brushless_Whoop_Frame_transparent_pink.jpg?v=1769068020",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43034812940422,
+        "title": "Transparent Pink",
+        "price": "4.99",
+        "sku": "01090036_2",
+        "weight": 32.44
+      },
+      {
+        "shopify_variant_id": 43034812907654,
+        "title": "Transparent Gray",
+        "price": "4.99",
+        "sku": "01090036_1",
+        "weight": 32.44
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-air65-champion-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 Champion Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "stator_size": "0702",
+        "weight_g": 2.2,
+        "frame_size": "65mm",
+        "capacity_mah": "280"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0702",
+      "weight_g": 2.2,
+      "frame_size": "65mm",
+      "capacity_mah": "280"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo20-pro-ii-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:28.354Z",
+    "shopify_id": 7453156212870,
+    "title": "Pavo20 Pro II Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_NEW",
+      "brushless frame",
+      "frame",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Pavo20_Pro_II_Brushless_Whoop_Frame_black.jpg?v=1763622838",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42410975723654,
+        "title": "O4 Air Unit Pro Frame / Black",
+        "price": "11.99",
+        "sku": "01090034_1",
+        "weight": 110
+      },
+      {
+        "shopify_variant_id": 42410975756422,
+        "title": "O4 Air Unit Pro Frame / Transparent Grey",
+        "price": "11.99",
+        "sku": "01090034_2",
+        "weight": 110
+      },
+      {
+        "shopify_variant_id": 42410976051334,
+        "title": "Whoop Duct / Black",
+        "price": "3.99",
+        "sku": "01090034_3",
+        "weight": 79
+      },
+      {
+        "shopify_variant_id": 42410976084102,
+        "title": "Whoop Duct / Transparent Grey",
+        "price": "3.99",
+        "sku": "01090034_4",
+        "weight": 79
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo20-pro-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Pro II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "11.99",
+        "kv": "7200",
+        "weight_g": 35.7,
+        "video": "DJI O4",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "7200",
+      "weight_g": 35.7,
+      "video": "DJI O4",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo-pico-ii-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:29.458Z",
+    "shopify_id": 7451028684934,
+    "title": "Pavo Pico II Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "frame",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Pavo_Pico_II_Brushless_Whoop_Frame_-_black.jpg?v=1757907836",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42399606177926,
+        "title": "Frame / Black",
+        "price": "11.99",
+        "sku": "01090033_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 42399606243462,
+        "title": "Frame / Transparent Gray",
+        "price": "11.99",
+        "sku": "01090033_2",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 42399606374534,
+        "title": "Whoop Duct / Black",
+        "price": "3.99",
+        "sku": "01090033_3",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 42399606440070,
+        "title": "Whoop Duct / Transparent Gray",
+        "price": "3.99",
+        "sku": "01090033_4",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo-pico-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Pico II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "11.99",
+        "kv": "14000",
+        "weight_g": 19,
+        "video": "DJI O4",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "14000",
+      "weight_g": 19,
+      "video": "DJI O4",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/o4-air-unit-bracket-ii",
+    "scraped_at": "2026-04-03T18:30:30.575Z",
+    "shopify_id": 7459096854662,
+    "title": "O4 Air Unit Bracket II",
+    "part_type": "frame",
+    "tags": [
+      "_label_NEW",
+      "brushless frame",
+      "frame",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/O4_Air_Unit_Bracket_II_black.jpg?v=1757908007",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42441596338310,
+        "title": "Bracket / Black",
+        "price": "5.99",
+        "sku": "01090035_1",
+        "weight": 30
+      },
+      {
+        "shopify_variant_id": 42437521801350,
+        "title": "Bracket / Transparent Gray",
+        "price": "5.99",
+        "sku": "01090035_2",
+        "weight": 30
+      },
+      {
+        "shopify_variant_id": 42437521834118,
+        "title": "Shock-absorbing Balls / Black",
+        "price": "1.99",
+        "sku": "01090035_3",
+        "weight": 10
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-o4-air-unit-bracket-ii",
+        "product_name": "BETAFPV O4 Air Unit Bracket II",
+        "brand": "BETAFPV",
+        "price": "5.99",
+        "weight_g": 4.1,
+        "video": "DJI O4"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 4.1,
+      "video": "DJI O4"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/air65-ii-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:31.731Z",
+    "shopify_id": 7406479507590,
+    "title": "Air65 II Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "air frame",
+      "brushless frame"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Air65_II_Brushless_Whoop_Frame_black.jpg?v=1750240913",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42083838918790,
+        "title": "Black",
+        "price": "4.99",
+        "sku": "01090031_1",
+        "weight": 34.43
+      },
+      {
+        "shopify_variant_id": 42083838984326,
+        "title": "Transparent Blue",
+        "price": "4.99",
+        "sku": "01090031_2",
+        "weight": 34.43
+      },
+      {
+        "shopify_variant_id": 42083839049862,
+        "title": "Transparent Orange",
+        "price": "4.99",
+        "sku": "01090031_3",
+        "weight": 34.43
+      },
+      {
+        "shopify_variant_id": 42083839017094,
+        "title": "Transparent Purple",
+        "price": "4.99",
+        "sku": "01090031_4",
+        "weight": 34.43
+      },
+      {
+        "shopify_variant_id": 42083838951558,
+        "title": "Transparent White",
+        "price": "4.99",
+        "sku": "01090031_5",
+        "weight": 34.43
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-air65-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "kv": "22000",
+        "weight_g": 2.65,
+        "capacity_mah": "260"
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "weight_g": 2.65,
+      "capacity_mah": "260"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/air75-ii-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:32.869Z",
+    "shopify_id": 7406479638662,
+    "title": "Air75 II Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "air frame",
+      "brushless frame"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Air75_II_Brushless_Whoop_Frame_black.jpg?v=1750317736",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42083839213702,
+        "title": "Black",
+        "price": "4.99",
+        "sku": "01090032_1",
+        "weight": 45.43
+      },
+      {
+        "shopify_variant_id": 42083839312006,
+        "title": "Transparent Blue",
+        "price": "4.99",
+        "sku": "01090032_2",
+        "weight": 45.43
+      },
+      {
+        "shopify_variant_id": 42083839410310,
+        "title": "Transparent Orange",
+        "price": "4.99",
+        "sku": "01090032_3",
+        "weight": 45.43
+      },
+      {
+        "shopify_variant_id": 42083839377542,
+        "title": "Transparent Purple",
+        "price": "4.99",
+        "sku": "01090032_4",
+        "weight": 45.43
+      },
+      {
+        "shopify_variant_id": 42083839279238,
+        "title": "Transparent White",
+        "price": "4.99",
+        "sku": "01090032_5",
+        "weight": 45.43
+      },
+      {
+        "shopify_variant_id": 43089244258438,
+        "title": "Transparent Gray",
+        "price": "4.99",
+        "sku": "01090032_7",
+        "weight": 45.43
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-air75-ii-brushless-whoop-frame",
+        "product_name": "BETAFPV Air75 II Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "kv": "22000",
+        "stator_size": "1102",
+        "weight_g": 4,
+        "cell_count": "1S",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "stator_size": "1102",
+      "weight_g": 4,
+      "cell_count": "1S",
+      "connector": "BT2.0",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo20-pro-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:34.077Z",
+    "shopify_id": 7353792987270,
+    "title": "Pavo20 Pro Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "hot",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/O3_Air_Unit_Frame_Black.jpg?v=1743155911",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41639887503494,
+        "title": "O4 Air Unit Pro Frame / Black",
+        "price": "11.99",
+        "sku": "01090027_10",
+        "weight": 104.2
+      },
+      {
+        "shopify_variant_id": 41639887569030,
+        "title": "O4 Air Unit Pro Frame / Transparent Grey",
+        "price": "11.99",
+        "sku": "01090027_11",
+        "weight": 104.2
+      },
+      {
+        "shopify_variant_id": 41639887601798,
+        "title": "O4 Air Unit Pro Bracket / Black",
+        "price": "3.99",
+        "sku": "01090027_12",
+        "weight": 28.2
+      },
+      {
+        "shopify_variant_id": 41639887667334,
+        "title": "O4 Air Unit Pro Bracket / Transparent Grey",
+        "price": "3.99",
+        "sku": "01090027_13",
+        "weight": 28.2
+      },
+      {
+        "shopify_variant_id": 41639685718150,
+        "title": "O3 Air Unit Frame / Black",
+        "price": "11.99",
+        "sku": "01090027_1",
+        "weight": 104.86
+      },
+      {
+        "shopify_variant_id": 41639685783686,
+        "title": "O3 Air Unit Frame / Transparent Grey",
+        "price": "11.99",
+        "sku": "01090027_2",
+        "weight": 104.86
+      },
+      {
+        "shopify_variant_id": 41639685750918,
+        "title": "O3 Air Unit Frame / Blue",
+        "price": "11.99",
+        "sku": "01090027_3",
+        "weight": 104.86
+      },
+      {
+        "shopify_variant_id": 41639685914758,
+        "title": "O3 Air Unit Bracket / Black",
+        "price": "3.99",
+        "sku": "01090027_7",
+        "weight": 37.94
+      },
+      {
+        "shopify_variant_id": 41639685980294,
+        "title": "O3 Air Unit Bracket / Transparent Grey",
+        "price": "3.99",
+        "sku": "01090027_8",
+        "weight": 37.94
+      },
+      {
+        "shopify_variant_id": 41639685947526,
+        "title": "O3 Air Unit Bracket / Blue",
+        "price": "3.99",
+        "sku": "01090027_9",
+        "weight": 37.94
+      },
+      {
+        "shopify_variant_id": 41639685816454,
+        "title": "Whoop Duct / Black",
+        "price": "3.99",
+        "sku": "01090027_4",
+        "weight": 79
+      },
+      {
+        "shopify_variant_id": 41639685881990,
+        "title": "Whoop Duct / Transparent Grey",
+        "price": "3.99",
+        "sku": "01090027_5",
+        "weight": 79
+      },
+      {
+        "shopify_variant_id": 41639685849222,
+        "title": "Whoop Duct / Blue",
+        "price": "3.99",
+        "sku": "01090027_6",
+        "weight": 79
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo20-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "11.99",
+        "stator_size": "1104",
+        "weight_g": 33.3,
+        "video": "DJI O3",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "1104",
+      "weight_g": 33.3,
+      "video": "DJI O3",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo-femto-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:35.264Z",
+    "shopify_id": 7314293293190,
+    "title": "Pavo Femto Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "frame",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Pavo_Femto_Brushless_Whoop_Frame_black.jpg?v=1770862339",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41498323746950,
+        "title": "O4 Air Unit Frame / Black",
+        "price": "11.99",
+        "sku": "01090028_1",
+        "weight": 22.16
+      },
+      {
+        "shopify_variant_id": 41498335608966,
+        "title": "O4 Air Unit Frame / Transparent Gray",
+        "price": "11.99",
+        "sku": "01090028_2",
+        "weight": 22.16
+      },
+      {
+        "shopify_variant_id": 41498323779718,
+        "title": "Whoop Duct / Black",
+        "price": "3.99",
+        "sku": "01090028_3",
+        "weight": 8.64
+      },
+      {
+        "shopify_variant_id": 41498335707270,
+        "title": "Whoop Duct / Transparent Gray",
+        "price": "3.99",
+        "sku": "01090028_4",
+        "weight": 8.64
+      },
+      {
+        "shopify_variant_id": 41498323812486,
+        "title": "O4 Air Unit Bracket / Black",
+        "price": "5.99",
+        "sku": "01090029_1",
+        "weight": 6.05
+      },
+      {
+        "shopify_variant_id": 41498335805574,
+        "title": "O4 Air Unit Bracket / Transparent Gray",
+        "price": "5.99",
+        "sku": "01090029_2",
+        "weight": 6.05
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo-femto-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Femto Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "11.99",
+        "kv": "14000",
+        "weight_g": 8.64,
+        "video": "DJI O4",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "14000",
+      "weight_g": 8.64,
+      "video": "DJI O4",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo35-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:36.393Z",
+    "shopify_id": 6955173412998,
+    "title": "Pavo35 Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_50% OFF",
+      "brushless frame",
+      "pavo frame",
+      "pavo series",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/d2e1b9aec379546f426ce88c187b9234_7825ca02-2d37-40da-a299-8051a920ac4c.jpg?v=1700808427",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40379126022278,
+        "title": "Frame",
+        "price": "25.99",
+        "sku": "01090022_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40379126055046,
+        "title": "Whoop Duct",
+        "price": "4.99",
+        "sku": "01090022_2",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40403013402758,
+        "title": "Pavo Series FPV Gimbal Mount",
+        "price": "4.99",
+        "sku": "01120019_1",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo35-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo35 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "25.99",
+        "stator_size": "2006",
+        "weight_g": 113.9,
+        "amperage": "35A",
+        "connector": "XT60",
+        "video": "DJI O3",
+        "build_type": "KIT",
+        "capacity_mah": "1100"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "2006",
+      "weight_g": 113.9,
+      "amperage": "35A",
+      "connector": "XT60",
+      "video": "DJI O3",
+      "build_type": "KIT",
+      "capacity_mah": "1100"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo20-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:37.602Z",
+    "shopify_id": 6903379918982,
+    "title": "Pavo20 Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_40% OFF",
+      "brushless frame",
+      "frame",
+      "pavo series",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/2a20c8bf370bf53241a1868d0f16026d.jpg?v=1695610382",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40240553754758,
+        "title": "Whoop Duct / Black",
+        "price": "3.99",
+        "sku": "01090019_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553787526,
+        "title": "Whoop Duct / Blue",
+        "price": "3.99",
+        "sku": "01090019_7",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553820294,
+        "title": "Whoop Duct / Transparent Grey",
+        "price": "3.99",
+        "sku": "01090019_4",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553558150,
+        "title": "Only HD VTX Bracket / Black",
+        "price": "3.99",
+        "sku": "01090019_3",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553590918,
+        "title": "Only HD VTX Bracket / Blue",
+        "price": "3.99",
+        "sku": "01090019_9",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553623686,
+        "title": "Only HD VTX Bracket / Transparent Grey",
+        "price": "2.79",
+        "sku": "01090019_6",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553656454,
+        "title": "With HD VTX Bracket / Black",
+        "price": "6.99",
+        "sku": "01090019_2",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553689222,
+        "title": "With HD VTX Bracket / Blue",
+        "price": "11.99",
+        "sku": "01090019_8",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240553721990,
+        "title": "With HD VTX Bracket / Transparent Grey",
+        "price": "6.99",
+        "sku": "01090019_5",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo20-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo20 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "3.99",
+        "kv": "8000",
+        "weight_g": 26.7,
+        "video": "DJI O3",
+        "build_type": "KIT",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "8000",
+      "weight_g": 26.7,
+      "video": "DJI O3",
+      "build_type": "KIT",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/air65-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:38.761Z",
+    "shopify_id": 6893472252038,
+    "title": "Air65 Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_30% OFF",
+      "air frame",
+      "brushless frame",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/907b5c09b893723af8ba4ccb37855437.jpg?v=1692771535",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40219461484678,
+        "title": "Frame / Transparent Blue",
+        "price": "4.99",
+        "sku": "01090018_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40219461451910,
+        "title": "Frame / Transparent White",
+        "price": "3.49",
+        "sku": "01090018_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40219461419142,
+        "title": "Frame / White",
+        "price": "3.49",
+        "sku": "01090018_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40219461517446,
+        "title": "Frame / Black",
+        "price": "3.49",
+        "sku": "01090018_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40219461550214,
+        "title": "Frame / Transparent Purple",
+        "price": "3.49",
+        "sku": "01090018_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40219461582982,
+        "title": "Frame / Transparent Green",
+        "price": "3.49",
+        "sku": "01090018_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40432231383174,
+        "title": "Motor Gasket / White",
+        "price": "0.99",
+        "sku": "01090023_10",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-air65-brushless-whoop-frame",
+        "product_name": "BETAFPV Air65 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "stator_size": "0702",
+        "weight_g": 2.67,
+        "protocol": "elrs",
+        "frame_size": "65mm",
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0702",
+      "weight_g": 2.67,
+      "protocol": "elrs",
+      "frame_size": "65mm",
+      "connector": "BT2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo-pico-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:39.889Z",
+    "shopify_id": 6872213618822,
+    "title": "Pavo Pico Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/74b96dbb2d19db9758ba306fc55ad040_c97dbd54-18f2-4eca-9f1e-b1d57ae410ba.jpg?v=1756109091",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40164441424006,
+        "title": "Frame / Black",
+        "price": "6.99",
+        "sku": "01090016_3",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40165532598406,
+        "title": "Frame / Blue",
+        "price": "6.99",
+        "sku": "01090016_8",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40165532860550,
+        "title": "Frame / Transparent Grey",
+        "price": "6.99",
+        "sku": "01090016_9",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40164441391238,
+        "title": "With HD VTX Bracket / Black",
+        "price": "8.99",
+        "sku": "01090016_4",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40165532663942,
+        "title": "With HD VTX Bracket / Blue",
+        "price": "8.99",
+        "sku": "01090016_7",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40165532893318,
+        "title": "With HD VTX Bracket / Transparent Grey",
+        "price": "8.99",
+        "sku": "01090016_5",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40200118075526,
+        "title": "Whoop Duct / Black",
+        "price": "3.49",
+        "sku": "01090016_11",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40200118141062,
+        "title": "Whoop Duct / Blue",
+        "price": "3.49",
+        "sku": "01090016_12",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40200118173830,
+        "title": "Whoop Duct / Transparent Grey",
+        "price": "3.49",
+        "sku": "01090016_14",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240532783238,
+        "title": "Frame / Transparent",
+        "price": "6.99",
+        "sku": "01090016_10",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240532816006,
+        "title": "With HD VTX Bracket / Transparent",
+        "price": "8.99",
+        "sku": "01090016_6",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40240532848774,
+        "title": "Whoop Duct / Transparent",
+        "price": "3.49",
+        "sku": "01090016_13",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo-pico-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo Pico Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "6.99",
+        "kv": "13500",
+        "weight_g": 13.8,
+        "video": "DJI O3",
+        "build_type": "KIT",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "13500",
+      "weight_g": 13.8,
+      "video": "DJI O3",
+      "build_type": "KIT",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/meteor65-pro-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:41.048Z",
+    "shopify_id": 6646062612614,
+    "title": "Meteor65 Pro Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "meteor frame"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_d6f2dc30-4a36-4930-bbc9-74ea55722d38.jpg?v=1656495492",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39805874700422,
+        "title": "Blue",
+        "price": "4.99",
+        "sku": "01090006_7",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874733190,
+        "title": "Transparent",
+        "price": "4.99",
+        "sku": "01090006_8",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 41517863731334,
+        "title": "Transparent Gray",
+        "price": "4.99",
+        "sku": "01090006_14",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39585188184198,
+        "title": "Green",
+        "price": "4.99",
+        "sku": "01090006_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874569350,
+        "title": "White",
+        "price": "4.99",
+        "sku": "01090006_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874602118,
+        "title": "Black",
+        "price": "4.99",
+        "sku": "01090006_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874634886,
+        "title": "Pink",
+        "price": "4.99",
+        "sku": "01090006_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874667654,
+        "title": "Orange",
+        "price": "4.99",
+        "sku": "01090006_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874765958,
+        "title": "Red",
+        "price": "4.99",
+        "sku": "01090006_9",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874798726,
+        "title": "Yellow",
+        "price": "4.99",
+        "sku": "01090006_10",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874831494,
+        "title": "Purple",
+        "price": "4.99",
+        "sku": "01090006_11",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39805874864262,
+        "title": "Cyan",
+        "price": "4.99",
+        "sku": "01090006_12",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-meteor65-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor65 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "kv": "22000",
+        "weight_g": 3.2,
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "connector": "BT2.0",
+        "build_type": "KIT",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "weight_g": 3.2,
+      "cell_count": "1S",
+      "protocol": "elrs",
+      "connector": "BT2.0",
+      "build_type": "KIT",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/meteor65-micro-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:42.215Z",
+    "shopify_id": 4353838121094,
+    "title": "Meteor65 Micro Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_30% OFF",
+      "brushless frame",
+      "meteor frame",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_8b2cfb54-d9ac-45c7-9529-1ba32f1cfd1d.jpg?v=1656495452",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 31178212147334,
+        "title": "Blue",
+        "price": "4.99",
+        "sku": "00313624_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 31178213064838,
+        "title": "Pink",
+        "price": "4.99",
+        "sku": "00313624_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 31178178199686,
+        "title": "Transparent",
+        "price": "4.99",
+        "sku": "00313624_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 31178213032070,
+        "title": "Green",
+        "price": "4.99",
+        "sku": "00313624_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775812354182,
+        "title": "Cyan",
+        "price": "4.99",
+        "sku": "01090009_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 31178215489670,
+        "title": "Orange",
+        "price": "3.49",
+        "sku": "00313624_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 31178178232454,
+        "title": "Black",
+        "price": "3.49",
+        "sku": "00313624_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775812255878,
+        "title": "Purple",
+        "price": "3.49",
+        "sku": "01090009_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775812288646,
+        "title": "Red",
+        "price": "3.49",
+        "sku": "01090009_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775812321414,
+        "title": "Yellow",
+        "price": "3.49",
+        "sku": "01090009_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 41422205747334,
+        "title": "Random Color (2 pcs)",
+        "price": "5.49",
+        "sku": "01090009_5",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-meteor65-micro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor65 Micro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "stator_size": "0603",
+        "cell_count": "1S",
+        "protocol": "frsky",
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0603",
+      "cell_count": "1S",
+      "protocol": "frsky",
+      "connector": "BT2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/meteor75-pro-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:43.344Z",
+    "shopify_id": 6847506251910,
+    "title": "Meteor75 Pro Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "brushless frame",
+      "frame",
+      "hot",
+      "meteor frame"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/fc5c15b0efaca7433a404b65da841a73_8fa87a72-be3d-4f6f-b734-d61a7ad49bf4.jpg?v=1676356562",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40100363993222,
+        "title": "Black",
+        "price": "4.99",
+        "sku": "01090015_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100364025990,
+        "title": "Blue",
+        "price": "4.99",
+        "sku": "01090015_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100364058758,
+        "title": "Cyan",
+        "price": "4.99",
+        "sku": "01090015_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100364091526,
+        "title": "Orange",
+        "price": "4.99",
+        "sku": "01090015_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100364124294,
+        "title": "White",
+        "price": "4.99",
+        "sku": "01090015_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100364157062,
+        "title": "Yellow",
+        "price": "4.99",
+        "sku": "01090015_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40100365926534,
+        "title": "Red",
+        "price": "4.99",
+        "sku": "01090015_7",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 41517861339270,
+        "title": "Transparent Gray",
+        "price": "4.99",
+        "sku": "01090015_9",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-meteor75-pro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor75 Pro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "kv": "13500",
+        "stator_size": "1102",
+        "weight_g": 7.73,
+        "cell_count": "1S",
+        "protocol": "elrs",
+        "connector": "BT2.0",
+        "video": "Analog",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "13500",
+      "stator_size": "1102",
+      "weight_g": 7.73,
+      "cell_count": "1S",
+      "protocol": "elrs",
+      "connector": "BT2.0",
+      "video": "Analog",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/meteor75-micro-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:44.466Z",
+    "shopify_id": 5159253344390,
+    "title": "Meteor75 Micro Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_30% OFF",
+      "brushless frame",
+      "hot",
+      "meteor frame",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_12.jpg?v=1656495469",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39775814221958,
+        "title": "Orange",
+        "price": "4.99",
+        "sku": "01090007_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814189190,
+        "title": "Pink",
+        "price": "4.99",
+        "sku": "01090007_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 34781144219782,
+        "title": "Blue",
+        "price": "3.49",
+        "sku": "00313821_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814353030,
+        "title": "Cyan",
+        "price": "4.99",
+        "sku": "01090007_8",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814287494,
+        "title": "Yellow",
+        "price": "4.99",
+        "sku": "01090007_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 34781144187014,
+        "title": "White",
+        "price": "4.99",
+        "sku": "00313821_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39738281951366,
+        "title": "Black",
+        "price": "4.99",
+        "sku": "01090007_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814156422,
+        "title": "Transparent",
+        "price": "3.49",
+        "sku": "01090007_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814254726,
+        "title": "Red",
+        "price": "4.99",
+        "sku": "01090007_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 39775814320262,
+        "title": "Purple",
+        "price": "4.99",
+        "sku": "01090007_7",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-meteor75-micro-brushless-whoop-frame",
+        "product_name": "BETAFPV Meteor75 Micro Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "stator_size": "1102",
+        "cell_count": "1S",
+        "connector": "BT2.0",
+        "build_type": "KIT",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "1102",
+      "cell_count": "1S",
+      "connector": "BT2.0",
+      "build_type": "KIT",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/air75-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:45.591Z",
+    "shopify_id": 6967910170758,
+    "title": "Air75 Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_30% OFF",
+      "air frame",
+      "brushless frame",
+      "Discontinued"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/8b9cc7c9808a81fc8db0eaf67a4d79d7_33144ca5-a821-4b40-b349-f31fbddc0ce5.jpg?v=1703060626",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40412461138054,
+        "title": "Transparent Blue",
+        "price": "4.99",
+        "sku": "01090023_4",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412461203590,
+        "title": "Transparent Green",
+        "price": "3.49",
+        "sku": "01090023_5",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412461072518,
+        "title": "White",
+        "price": "3.49",
+        "sku": "01090023_2",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412461105286,
+        "title": "Transparent White",
+        "price": "3.49",
+        "sku": "01090023_3",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412461039750,
+        "title": "Black",
+        "price": "3.49",
+        "sku": "01090023_1",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412461170822,
+        "title": "Transparent Purple",
+        "price": "3.49",
+        "sku": "01090023_6",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412465922182,
+        "title": "Transparent Orange",
+        "price": "3.49",
+        "sku": "01090023_7",
+        "weight": 40
+      },
+      {
+        "shopify_variant_id": 40412465954950,
+        "title": "Transparent Gray",
+        "price": "3.49",
+        "sku": "01090023_8",
+        "weight": 40
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-air75-brushless-whoop-frame",
+        "product_name": "BETAFPV Air75 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "4.99",
+        "kv": "22000",
+        "stator_size": "1102",
+        "weight_g": 4.45,
+        "protocol": "elrs",
+        "frame_size": "75mm",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "stator_size": "1102",
+      "weight_g": 4.45,
+      "protocol": "elrs",
+      "frame_size": "75mm",
+      "connector": "BT2.0",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/pavo25-v2-brushless-whoop-frame",
+    "scraped_at": "2026-04-03T18:30:46.715Z",
+    "shopify_id": 6941345251462,
+    "title": "Pavo25 V2 Brushless Whoop Frame",
+    "part_type": "frame",
+    "tags": [
+      "_label_50% OFF",
+      "brushless frame",
+      "Discontinued",
+      "pavo frame",
+      "pavo series"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/7007342a36fdad8d81fe1333f226d127.jpg?v=1699430594",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40340117553286,
+        "title": "Frame",
+        "price": "39.99",
+        "sku": "01090021_1",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40340117454982,
+        "title": "Whoop Duct",
+        "price": "3.99",
+        "sku": "01090021_2",
+        "weight": 100
+      },
+      {
+        "shopify_variant_id": 40403013369990,
+        "title": "Pavo Series FPV Gimbal Mount",
+        "price": "4.99",
+        "sku": "01120019_1",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-pavo25-v2-brushless-whoop-frame",
+        "product_name": "BETAFPV Pavo25 V2 Brushless Whoop Frame",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "kv": "4600",
+        "weight_g": 70,
+        "amperage": "35A",
+        "connector": "XT30",
+        "video": "DJI O3",
+        "build_type": "KIT",
+        "capacity_mah": "850"
+      }
+    ],
+    "raw_specs": {
+      "kv": "4600",
+      "weight_g": 70,
+      "amperage": "35A",
+      "connector": "XT30",
+      "video": "DJI O3",
+      "build_type": "KIT",
+      "capacity_mah": "850"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-1614-3-blade-propellers-1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:30:47.864Z",
+    "shopify_id": 7521923793030,
+    "title": "Gemfan 1614 3-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "40mm",
+      "_label_NEW",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/GF_1614_3B_Props_transparent_gray.jpg?v=1769779491",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43034579959942,
+        "title": "Transparent Gray / 4PCS",
+        "price": "1.99",
+        "sku": "01110034_1",
+        "weight": 2.8
+      },
+      {
+        "shopify_variant_id": 43034579992710,
+        "title": "Transparent Gray / 12PCS",
+        "price": "4.99",
+        "sku": "01110034_5",
+        "weight": 4.66
+      },
+      {
+        "shopify_variant_id": 43034579599494,
+        "title": "Transparent / 4PCS",
+        "price": "1.99",
+        "sku": "01110034_4",
+        "weight": 2.8
+      },
+      {
+        "shopify_variant_id": 43034579632262,
+        "title": "Transparent / 12PCS",
+        "price": "4.99",
+        "sku": "01110034_6",
+        "weight": 4.66
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-1614-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1614 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "1.99",
+        "stator_size": "0802",
+        "weight_g": 0.24,
+        "frame_size": "40mm"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0802",
+      "weight_g": 0.24,
+      "frame_size": "40mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-1207-3-blade-propellers-1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:30:49.038Z",
+    "shopify_id": 7521905508486,
+    "title": "Gemfan 1207 3-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "_label_NEW",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/GF_1207_3B_Props_transparent_gray.jpg?v=1769779450",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43034501578886,
+        "title": "Transparent Gray / 4PCS",
+        "price": "1.99",
+        "sku": "01110035_2",
+        "weight": 2.45
+      },
+      {
+        "shopify_variant_id": 43034561183878,
+        "title": "Transparent Gray / 12PCS",
+        "price": "4.99",
+        "sku": "01110035_4",
+        "weight": 3.45
+      },
+      {
+        "shopify_variant_id": 43034501611654,
+        "title": "Transparent / 4PCS",
+        "price": "1.99",
+        "sku": "01110035_1",
+        "weight": 2.45
+      },
+      {
+        "shopify_variant_id": 43034561151110,
+        "title": "Transparent / 12PCS",
+        "price": "4.99",
+        "sku": "01110035_3",
+        "weight": 3.65
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-1207-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1207 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "1.99",
+        "stator_size": "0702",
+        "weight_g": 0.15
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0702",
+      "weight_g": 0.15
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-1219s-3-blade-propellers-1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:30:50.159Z",
+    "shopify_id": 7156985593990,
+    "title": "Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "31mm",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/66901aa31b0a7a4fa634bc462fdd3293_7b938a03-7a60-47b6-8d77-6ecede001739.jpg?v=1716795891",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41018472923270,
+        "title": "Transparent",
+        "price": "2.49",
+        "sku": "01110025_1",
+        "weight": 0.74
+      },
+      {
+        "shopify_variant_id": 41018472956038,
+        "title": "Transparent Blue",
+        "price": "2.49",
+        "sku": "01110025_2",
+        "weight": 0.74
+      },
+      {
+        "shopify_variant_id": 41018472988806,
+        "title": "Transparent Grey",
+        "price": "2.49",
+        "sku": "01110025_3",
+        "weight": 0.74
+      },
+      {
+        "shopify_variant_id": 41018473021574,
+        "title": "Fluoresces",
+        "price": "2.49",
+        "sku": "01110025_4",
+        "weight": 0.74
+      },
+      {
+        "shopify_variant_id": 41018473054342,
+        "title": "16PCS",
+        "price": "8.99",
+        "sku": "01110025_5",
+        "weight": 2.96
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-1219s-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "kv": "22000",
+        "stator_size": "0702",
+        "weight_g": 0.74,
+        "frame_size": "65mm"
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "stator_size": "0702",
+      "weight_g": 0.74,
+      "frame_size": "65mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs",
+    "scraped_at": "2026-04-03T18:30:51.303Z",
+    "shopify_id": 6847727370374,
+    "title": "Gemfan 45mm 2-Blade & 3-Blade Propellers (1.5mm Shaft 4PCS)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "45mm",
+      "accessory",
+      "hot",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/27132e2021077d40d7ce9b80dafc0689.jpg?v=1676431842",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40100902273158,
+        "title": "3-Blade / Clear Grey",
+        "price": "2.49",
+        "sku": "01110016_1",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100902305926,
+        "title": "3-Blade / Clear Blue",
+        "price": "2.49",
+        "sku": "01110016_2",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100902338694,
+        "title": "3-Blade / Black",
+        "price": "2.49",
+        "sku": "01110016_3",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100902371462,
+        "title": "3-Blade / White",
+        "price": "2.49",
+        "sku": "01110016_4",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40101026955398,
+        "title": "3-Blade / 16PCS",
+        "price": "8.99",
+        "sku": "01110016_5",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100893753478,
+        "title": "2-Blade / Clear Grey",
+        "price": "2.49",
+        "sku": "01110015_1",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100893786246,
+        "title": "2-Blade / Clear Blue",
+        "price": "2.49",
+        "sku": "01110015_2",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40100902240390,
+        "title": "2-Blade / Pink",
+        "price": "2.49",
+        "sku": "01110015_3",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40101026922630,
+        "title": "2-Blade / 12PCS",
+        "price": "6.99",
+        "sku": "01110015_4",
+        "weight": 8
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 45mm 2-Blade & 3-Blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "kv": "13500",
+        "stator_size": "1102",
+        "weight_g": 1.69,
+        "shaft": "1.5mm"
+      }
+    ],
+    "raw_specs": {
+      "kv": "13500",
+      "stator_size": "1102",
+      "weight_g": 1.69,
+      "shaft": "1.5mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-2218-3-blade-propellers-1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:30:52.433Z",
+    "shopify_id": 7240671461510,
+    "title": "Gemfan 2218 3-Blade Propellers (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "2-3 inch props",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/8b9cc7c9808a81fc8db0eaf67a4d79d7_bb4d89fb-a7d2-4b4d-b063-af719a8a1f29.jpg?v=1722396049",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41268778532998,
+        "title": "Black / 4PCS",
+        "price": "2.49",
+        "sku": "01110028_1",
+        "weight": 2.32
+      },
+      {
+        "shopify_variant_id": 41270869131398,
+        "title": "Black / 12PCS",
+        "price": "6.99",
+        "sku": "01110028_3",
+        "weight": 6.96
+      },
+      {
+        "shopify_variant_id": 41268778598534,
+        "title": "Transparent Grey / 4PCS",
+        "price": "2.49",
+        "sku": "01110028_2",
+        "weight": 2.32
+      },
+      {
+        "shopify_variant_id": 41270869164166,
+        "title": "Transparent Grey / 12PCS",
+        "price": "6.99",
+        "sku": "01110028_4",
+        "weight": 6.96
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-2218-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2218 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "stator_size": "1104",
+        "weight_g": 2.32,
+        "capacity_mah": "550"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "1104",
+      "weight_g": 2.32,
+      "capacity_mah": "550"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/hq-31mm-ultralight-3-blade-propellers-1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:30:53.563Z",
+    "shopify_id": 7156995162246,
+    "title": "HQ 31mm Ultralight 3-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "31mm",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/66901aa31b0a7a4fa634bc462fdd3293.jpg?v=1716794192",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41018508214406,
+        "title": "Transparent",
+        "price": "2.49",
+        "sku": "01110026_1",
+        "weight": 0.73
+      },
+      {
+        "shopify_variant_id": 41018508279942,
+        "title": "Grey",
+        "price": "2.49",
+        "sku": "01110026_2",
+        "weight": 0.73
+      },
+      {
+        "shopify_variant_id": 41018508247174,
+        "title": "Cyan",
+        "price": "2.49",
+        "sku": "01110026_3",
+        "weight": 0.73
+      },
+      {
+        "shopify_variant_id": 41018508312710,
+        "title": "Pink",
+        "price": "2.49",
+        "sku": "01110026_4",
+        "weight": 0.73
+      },
+      {
+        "shopify_variant_id": 41018508345478,
+        "title": "16PCS",
+        "price": "8.99",
+        "sku": "01110026_5",
+        "weight": 2.92
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-hq-31mm-ultralight-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV HQ 31mm Ultralight 3-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "kv": "22000",
+        "stator_size": "0702",
+        "weight_g": 0.67
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "stator_size": "0702",
+      "weight_g": 0.67
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-2020-4-blade-propellers-1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:30:54.677Z",
+    "shopify_id": 5159557333126,
+    "title": "Gemfan 2020 4-Blade Propellers 1.5mm Shaft",
+    "part_type": "propeller",
+    "tags": [
+      "2-3 inch props",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/1_a4101490-22e0-4659-93c1-796a76da880c.jpg?v=1774944196",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41340445884550,
+        "title": "Transparent Black",
+        "price": "2.50",
+        "sku": "01110029_1",
+        "weight": 20
+      },
+      {
+        "shopify_variant_id": 34782344577158,
+        "title": "Blue",
+        "price": "2.50",
+        "sku": "00313816_1",
+        "weight": 20
+      },
+      {
+        "shopify_variant_id": 34782372102278,
+        "title": "Obsidian Black",
+        "price": "2.50",
+        "sku": "00313816_2",
+        "weight": 20
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-2020-4-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2020 4-Blade Propellers 1.5mm Shaft",
+        "brand": "BETAFPV",
+        "price": "2.50",
+        "kv": "8000",
+        "weight_g": 0.93
+      }
+    ],
+    "raw_specs": {
+      "kv": "8000",
+      "weight_g": 0.93
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-35mm-3-blade-propellers-1-0mm-shaft-4pcs",
+    "scraped_at": "2026-04-03T18:30:55.849Z",
+    "shopify_id": 6646083453062,
+    "title": "Gemfan 35mm 3-Blade Propellers (1.0mm Shaft 4PCS)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "accessory",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_271ff75e-ff5d-4940-8ad2-5c329ffadf96.jpg?v=1635920768",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39586100052102,
+        "title": "White",
+        "price": "2.50",
+        "sku": "01110006_1",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 39586100084870,
+        "title": "Blue",
+        "price": "2.50",
+        "sku": "01110006_2",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 39586100117638,
+        "title": "Orange",
+        "price": "2.50",
+        "sku": "01110006_3",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 39586100150406,
+        "title": "Clear Gray",
+        "price": "2.50",
+        "sku": "01110006_4",
+        "weight": 8
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-35mm-3-blade-propellers-1-0mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 35mm 3-Blade Propellers (1.0mm Shaft 4PCS)",
+        "brand": "BETAFPV",
+        "price": "2.50",
+        "kv": "12000",
+        "weight_g": 1.23,
+        "frame_size": "35mm",
+        "build_type": "KIT"
+      }
+    ],
+    "raw_specs": {
+      "kv": "12000",
+      "weight_g": 1.23,
+      "frame_size": "35mm",
+      "build_type": "KIT"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-40mm-2-blade-propellers-1-0mm-shaft-4pcs",
+    "scraped_at": "2026-04-03T18:30:56.984Z",
+    "shopify_id": 6646690513030,
+    "title": "Gemfan 40mm 2-Blade Propellers (1.0mm Shaft 4PCS)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "40mm",
+      "accessory",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_6a9a68bc-d47b-4ae9-a930-b418072ad51f.jpg?v=1635931250",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41065392341126,
+        "title": "Transparent",
+        "price": "2.50",
+        "sku": "01110005_3",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 39586301116550,
+        "title": "White",
+        "price": "2.50",
+        "sku": "01110005_1",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 41422225703046,
+        "title": "Transparent Gray",
+        "price": "0.99",
+        "sku": "01110005_2",
+        "weight": 30
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-40mm-2-blade-propellers-1-0mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 40mm 2-Blade Propellers (1.0mm Shaft 4PCS)",
+        "brand": "BETAFPV",
+        "price": "2.50",
+        "kv": "12000",
+        "stator_size": "0702",
+        "weight_g": 1.02,
+        "frame_size": "40mm"
+      }
+    ],
+    "raw_specs": {
+      "kv": "12000",
+      "stator_size": "0702",
+      "weight_g": 1.02,
+      "frame_size": "40mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-1611-3-blade-propellers-1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:30:58.095Z",
+    "shopify_id": 7314295554182,
+    "title": "Gemfan 1611 3-Blade Propellers (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "40mm",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/1d96a28147e041a60715af8e60b95a4f.jpg?v=1735899325",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41498339016838,
+        "title": "Transparent Grey",
+        "price": "1.99",
+        "sku": "01110030_1",
+        "weight": 0.34
+      },
+      {
+        "shopify_variant_id": 41498339049606,
+        "title": "Transparent Blue",
+        "price": "1.99",
+        "sku": "01110030_2",
+        "weight": 0.34
+      },
+      {
+        "shopify_variant_id": 41502540595334,
+        "title": "Transparent Yellow",
+        "price": "1.99",
+        "sku": "01110030_3",
+        "weight": 0.34
+      },
+      {
+        "shopify_variant_id": 41502540628102,
+        "title": "Mixing Set",
+        "price": "4.99",
+        "sku": "01110030_4",
+        "weight": 1.32
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-1611-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 1611 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "1.99",
+        "kv": "22000",
+        "stator_size": "1102",
+        "weight_g": 0.34
+      }
+    ],
+    "raw_specs": {
+      "kv": "22000",
+      "stator_size": "1102",
+      "weight_g": 0.34
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-40mm-3-blade-propellers-1-5mm-shaft-2",
+    "scraped_at": "2026-04-03T18:30:59.223Z",
+    "shopify_id": 1692235759660,
+    "title": "Gemfan 40mm 3-Blade Propellers (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "40mm",
+      "_label_60% OFF",
+      "props",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/7_07171143-4eb2-4cc1-a754-71a9d87e8d61.jpg?v=1576909396",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39619223126150,
+        "title": "Black",
+        "price": "2.50",
+        "sku": "01110004",
+        "weight": 0.005
+      },
+      {
+        "shopify_variant_id": 31320955060358,
+        "title": "White",
+        "price": "0.99",
+        "sku": "00313664_1",
+        "weight": 0.005
+      },
+      {
+        "shopify_variant_id": 31320955027590,
+        "title": "4 Sets",
+        "price": "8.99",
+        "sku": "00313499",
+        "weight": 0.005
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-40mm-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 40mm 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "2.50",
+        "kv": "5000",
+        "frame_size": "40mm"
+      }
+    ],
+    "raw_specs": {
+      "kv": "5000",
+      "frame_size": "40mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-2015-2-blade-propellers-4pcs-1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:31:00.382Z",
+    "shopify_id": 6815760744582,
+    "title": "Gemfan 2015 2-Blade Propellers 4PCS (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "2-3 inch props",
+      "_label_50% OFF",
+      "accessory",
+      "props",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/c512696efd74edbc925ec22020bded3c.jpg?v=1668652108",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40024009474182,
+        "title": "Clear Blue",
+        "price": "1.29",
+        "sku": "01110014_2",
+        "weight": 8
+      },
+      {
+        "shopify_variant_id": 40024009506950,
+        "title": "Clear Grey",
+        "price": "1.29",
+        "sku": "01110014_1",
+        "weight": 8
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-2015-2-blade-propellers-4pcs-1-5mm-shaft",
+        "product_name": "BETAFPV Gemfan 2015 2-Blade Propellers 4PCS (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "1.29",
+        "stator_size": "1103",
+        "weight_g": 0.5,
+        "shaft": "1.5mm"
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "1103",
+      "weight_g": 0.5,
+      "shaft": "1.5mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/beta-45mm-3-blades-propellers-1-5mm-shaft-4pcs",
+    "scraped_at": "2026-04-03T18:31:01.519Z",
+    "shopify_id": 6983116783750,
+    "title": "Beta-45mm 3-Blade Propellers (1.5mm Shaft 4PCS)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_6e696fdc-7933-4f81-8f26-d76963d121aa.jpg?v=1706152935",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40478286381190,
+        "title": "Default Title",
+        "price": "2.49",
+        "sku": "01110022_1",
+        "weight": 30
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-beta-45mm-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Beta-45mm 3-Blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "kv": "13500",
+        "weight_g": 1.63
+      }
+    ],
+    "raw_specs": {
+      "kv": "13500",
+      "weight_g": 1.63
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/copy-of-40mm-4-blade-micro-whoop-propellers-1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:31:02.638Z",
+    "shopify_id": 1605144739884,
+    "title": "Gemfan 40mm 4-Blade Propellers (1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "_label_60% OFF",
+      "props",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/3_ea6aede2-a975-473f-b7fb-361d91c9552d.jpg?v=1550812548",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 13565287759916,
+        "title": "Blue (4 PCS)",
+        "price": "0.79",
+        "sku": "00313085_5",
+        "weight": 20
+      },
+      {
+        "shopify_variant_id": 13568167444524,
+        "title": "Multi-Color (16 PCS)",
+        "price": "2.99",
+        "sku": "00313496",
+        "weight": 20
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-40mm-4-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 40mm 4-Blade Propellers (1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "0.79",
+        "frame_size": "75mm"
+      }
+    ],
+    "raw_specs": {
+      "frame_size": "75mm"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/31mm-4-blade-micro-whoop-propellers-1-0mm-shaft-1",
+    "scraped_at": "2026-04-03T18:31:03.790Z",
+    "shopify_id": 4425463627910,
+    "title": "Gemfan 31mm 4-blade Micro Whoop Propellers",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/6391ace427ade714b70fb966024ae804_67fa431a-bcf7-4ae3-a840-802374c55eff.jpg?v=1585709911",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39403693408390,
+        "title": "0.8mm / White",
+        "price": "2.50",
+        "sku": "01110003",
+        "weight": 10
+      },
+      {
+        "shopify_variant_id": 39403693441158,
+        "title": "0.8mm / Grey",
+        "price": "2.50",
+        "sku": "00313945_1",
+        "weight": 10
+      },
+      {
+        "shopify_variant_id": 39403693473926,
+        "title": "1.0mm / Blue",
+        "price": "2.50",
+        "sku": "00313721_1",
+        "weight": 10
+      },
+      {
+        "shopify_variant_id": 39403693506694,
+        "title": "1.0mm / White",
+        "price": "2.50",
+        "sku": "00313721_2",
+        "weight": 10
+      },
+      {
+        "shopify_variant_id": 39403693539462,
+        "title": "1.0mm / Random Color (16pcs)",
+        "price": "2.99",
+        "sku": "00313237_01",
+        "weight": 20
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-31mm-4-blade-micro-whoop-propellers",
+        "product_name": "BETAFPV Gemfan 31mm 4-blade Micro Whoop Propellers",
+        "brand": "BETAFPV",
+        "price": "2.50",
+        "kv": "15000",
+        "stator_size": "0603",
+        "weight_g": 0.31,
+        "build_type": "BNF"
+      }
+    ],
+    "raw_specs": {
+      "kv": "15000",
+      "stator_size": "0603",
+      "weight_g": 0.31,
+      "build_type": "BNF"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/65mm-2-blade-propellers-for-hx100-fpv-quad-1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:31:04.941Z",
+    "shopify_id": 3940806361132,
+    "title": "65mm 2-Blade Propellers for HX100 FPV Quad (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "2-3 inch props",
+      "_label_60% OFF",
+      "props",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_39478ed0-38be-4c73-aced-e5aa5c5abca4.jpg?v=1563447349",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 29431333683244,
+        "title": "Default Title",
+        "price": "0.99",
+        "sku": "00313546_1",
+        "weight": 2
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-65mm-2-blade-propellers-for-hx100-fpv-quad-1-5mm-shaft",
+        "product_name": "BETAFPV 65mm 2-Blade Propellers for HX100 FPV Quad (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "0.99",
+        "kv": "8000"
+      }
+    ],
+    "raw_specs": {
+      "kv": "8000"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-d90s-3-blade-propellers1-5mm-shaft",
+    "scraped_at": "2026-04-03T18:31:06.044Z",
+    "shopify_id": 6954676191366,
+    "title": "GemFan D90S 3-Blade Propellers (1.5mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/74b96dbb2d19db9758ba306fc55ad040_6f7e60aa-0483-477d-984c-bd32be5e3659.jpg?v=1700652063",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40377215713414,
+        "title": "Default Title",
+        "price": "2.69",
+        "sku": "01110021_1",
+        "weight": 30
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-d90s-3-blade-propellers-1-5mm-shaft",
+        "product_name": "BETAFPV GemFan D90S 3-Blade Propellers (1.5mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "2.69",
+        "stator_size": "2006",
+        "weight_g": 2.6
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "2006",
+      "weight_g": 2.6
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfan-2023-3-blade-propellers1-5mm-shaft-4pcs",
+    "scraped_at": "2026-04-03T18:31:07.170Z",
+    "shopify_id": 7078795706502,
+    "title": "Gemfan 2023 3-blade Propellers (1.5mm Shaft 4PCS)",
+    "part_type": "propeller",
+    "tags": [
+      "2-3 inch props",
+      "Discontinued",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_19c438ec-0cfb-4d2a-8dda-aeaf8318d1f5.jpg?v=1713164459",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40824001659014,
+        "title": "Default Title",
+        "price": "2.49",
+        "sku": "01110027_1",
+        "weight": 3.54
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-2023-3-blade-propellers-1-5mm-shaft-4pcs",
+        "product_name": "BETAFPV Gemfan 2023 3-blade Propellers (1.5mm Shaft 4PCS)",
+        "brand": "BETAFPV",
+        "price": "2.49",
+        "kv": "8500",
+        "weight_g": 3.54
+      }
+    ],
+    "raw_specs": {
+      "kv": "8500",
+      "weight_g": 3.54
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/gemfam-1208-3-blade-propellers1-0mm-shaft",
+    "scraped_at": "2026-04-03T18:31:08.285Z",
+    "shopify_id": 6877510959238,
+    "title": "Gemfan 1208 3-blade Propellers(1.0mm Shaft)",
+    "part_type": "propeller",
+    "tags": [
+      "1-2 inch props",
+      "31mm",
+      "Discontinued",
+      "props"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/4_71b9b34e-d525-4b29-ad76-0346270b7f16.jpg?v=1685936403",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40175492169862,
+        "title": "Transparent Grey",
+        "price": "0.99",
+        "sku": "01110018_1",
+        "weight": 30
+      },
+      {
+        "shopify_variant_id": 40175492202630,
+        "title": "Transparent Blue",
+        "price": "0.99",
+        "sku": "01110018_2",
+        "weight": 30
+      },
+      {
+        "shopify_variant_id": 40175492235398,
+        "title": "Transparent",
+        "price": "2.49",
+        "sku": "01110018_3",
+        "weight": 30
+      },
+      {
+        "shopify_variant_id": 40175492268166,
+        "title": "12PCS",
+        "price": "6.99",
+        "sku": "01110018_4",
+        "weight": 30
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-gemfan-1208-3-blade-propellers-1-0mm-shaft",
+        "product_name": "BETAFPV Gemfan 1208 3-blade Propellers(1.0mm Shaft)",
+        "brand": "BETAFPV",
+        "price": "0.99",
+        "stator_size": "0702",
+        "weight_g": 0.81
+      }
+    ],
+    "raw_specs": {
+      "stator_size": "0702",
+      "weight_g": 0.81
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-ii-1s-battery",
+    "scraped_at": "2026-04-03T18:31:09.424Z",
+    "shopify_id": 7493205655686,
+    "title": "LAVA II 1S Battery",
+    "part_type": "battery",
+    "tags": [
+      "_label_NEW",
+      "batt 1s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/LAVA_II_1S_280mAh_Battery_top_view.jpg?v=1763545157",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42566848807046,
+        "title": "280mAh (5PCS)",
+        "price": "19.99",
+        "sku": "01030019_1",
+        "weight": 62.7
+      },
+      {
+        "shopify_variant_id": 42566848839814,
+        "title": "320mAh (5PCS)",
+        "price": "21.99",
+        "sku": "01030019_2",
+        "weight": 69.47
+      },
+      {
+        "shopify_variant_id": 42566848872582,
+        "title": "480mAh (4PCS)",
+        "price": "21.99",
+        "sku": "01030019_3",
+        "weight": 79.59
+      },
+      {
+        "shopify_variant_id": 42566849298566,
+        "title": "580mAh (4PCS)",
+        "price": "23.99",
+        "sku": "01030019_4",
+        "weight": 82.62
+      },
+      {
+        "shopify_variant_id": 42566849331334,
+        "title": "680mAh (4PCS)",
+        "price": "24.99",
+        "sku": "01030019_5",
+        "weight": 92.04
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-1s-battery",
+        "product_name": "BETAFPV LAVA II 1S Battery",
+        "brand": "BETAFPV",
+        "price": "19.99",
+        "cell_count": "1S",
+        "connector": "BT2.0",
+        "capacity_mah": "280"
+      }
+    ],
+    "raw_specs": {
+      "cell_count": "1S",
+      "connector": "BT2.0",
+      "capacity_mah": "280"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-ii-2s-battery",
+    "scraped_at": "2026-04-03T18:31:10.542Z",
+    "shopify_id": 7519778537606,
+    "title": "LAVA II 2S Battery",
+    "part_type": "battery",
+    "tags": [
+      "_label_NEW",
+      "batt 2s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/LAVA_II_2S_580mAh_Battery.jpg?v=1768794772",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43026468896902,
+        "title": "580mAh (2PCS)",
+        "price": "19.99",
+        "sku": "01030020_1",
+        "weight": 86.47
+      },
+      {
+        "shopify_variant_id": 43026468929670,
+        "title": "680mAh (2PCS)",
+        "price": "21.99",
+        "sku": "01030020_4",
+        "weight": 95.1
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-2s-battery",
+        "product_name": "BETAFPV LAVA II 2S Battery",
+        "brand": "BETAFPV",
+        "price": "19.99",
+        "weight_g": 29.2,
+        "cell_count": "2S",
+        "connector": "XT30",
+        "capacity_mah": "680"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 29.2,
+      "cell_count": "2S",
+      "connector": "XT30",
+      "capacity_mah": "680"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-ii-3s-battery",
+    "scraped_at": "2026-04-03T18:31:11.657Z",
+    "shopify_id": 7519778930822,
+    "title": "LAVA II 3S Battery",
+    "part_type": "battery",
+    "tags": [
+      "_label_NEW",
+      "batt 3s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/LAVA_II_3S_580mAh_Battery.jpg?v=1769838982",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43026471157894,
+        "title": "580mAh (2PCS)",
+        "price": "24.99",
+        "sku": "01030020_2",
+        "weight": 112.44
+      },
+      {
+        "shopify_variant_id": 43026471190662,
+        "title": "680mAh (2PCS)",
+        "price": "26.99",
+        "sku": "01030020_5",
+        "weight": 125.3
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-3s-battery",
+        "product_name": "BETAFPV LAVA II 3S Battery",
+        "brand": "BETAFPV",
+        "price": "24.99",
+        "weight_g": 42,
+        "cell_count": "3S",
+        "connector": "XT30",
+        "capacity_mah": "680"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 42,
+      "cell_count": "3S",
+      "connector": "XT30",
+      "capacity_mah": "680"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-ii-4s-battery",
+    "scraped_at": "2026-04-03T18:31:12.771Z",
+    "shopify_id": 7519779094662,
+    "title": "LAVA II 4S Battery",
+    "part_type": "battery",
+    "tags": [
+      "_label_NEW",
+      "batt 4s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/LAVA_II_4S_580mAh_Battery.jpg?v=1768794886",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 43026472272006,
+        "title": "580mAh (2PCS)",
+        "price": "29.99",
+        "sku": "01030020_3",
+        "weight": 138.8
+      },
+      {
+        "shopify_variant_id": 43026472304774,
+        "title": "680mAh (2PCS)",
+        "price": "31.99",
+        "sku": "01030020_6",
+        "weight": 156.05
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-ii-4s-battery",
+        "product_name": "BETAFPV LAVA II 4S Battery",
+        "brand": "BETAFPV",
+        "price": "29.99",
+        "weight_g": 55,
+        "cell_count": "4S",
+        "connector": "XT30",
+        "capacity_mah": "680"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 55,
+      "cell_count": "4S",
+      "connector": "XT30",
+      "capacity_mah": "680"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/aquila20-exclusive-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:13.895Z",
+    "shopify_id": 7467767070854,
+    "title": "Aquila20 Exclusive Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_label_NEW",
+      "batt 2s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/Aquila20_Exclusive_Battery.jpg?v=1763021501",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 42468002103430,
+        "title": "1100mAh",
+        "price": "19.99",
+        "sku": "01030018_1",
+        "weight": 128
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-aquila20-exclusive-battery-2pcs",
+        "product_name": "BETAFPV Aquila20 Exclusive Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "19.99",
+        "weight_g": 52,
+        "cell_count": "2S",
+        "build_type": "KIT",
+        "capacity_mah": "1100"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 52,
+      "cell_count": "2S",
+      "build_type": "KIT",
+      "capacity_mah": "1100"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/aquila16-exclusive-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:15.012Z",
+    "shopify_id": 6916465688710,
+    "title": "Aquila16 Exclusive Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_label_30% OFF",
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/1_da29e6e5-24b3-4d53-84cb-05515210a764.jpg?v=1697190907",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40271367897222,
+        "title": "650mAh",
+        "price": "9.99",
+        "sku": "01030011_1",
+        "weight": 132
+      },
+      {
+        "shopify_variant_id": 40271367929990,
+        "title": "1100mAh",
+        "price": "9.99",
+        "sku": "01030011_2",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-aquila16-exclusive-battery-2pcs",
+        "product_name": "BETAFPV Aquila16 Exclusive Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "9.99",
+        "connector": "BT2.0",
+        "build_type": "KIT",
+        "capacity_mah": "1100"
+      }
+    ],
+    "raw_specs": {
+      "connector": "BT2.0",
+      "build_type": "KIT",
+      "capacity_mah": "1100"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt2-0-ph2-0-1s-lipo-charger-adapter",
+    "scraped_at": "2026-04-03T18:31:16.119Z",
+    "shopify_id": 6579477250182,
+    "title": "6 Ports 1S Battery Charger & Adapter",
+    "part_type": "battery",
+    "tags": [
+      "_label_40% OFF",
+      "accessory",
+      "battery",
+      "Chargers",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_cdc152d1-d69c-4fcd-9bd7-1d66a09a4c28.jpg?v=1626077969",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39395618586758,
+        "title": "Charger Only",
+        "price": "11.99",
+        "sku": "01120002_3",
+        "weight": 50
+      },
+      {
+        "shopify_variant_id": 39395618619526,
+        "title": "Charger & USA Adapter",
+        "price": "21.99",
+        "sku": "01120002_2",
+        "weight": 175
+      },
+      {
+        "shopify_variant_id": 39395618652294,
+        "title": "Charger & EU Adapter",
+        "price": "21.99",
+        "sku": "01120002_1",
+        "weight": 175
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-6-ports-1s-battery-charger-adapter",
+        "product_name": "BETAFPV 6 Ports 1S Battery Charger & Adapter",
+        "brand": "BETAFPV",
+        "price": "11.99",
+        "cell_count": "1S",
+        "connector": "PH2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "cell_count": "1S",
+      "connector": "PH2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-1s-260mah-80c-battery-5pcs",
+    "scraped_at": "2026-04-03T18:31:17.248Z",
+    "shopify_id": 7157004206214,
+    "title": "LAVA 1S 260mAh 80C Battery (5PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/390e4917d4bb1e163211caffa87ed1bc_7b9870f1-3ca3-49af-9c0b-c9c6c6dee1ce.jpg?v=1716791255",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 41018561626246,
+        "title": "Default Title",
+        "price": "16.99",
+        "sku": "01030014_4",
+        "weight": 75.55
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-1s-260mah-80c-battery-5pcs",
+        "product_name": "BETAFPV LAVA 1S 260mAh 80C Battery (5PCS)",
+        "brand": "BETAFPV",
+        "price": "16.99",
+        "weight_g": 7.11,
+        "connector": "BT2.0",
+        "capacity_mah": "260"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 7.11,
+      "connector": "BT2.0",
+      "capacity_mah": "260"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-6s-1100mah-lipo-battery",
+    "scraped_at": "2026-04-03T18:31:18.353Z",
+    "shopify_id": 6955040440454,
+    "title": "LAVA 6S 1100mAh LiPo Battery",
+    "part_type": "battery",
+    "tags": [
+      "batt 6s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_7df25525-68ff-45ef-af49-a68f2bc02748.jpg?v=1700792741",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40378688602246,
+        "title": "Default Title",
+        "price": "34.99",
+        "sku": "01030013_1",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-6s-1100mah-lipo-battery",
+        "product_name": "BETAFPV LAVA 6S 1100mAh LiPo Battery",
+        "brand": "BETAFPV",
+        "price": "34.99",
+        "weight_g": 192,
+        "connector": "XT60",
+        "capacity_mah": "1100"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 192,
+      "connector": "XT60",
+      "capacity_mah": "1100"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-2s-3s-4s-550mah-75c-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:19.482Z",
+    "shopify_id": 6954629070982,
+    "title": "LAVA 2S/3S/4S 550mAh 75C Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 2s",
+      "batt 3s",
+      "batt 4s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/2S550_476191d6-17bb-497b-88f9-e6a3237afb40.jpg?v=1700636693",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40377078153350,
+        "title": "2S",
+        "price": "19.99",
+        "sku": "01030015_4",
+        "weight": 132
+      },
+      {
+        "shopify_variant_id": 40377078251654,
+        "title": "3S",
+        "price": "26.99",
+        "sku": "01030015_5",
+        "weight": 132
+      },
+      {
+        "shopify_variant_id": 40377078349958,
+        "title": "4S",
+        "price": "31.99",
+        "sku": "01030015_6",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-2s-3s-4s-550mah-75c-battery-2pcs",
+        "product_name": "BETAFPV LAVA 2S/3S/4S 550mAh 75C Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "19.99",
+        "weight_g": 29.5,
+        "cell_count": "3S",
+        "connector": "XT30",
+        "capacity_mah": "550"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 29.5,
+      "cell_count": "3S",
+      "connector": "XT30",
+      "capacity_mah": "550"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-2s-3s-4s-450mah-75c-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:20.614Z",
+    "shopify_id": 6954392125574,
+    "title": "LAVA 2S/3S/4S 450mAh 75C Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 2s",
+      "batt 3s",
+      "batt 4s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/2S450.jpg?v=1700570005",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40376192630918,
+        "title": "2S",
+        "price": "17.99",
+        "sku": "01030015_1",
+        "weight": 132
+      },
+      {
+        "shopify_variant_id": 40376192663686,
+        "title": "3S",
+        "price": "23.99",
+        "sku": "01030015_2",
+        "weight": 132
+      },
+      {
+        "shopify_variant_id": 40376192696454,
+        "title": "4S",
+        "price": "29.99",
+        "sku": "01030015_3",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-2s-3s-4s-450mah-75c-battery-2pcs",
+        "product_name": "BETAFPV LAVA 2S/3S/4S 450mAh 75C Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "17.99",
+        "weight_g": 26.1,
+        "cell_count": "3S",
+        "connector": "XT30",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 26.1,
+      "cell_count": "3S",
+      "connector": "XT30",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-1s-450mah-75c-battery-4pcs",
+    "scraped_at": "2026-04-03T18:31:21.744Z",
+    "shopify_id": 6954388357254,
+    "title": "LAVA 1S 450mAh 75C Battery (4PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/450.jpg?v=1700569674",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40376140398726,
+        "title": "Default Title",
+        "price": "17.99",
+        "sku": "01030014_2",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-1s-450mah-75c-battery-4pcs",
+        "product_name": "BETAFPV LAVA 1S 450mAh 75C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "price": "17.99",
+        "weight_g": 12.2,
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 12.2,
+      "connector": "BT2.0",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-series-4s-850mah-lipo-battery",
+    "scraped_at": "2026-04-03T18:31:22.887Z",
+    "shopify_id": 6941356654726,
+    "title": "LAVA 4S 850mAh LiPo Battery",
+    "part_type": "battery",
+    "tags": [
+      "batt 4s",
+      "battery"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/74b96dbb2d19db9758ba306fc55ad040_38f363c6-88c2-4d7b-a524-9dfd4866026f.jpg?v=1700045740",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40340205109382,
+        "title": "Default Title",
+        "price": "39.99",
+        "sku": "01030012_1",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-4s-850mah-lipo-battery",
+        "product_name": "BETAFPV LAVA 4S 850mAh LiPo Battery",
+        "brand": "BETAFPV",
+        "price": "39.99",
+        "weight_g": 98,
+        "connector": "XT30",
+        "capacity_mah": "850"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 98,
+      "connector": "XT30",
+      "capacity_mah": "850"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt2-0-550mah-1s-battery-4pcs",
+    "scraped_at": "2026-04-03T18:31:24.009Z",
+    "shopify_id": 6855429947526,
+    "title": "BT2.0 550mAh 1S Battery (4PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_label_30% OFF",
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/1_091a33c1-d00e-493f-9caa-bed9b33cbf54.jpg?v=1763718669",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40119865081990,
+        "title": "Default Title",
+        "price": "15.99",
+        "sku": "01030008_1",
+        "weight": 60
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-bt2-0-550mah-1s-battery-4pcs",
+        "product_name": "BETAFPV BT2.0 550mAh 1S Battery (4PCS)",
+        "brand": "BETAFPV",
+        "price": "15.99",
+        "weight_g": 13.99,
+        "cell_count": "1S",
+        "frame_size": "80mm",
+        "connector": "BT2.0",
+        "build_type": "KIT",
+        "capacity_mah": "550"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 13.99,
+      "cell_count": "1S",
+      "frame_size": "80mm",
+      "connector": "BT2.0",
+      "build_type": "KIT",
+      "capacity_mah": "550"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt2-0-450mah-1s-30c-battery-4pcs",
+    "scraped_at": "2026-04-03T18:31:25.146Z",
+    "shopify_id": 4377347391622,
+    "title": "BT2.0 450mAh 1S 30C Battery (4PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_label_40% OFF",
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_97dca0f9-6a3c-4a60-bcf5-3394a9226766.jpg?v=1689651663",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 31295909036166,
+        "title": "Default Title",
+        "price": "14.99",
+        "sku": "01030002",
+        "weight": 60
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-bt2-0-450mah-1s-30c-battery-4pcs",
+        "product_name": "BETAFPV BT2.0 450mAh 1S 30C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "price": "14.99",
+        "weight_g": 12.7,
+        "cell_count": "1S",
+        "connector": "BT2.0",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 12.7,
+      "cell_count": "1S",
+      "connector": "BT2.0",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt2-0-300mah-1s-30c-battery-8pcs",
+    "scraped_at": "2026-04-03T18:31:26.310Z",
+    "shopify_id": 4353668808838,
+    "title": "BT2.0 300mAh 1S 30C Battery (8PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_lable_25% OFF",
+      "batt 1s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/6391ace427ade714b70fb966024ae804_ff685427-f801-4e75-b30f-292ba4ecb98f.jpg?v=1689652092",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 31367012548742,
+        "title": "Default Title",
+        "price": "23.99",
+        "sku": "01030003",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-bt2-0-300mah-1s-30c-battery-8pcs",
+        "product_name": "BETAFPV BT2.0 300mAh 1S 30C Battery (8PCS)",
+        "brand": "BETAFPV",
+        "price": "23.99",
+        "weight_g": 8.28,
+        "cell_count": "1S",
+        "amperage": "9A",
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 8.28,
+      "cell_count": "1S",
+      "amperage": "9A",
+      "connector": "BT2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/450mah-2s-45c-lipo-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:27.452Z",
+    "shopify_id": 6815720734854,
+    "title": "450mAh 2S 45C Lipo Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "_lable_25% OFF",
+      "batt 2s",
+      "battery",
+      "sale"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/6391ace427ade714b70fb966024ae804_d937718f-4491-4bef-a2e5-a84d1fad945d.jpg?v=1668653169",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40024032215174,
+        "title": "45C",
+        "price": "14.99",
+        "sku": "01030006_1",
+        "weight": 100
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-450mah-2s-45c-lipo-battery-2pcs",
+        "product_name": "BETAFPV 450mAh 2S 45C Lipo Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "14.99",
+        "weight_g": 28.2,
+        "connector": "XT30",
+        "capacity_mah": "450"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 28.2,
+      "connector": "XT30",
+      "capacity_mah": "450"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt2-0-battery-charger-and-voltage-tester-v2",
+    "scraped_at": "2026-04-03T18:31:28.601Z",
+    "shopify_id": 6544259711110,
+    "title": "BT2.0 Battery Charger and Voltage Tester V2",
+    "part_type": "battery",
+    "tags": [
+      "accessory",
+      "battery",
+      "Chargers",
+      "hot"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_56831345-bed1-4eac-9cbc-dbb03ebd263c.jpg?v=1616641475",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 39277568950406,
+        "title": "Default Title",
+        "price": "10.99",
+        "sku": "00313892",
+        "weight": 15.35
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-bt2-0-battery-charger-and-voltage-tester-v2",
+        "product_name": "BETAFPV BT2.0 Battery Charger and Voltage Tester V2",
+        "brand": "BETAFPV",
+        "price": "10.99",
+        "weight_g": 12.37,
+        "cell_count": "1S",
+        "amperage": "9A",
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 12.37,
+      "cell_count": "1S",
+      "amperage": "9A",
+      "connector": "BT2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-1s-300mah-75c-battery-5pcs",
+    "scraped_at": "2026-04-03T18:31:29.749Z",
+    "shopify_id": 6954088562822,
+    "title": "LAVA 1S 300mAh 75C Battery (5PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 1s",
+      "battery",
+      "Discontinued"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/300_4163113a-27e7-4975-b80c-7c359025ff08.jpg?v=1700569670",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40374765387910,
+        "title": "Default Title",
+        "price": "21.99",
+        "sku": "01030014_1",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-1s-300mah-75c-battery-5pcs",
+        "product_name": "BETAFPV LAVA 1S 300mAh 75C Battery (5PCS)",
+        "brand": "BETAFPV",
+        "price": "21.99",
+        "weight_g": 8.3,
+        "connector": "BT2.0",
+        "capacity_mah": "300"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 8.3,
+      "connector": "BT2.0",
+      "capacity_mah": "300"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/lava-1s-550mah-75c-battery-4pcs",
+    "scraped_at": "2026-04-03T18:31:30.897Z",
+    "shopify_id": 6954391502982,
+    "title": "LAVA 1S 550mAh 75C Battery (4PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 1s",
+      "battery",
+      "Discontinued"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/550_189cc9cd-2ccb-4dae-9b52-3c01ecd1ff9c.jpg?v=1700569647",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40376179851398,
+        "title": "Default Title",
+        "price": "25.99",
+        "sku": "01030014_3",
+        "weight": 132
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-lava-1s-550mah-75c-battery-4pcs",
+        "product_name": "BETAFPV LAVA 1S 550mAh 75C Battery (4PCS)",
+        "brand": "BETAFPV",
+        "price": "25.99",
+        "weight_g": 14,
+        "connector": "BT2.0",
+        "capacity_mah": "550"
+      }
+    ],
+    "raw_specs": {
+      "weight_g": 14,
+      "connector": "BT2.0",
+      "capacity_mah": "550"
+    }
+  },
+  {
+    "source": "betafpv",
+    "source_url": "https://betafpv.com/products/bt3-0-550mah-2s-battery-2pcs",
+    "scraped_at": "2026-04-03T18:31:32.021Z",
+    "shopify_id": 7078800326790,
+    "title": "BT3.0 550mAh 2S Battery (2PCS)",
+    "part_type": "battery",
+    "tags": [
+      "batt 2s",
+      "battery",
+      "Discontinued"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/1778/6615/files/2_1ac68170-68ee-4d5e-a984-8cfd5a484621.jpg?v=1713165464",
+    "shopify_variants": [
+      {
+        "shopify_variant_id": 40824008933510,
+        "title": "Default Title",
+        "price": "20.99",
+        "sku": "01030010_2",
+        "weight": 29.5
+      }
+    ],
+    "brain_variants": [
+      {
+        "variant_id": "betafpv-bt3-0-550mah-2s-battery-2pcs",
+        "product_name": "BETAFPV BT3.0 550mAh 2S Battery (2PCS)",
+        "brand": "BETAFPV",
+        "price": "20.99",
+        "cell_count": "2S",
+        "capacity_mah": "550"
+      }
+    ],
+    "raw_specs": {
+      "cell_count": "2S",
+      "capacity_mah": "550"
+    }
+  }
+]
