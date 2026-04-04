@@ -10,3 +10,6 @@ uploads/
 GRAFT_FPV_KNOWLEDGE_PACK_COMPILED.md
 MASTER_BUILD_BRIEF.md
 PropDeck/
+pipeline/training-data/data/
+pipeline/training-data/.env
+pipeline/.cache/

@@ -30,7 +30,7 @@ export class BaseScraper {
         } catch (err) {
           log.error(this.name, `Failed: ${url} — ${err.message}`);
         }
-        if (i < urls.length - 1) await sleep(this.delayMs);
+        if (i < urls.length - 1 && !this._wasCached) await sleep(this.delayMs);
       }
 
       log.success(this.name, `Scraped ${this.results.length}/${urls.length} products`);
@@ -45,9 +45,11 @@ export class BaseScraper {
     const cached = getCache(url);
     if (cached) {
       log.info(this.name, `  (cached)`);
+      this._wasCached = true;
       return this.extractProduct(JSON.parse(cached), url);
     }
 
+    this._wasCached = false;
     const raw = await this.fetchProduct(url);
     if (raw) setCache(url, JSON.stringify(raw));
     return this.extractProduct(raw, url);

@@ -5,8 +5,8 @@
   "signal_extractors": [
     {
       "signal": "stator_size",
-      "pattern": "\\b(0[5-9]\\d{2}|1[0-9]\\d{2}|2[0-3]\\d{2})\\b",
-      "description": "4-digit motor stator size: 0702, 0802, 1102, 1404, 2306 etc",
+      "pattern": "\\b(0[5-9]\\d{2}|[12]\\d{3}|3[0-2]\\d{2})\\b",
+      "description": "4-digit motor stator size: 0702, 0802, 1102, 1404, 2306, 2807, 3115 etc",
       "maps_to": "specs.stator_size",
       "examples": ["0702", "0802", "1404", "2306"]
     },
@@ -19,8 +19,8 @@
     },
     {
       "signal": "cell_count",
-      "pattern": "\\b([1-6])\\s*[Ss]\\b",
-      "description": "Battery cell count: 1S through 6S",
+      "pattern": "\\b([1-8])\\s*[Ss]\\b",
+      "description": "Battery cell count: 1S through 8S",
       "maps_to": "specs.cell_count",
       "examples": ["1S", "2s", "4S", "6S"]
     },

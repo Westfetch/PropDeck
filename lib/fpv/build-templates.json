@@ -564,5 +564,215 @@
         "note": "USB charger board"
       }
     ]
+  },
+  {
+    "build_name": "5-inch 6S freestyle",
+    "description": "Modern 6S freestyle build. More efficient than 4S, community standard since 2023.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["5 inch frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["2207 motor", "2306 motor", "2307 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["30x30 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["5 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "DJI O4 Air Unit", "HDZero Race VTX", "Walksnail Avatar VTX", "standalone analog VTX"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "camera",
+        "match": ["action camera", "DJI camera"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS 2.4GHz receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["6S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "7-inch long range",
+    "description": "Long-range cruiser. GPS, 915MHz ELRS, efficient motors for 20-40 minute flights.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["7 inch frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["2806 motor", "2807 motor", "2808 motor", "3010 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["30x30 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["7 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "DJI O4 Air Unit", "HDZero Race VTX", "analog VTX 600mW+"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS 915MHz receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["6S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "3-inch DJI cinewhoop",
+    "description": "Compact DJI digital cinewhoop. Ducted props, HD video, indoor-safe.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["3 inch cinewhoop frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["1404 motor", "1507 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["20x20 stack", "25.5x25.5 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["3 inch propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "DJI O4 Air Unit"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS 2.4GHz receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["4S LiPo battery"],
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "build_name": "10-inch cinematic",
+    "description": "Heavy-lift cinematic platform. Slow, stable, long flights with large cameras.",
+    "requires": [
+      {
+        "part_type": "frame",
+        "match": ["10 inch frame"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "motor",
+        "match": ["2812 motor", "2814 motor", "3115 motor", "3120 motor", "3215 motor"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "aio",
+        "match": ["30x30 stack"],
+        "quantity": 1,
+        "evidence_required": "confirmed"
+      },
+      {
+        "part_type": "propeller",
+        "match": ["10 inch propeller", "folding propeller"],
+        "quantity": 4,
+        "evidence_required": "confirmed"
+      }
+    ],
+    "hidden_or_integrated": [
+      {
+        "part_type": "vtx",
+        "match": ["DJI O3 Air Unit", "DJI O4 Air Unit", "analog VTX 600mW+"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      },
+      {
+        "part_type": "rx",
+        "match": ["ELRS 915MHz receiver"],
+        "quantity": 1,
+        "evidence_required": "inferred"
+      }
+    ],
+    "consumables": [
+      {
+        "part_type": "battery",
+        "match": ["6S LiPo battery", "8S LiPo battery"],
+        "quantity": 1
+      }
+    ]
   }
 ]

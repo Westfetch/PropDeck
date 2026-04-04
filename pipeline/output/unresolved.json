@@ -1,51 +1,2529 @@
 [
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/0802se-22000kv-brushless-motors",
-    "title": "0802SE Brushless Motors",
-    "part_type": "motor",
-    "variant_name": "BETAFPV 0802SE Brushless Motors 19500KV (2022 Version)"
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/flywoo-firefly-fr16-nano-baby-v2-0-1-6-analog-micro-frame-kit",
+    "title": "Flywoo BNF Firefly FR16 Nano Baby Analog V2.0 1.6\" 1S Micro Quad - ELRS 2.4 GHz",
+    "part_type": "quad",
+    "variant_name": "Flywoo BNF Firefly FR16 Nano Baby Analog V2.0 1.6\" 1S Micro Quad - ELRS 2.4 GHz"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/o4-air-unit-bracket-ii",
-    "title": "O4 Air Unit Bracket II",
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/darwinfpv-bnf-babyape-3-5-analog-quad-4s-choose-your-receiver",
+    "title": "DarwinFPV BNF Baby Ape II Analog 3.5\" Micro Quad - 4S - Choose Your Receiver",
+    "part_type": "quad",
+    "variant_name": "DarwinFPV BNF Baby Ape II Analog 3.5\" Micro Quad - 4S - Choose Your Receiver"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/darwinfpv-bnf-baby-ape-ii-3-5-analog-micro-quad-6s-choose-your-receiver",
+    "title": "DarwinFPV BNF Baby Ape II Analog 3.5\" Micro Quad - 6S - Choose Your Receiver",
+    "part_type": "quad",
+    "variant_name": "DarwinFPV BNF Baby Ape II Analog 3.5\" Micro Quad - 6S - Choose Your Receiver"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/axisflying-cineon-c35-v2-cinewhoop-3-micro-frame-kit-choose-color",
+    "title": "AxisFlying CineON C35 V2 Cinewhoop 3.5\" Micro Frame Kit - Clear Gray Prop Guard",
     "part_type": "frame",
-    "variant_name": "BETAFPV O4 Air Unit Bracket II"
+    "variant_name": "AxisFlying CineON C35 V2 Cinewhoop 3.5\" Micro Frame Kit - Clear Gray Prop Guard"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/gemfan-1219s-3-blade-propellers-1-0mm-shaft",
-    "title": "Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)",
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/axisflying-avata-3-5-upgrade-conversion-kit",
+    "title": "Axisflying AVATA 3.5 Upgrade / Conversion Kit  (3.5\" Micro Frame Kit for AVATA)",
+    "part_type": "frame",
+    "variant_name": "Axisflying AVATA 3.5 Upgrade / Conversion Kit  (3.5\" Micro Frame Kit for AVATA)"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/five33-tinytrainer-v2-3-micro-frame-kit-w-out-tpu",
+    "title": "FIVE33 TinyTrainer V2 3\" Micro Frame Kit w/out TPU",
+    "part_type": "frame",
+    "variant_name": "FIVE33 TinyTrainer V2 3\" Micro Frame Kit w/out TPU"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/five33-lightswitch-v2-5-racing-frame-kit-lite-t700-arms",
+    "title": "FIVE33 LightSwitch V2 5\" Racing Frame Kit w/T700 Arms - Lite (w/out TPU)",
+    "part_type": "frame",
+    "variant_name": "FIVE33 LightSwitch V2 5\" Racing Frame Kit w/T700 Arms - Lite (w/out TPU)"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/hglrc-3-prop-guard-4-pack-choose-color",
+    "title": "HGLRC 3\" Prop Guard 4 Pack - Choose Color",
+    "part_type": "frame",
+    "variant_name": "HGLRC 3\" Prop Guard 4 Pack - Choose Color"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/geprc-cinequeen-prop-guard-4-pack",
+    "title": "GEPRC 3\" Prop Guard 4 Pack",
+    "part_type": "frame",
+    "variant_name": "GEPRC 3\" Prop Guard 4 Pack"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/speedybee-bee25-2-5-protective-prop-guard-ring",
+    "title": "SpeedyBee Bee25 2.5\" Protective Prop Guard Ring",
+    "part_type": "frame",
+    "variant_name": "SpeedyBee Bee25 2.5\" Protective Prop Guard Ring"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/caddx-nd-filters-for-the-walnut-fpv-camera-nd8-16-transparent",
+    "title": "Caddx ND Filters for the Walnut FPV Camera - ND8/16/Transparent",
+    "part_type": "camera",
+    "variant_name": "Caddx ND Filters for the Walnut FPV Camera - ND8/16/Transparent"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/lens-ring-for-fpv-camera-lenses",
+    "title": "Plastic M12 Replacement Lens Lock Ring for FPV Camera",
+    "part_type": "camera",
+    "variant_name": "Plastic M12 Replacement Lens Lock Ring for FPV Camera"
+  },
+  {
+    "source": "racedayquads",
+    "source_url": "https://www.racedayquads.com/products/runcam-split-4-v2-fpv-camera",
+    "title": "RunCam Split 4 V2 FPV Camera",
+    "part_type": "aio",
+    "variant_name": "RunCam Split 4 V2 FPV Camera"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-flat-rats-v2-1507-2800kv-spare-bell",
+    "title": "Ethix Flat Rats V2 1507 2800KV Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix Flat Rats V2 1507 2800KV Spare Bell"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-fsp-1607-2450kv-spare-bell",
+    "title": "Ethix FSP 1607 2450kv Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix FSP 1607 2450kv Spare Bell"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-fsp-1607-2450kv-m5-mount-motor",
+    "title": "Ethix FSP 1607 2450KV M5 Mount Motor",
+    "part_type": "motor",
+    "variant_name": "Ethix FSP 1607 2450KV M5 Mount Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-flat-rats-v2-1507-2800kv-t-mount-spare-bell",
+    "title": "Ethix Flat Rats V2 1507 2800KV T Mount Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix Flat Rats V2 1507 2800KV T Mount Spare Bell"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-fsp-1607-2450kv-t-mount-spare-bell",
+    "title": "Ethix FSP 1607 2450kv T Mount Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix FSP 1607 2450kv T Mount Spare Bell"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-fsp-1607-2450kv-t-mount-motors",
+    "title": "Ethix FSP 1607 2450KV T Mount Motor",
+    "part_type": "motor",
+    "variant_name": "Ethix FSP 1607 2450KV T Mount Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/brotherhobby-tc2004-ultralight-motor-1700-1950-2100-3150-kv",
+    "title": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV",
+    "part_type": "motor",
+    "variant_name": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV 1700KV"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/brotherhobby-tc2004-ultralight-motor-1700-1950-2100-3150-kv",
+    "title": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV",
+    "part_type": "motor",
+    "variant_name": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV 1950KV"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/brotherhobby-tc2004-ultralight-motor-1700-1950-2100-3150-kv",
+    "title": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV",
+    "part_type": "motor",
+    "variant_name": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV 2100KV"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/brotherhobby-tc2004-ultralight-motor-1700-1950-2100-3150-kv",
+    "title": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV",
+    "part_type": "motor",
+    "variant_name": "Brotherhobby TC2004 Ultralight Motor 1700/1950/2100/3150 KV 3150KV"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-mr-steele-silk-v3-spare-bell",
+    "title": "Ethix Mr Steele SILK V3 Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix Mr Steele SILK V3 Spare Bell Original (White)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-mr-steele-silk-v3-spare-bell",
+    "title": "Ethix Mr Steele SILK V3 Spare Bell",
+    "part_type": "motor",
+    "variant_name": "Ethix Mr Steele SILK V3 Spare Bell Legacy (White and Gray)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-plaid-brushed-motor-venom-v2-0-8mm-prop-combo",
+    "title": "NewBeeDrone Plaid Brushed Motor / Venom V2 0.8mm Prop Combo",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone Plaid Brushed Motor / Venom V2 0.8mm Prop Combo"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/bdr-plaid-edition-6mm-brushed-motor",
+    "title": "NewBeeDrone BDR PLAID Edition - 6mm Brushed Motor",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR PLAID Edition - 6mm Brushed Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-silver-edition-6mm-brushed-motor",
+    "title": "NewBeeDrone BDR SILVER Edition - 6mm Brushed Motor",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR SILVER Edition - 6mm Brushed Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-gold-edition-6mm-brushed-motor",
+    "title": "NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-unicorn-edition-motors-6mm-brushed-motors",
+    "title": "NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-black-edition-6mm-brushed-motor",
+    "title": "NewBeeDrone BDR BLACK Edition - 6mm Brushed Motor",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR BLACK Edition - 6mm Brushed Motor"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Sampler"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Silver"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Black"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Gold"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Unicorn"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-bdr-brushed-motor-3-pack",
+    "title": "NewBeeDrone BDR Brushed Motor 3 Pack",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone BDR Brushed Motor 3 Pack Plaid"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-motor-screws-m1-4-2mm-set-of-15",
+    "title": "NewBeeDrone Motor Screws M1.4*2mm - Set of 15",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone Motor Screws M1.4*2mm - Set of 15"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hummingbird-racespec-beeeye-camera",
+    "title": "Hummingbird RaceSpec BeeEye Camera with 3D Printed Mount",
+    "part_type": "frame",
+    "variant_name": "Hummingbird RaceSpec BeeEye Camera with 3D Printed Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hummingbird-racespec-cam-mount-tpu-3d-printed-version",
+    "title": "Hummingbird RaceSpec Cam mount. TPU 3D Printed Version",
+    "part_type": "frame",
+    "variant_name": "Hummingbird RaceSpec Cam mount. TPU 3D Printed Version"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-cockroach75-brushless-carbon-fiber-accessory-pack",
+    "title": "NewBeeDrone Cockroach75 Brushless Carbon Fiber & Accessory Pack",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Cockroach75 Brushless Carbon Fiber & Accessory Pack"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cockroach-82-brushless-super-durable-frame",
+    "title": "NewBeeDrone Cockroach 82 Brushless Super-Durable Frame (Plastic Part and Carbon Fiber & Accessory)",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Cockroach 82 Brushless Super-Durable Frame (Plastic Part and Carbon Fiber & Accessory)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/brushless-carbon-fiber-accessory-pack",
+    "title": "NewBeeDrone Cockroach 82 Brushless Carbon Fiber & Accessory Pack",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Cockroach 82 Brushless Carbon Fiber & Accessory Pack"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/geprc-7075-m3-15-titanium-color-laser-engraved-screw-set-of-4",
+    "title": "GEPRC 7075 M3*15 Titanium Color Laser Engraved Screw set of 4",
+    "part_type": "frame",
+    "variant_name": "GEPRC 7075 M3*15 Titanium Color Laser Engraved Screw set of 4"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-whoop-racing-camera-mount-0-71g",
+    "title": "NewBeeDrone RaceSpec Whoop Racing Camera Mount 0.71g (30° or 40°)",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone RaceSpec Whoop Racing Camera Mount 0.71g (30° or 40°)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-motor-screws-m2-4mm-set-of-15",
+    "title": "NewBeeDrone Motor Screws M2*4mm - Set of 15",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone Motor Screws M2*4mm - Set of 15"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cleanup-axisflying-cineon-c35-3-5-top-plate",
+    "title": "Cleanup : Axisflying CineON C35 3.5\" Top plate",
+    "part_type": "frame",
+    "variant_name": "Cleanup : Axisflying CineON C35 3.5\" Top plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/axisflying-z20-3d-printing-receiver-installation-kit",
+    "title": "Cleanup : AxisFlying Z20 3D printing receiver installation kit",
+    "part_type": "frame",
+    "variant_name": "Cleanup : AxisFlying Z20 3D printing receiver installation kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-slatra-bottom-plate-1",
+    "title": "Armattan Slatra Bottom Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Slatra Bottom Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-rooster-chameleon-ti-hd-cam-foam-pad",
+    "title": "Armattan Rooster / Chameleon Ti HD Cam Foam Pad",
+    "part_type": "frame",
+    "variant_name": "Armattan Rooster / Chameleon Ti HD Cam Foam Pad"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-rooster-chameleon-ti-lipo-foam-pad",
+    "title": "Armattan Rooster / Chameleon Ti Lipo Foam Pad",
+    "part_type": "frame",
+    "variant_name": "Armattan Rooster / Chameleon Ti Lipo Foam Pad"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-sma-grommet-rooster-chameleon-ti-marmotte-vtx-plate",
+    "title": "Armattan SMA grommet for Rooster/Chameleon Ti/Marmotte VTX plate",
+    "part_type": "frame",
+    "variant_name": "Armattan SMA grommet for Rooster/Chameleon Ti/Marmotte VTX plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-thicc-duct-conversion-kit",
+    "title": "Shendrones Thicc Duct Conversion Kit",
+    "part_type": "frame",
+    "variant_name": "Shendrones Thicc Duct Conversion Kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-thicc-sicc-swol-aluminum-fpv-cam-mount",
+    "title": "Shendrones Thicc/Sicc/Swol Aluminum FPV Cam Mount",
+    "part_type": "frame",
+    "variant_name": "Shendrones Thicc/Sicc/Swol Aluminum FPV Cam Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-thicc-propguards",
+    "title": "Shendrones Thicc Propguards",
+    "part_type": "frame",
+    "variant_name": "Shendrones Thicc Propguards"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-akira-propguards",
+    "title": "Shendrones Akira Propguards",
+    "part_type": "frame",
+    "variant_name": "Shendrones Akira Propguards"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/iflight-defender-25-2-5-frame-replacement-duct-1pc",
+    "title": "iFlight Defender 25 2.5\" Frame Replacement Duct (1pc.)",
+    "part_type": "frame",
+    "variant_name": "iFlight Defender 25 2.5\" Frame Replacement Duct (1pc.)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-goober-canopy-camera-mount-v2",
+    "title": "NewBeeDrone Goober Canopy Camera Mount V2",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Goober Canopy Camera Mount V2"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-apexdc-lower-main-carbon-fiber-2-5mm",
+    "title": "ImpulseRC LEGACY ApexDC Lower Main Carbon Fiber 2.5mm",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC LEGACY ApexDC Lower Main Carbon Fiber 2.5mm"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-apexdc-arm-key",
+    "title": "ImpulseRC ApexDC Arm Key",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC ApexDC Arm Key"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-gopro-hero-carbon-fiber-screen-protector-plate",
+    "title": "ImpulseRC GoPro Hero Carbon Fiber Screen Protector Plate",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC GoPro Hero Carbon Fiber Screen Protector Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vrdrone-frame",
+    "title": "NewBeeDrone VRDrone Frame",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone VRDrone Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-avata-upper-frame",
+    "title": "DJI Avata Upper Frame",
+    "part_type": "frame",
+    "variant_name": "DJI Avata Upper Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/camera-butter-cinema-one-frame-replacement-arms",
+    "title": "Camera Butter Cinema ONE Frame Replacement Arms",
+    "part_type": "frame",
+    "variant_name": "Camera Butter Cinema ONE Frame Replacement Arms"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vivid-3d-printed-action-cam-mount-with-m4-hardware",
+    "title": "NewBeeDrone Vivid 3D Printed Action Cam Mount with M5 Hardware",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Vivid 3D Printed Action Cam Mount with M5 Hardware"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vivid-frame-3d-printed-parts",
+    "title": "NewBeeDrone Vivid Frame 3D Printed Parts",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Vivid Frame 3D Printed Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/warranty-replacement-for-newbeedrone-cockroach-frame",
+    "title": "Warranty Replacement for NewBeeDrone Cockroach Frame",
+    "part_type": "frame",
+    "variant_name": "Warranty Replacement for NewBeeDrone Cockroach Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-chameleon-ti-shim-plate",
+    "title": "Armattan Chameleon Ti Shim Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Chameleon Ti Shim Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-chameleon-ti-hardware-set",
+    "title": "Armattan Chameleon Ti Hardware Set",
+    "part_type": "frame",
+    "variant_name": "Armattan Chameleon Ti Hardware Set"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-chameleon-ti-lr-lite-grip",
+    "title": "Armattan Chameleon Ti LR Lite Grip",
+    "part_type": "frame",
+    "variant_name": "Armattan Chameleon Ti LR Lite Grip"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-slatra-hardware-set",
+    "title": "Armattan Slatra Hardware Set",
+    "part_type": "frame",
+    "variant_name": "Armattan Slatra Hardware Set"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-slatra-top-plate",
+    "title": "Armattan Slatra Top Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Slatra Top Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-rooster-chameleon-ti-hd-cam-foam-pad-1",
+    "title": "Armattan Rooster / Chameleon Ti HD Cam Foam Pad",
+    "part_type": "frame",
+    "variant_name": "Armattan Rooster / Chameleon Ti HD Cam Foam Pad"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-slatra-top-plate-adhesive-foam",
+    "title": "Armattan Slatra Top Plate Adhesive Foam",
+    "part_type": "frame",
+    "variant_name": "Armattan Slatra Top Plate Adhesive Foam"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-hydrophobe-3d-print-parts",
+    "title": "Shendrones Hydrophobe - High Quality 3D Print Parts",
+    "part_type": "frame",
+    "variant_name": "Shendrones Hydrophobe - High Quality 3D Print Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/iflight-zcam-red-camera-carbon-plate",
+    "title": "iFlight  ZCAM/RED camera carbon plate",
+    "part_type": "frame",
+    "variant_name": "iFlight  ZCAM/RED camera carbon plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/iflight-taurus-x8-pro-rack-reinforcement-arm",
+    "title": "iFlight Taurus X8 Pro Rack Reinforcement Arm",
+    "part_type": "frame",
+    "variant_name": "iFlight Taurus X8 Pro Rack Reinforcement Arm"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-gecko-frame-spare-parts",
+    "title": "Armattan Gecko Frame Spare Parts",
+    "part_type": "frame",
+    "variant_name": "Armattan Gecko Frame Spare Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-cinemah-3d-printed-action-cam-mount-with-hardware",
+    "title": "NewBeeDrone CineMah 3D Printed Action Cam Mount with M5 Hardware",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone CineMah 3D Printed Action Cam Mount with M5 Hardware"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-cinemah-stick-on-foam-ducts",
+    "title": "NewBeeDrone CineMah Stick-on Foam Ducts",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone CineMah Stick-on Foam Ducts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-source-two-screw-set",
+    "title": "TBS Source Two Screw Set",
+    "part_type": "frame",
+    "variant_name": "TBS Source Two Screw Set"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/emax-tinyhawk-iii-spare-parts-pack-b-hardware-kit",
+    "title": "EMAX Tinyhawk III Spare Parts Pack B - Hardware Kit",
+    "part_type": "frame",
+    "variant_name": "EMAX Tinyhawk III Spare Parts Pack B - Hardware Kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/grl-fpv-pro-2-add-on-parts-tpu-mounts-and-protectors",
+    "title": "GRL FPV Pro 2 Add-On Parts - TPU Mounts and Protectors",
+    "part_type": "frame",
+    "variant_name": "GRL FPV Pro 2 Add-On Parts - TPU Mounts and Protectors"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ummagawd-moongoat-spare-replacement-parts",
+    "title": "Ummagawd Moongoat Spare Replacement Parts",
+    "part_type": "frame",
+    "variant_name": "Ummagawd Moongoat Spare Replacement Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ummagawd-2fiddy-spare-replacement-parts",
+    "title": "Ummagawd 2Fiddy Spare Replacement Parts",
+    "part_type": "frame",
+    "variant_name": "Ummagawd 2Fiddy Spare Replacement Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-invisi360-carbon-fiber-frame-replacement-parts-bottom-plate-top-plate-etc",
+    "title": "NewBeeDrone Invisi360 Frame Replacement Parts  - Bottom Plate, Top Plate, Hardware, Etc.",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Invisi360 Frame Replacement Parts  - Bottom Plate, Top Plate, Hardware, Etc."
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-cinemah-carbon-fiber-frame-replacement-parts",
+    "title": "NewBeeDrone CinemAh Carbon Fiber Frame Replacement Parts  - Main Plate, Side Plates, Motor Mounts, Etc.",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone CinemAh Carbon Fiber Frame Replacement Parts  - Main Plate, Side Plates, Motor Mounts, Etc."
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/grl-fpv-pro-2-spare-parts-carbon-fiber-hardware-3d-printed-mounts-and-protectors",
+    "title": "GRL FPV Pro 2 Spare Parts - Carbon Fiber and Hardware",
+    "part_type": "frame",
+    "variant_name": "GRL FPV Pro 2 Spare Parts - Carbon Fiber and Hardware"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-big-baby-x8-frame",
+    "title": "Shendrones Big Baby X8 Frame",
+    "part_type": "frame",
+    "variant_name": "Shendrones Big Baby X8 Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-ichabod-jr-2-0-fpv-frame",
+    "title": "Shendrones Ichabod Jr 2.0 FPV Frame",
+    "part_type": "frame",
+    "variant_name": "Shendrones Ichabod Jr 2.0 FPV Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/sniperx-light-racing-frame-spare-parts",
+    "title": "SniperX Light Racing Frame Spare Parts",
+    "part_type": "frame",
+    "variant_name": "SniperX Light Racing Frame Spare Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/project399-sma-pigtail-mount",
+    "title": "Project399 SMA Pigtail Mount",
+    "part_type": "frame",
+    "variant_name": "Project399 SMA Pigtail Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/qsl-shendrones-terraplane-and-hydroplane-molded-duct",
+    "title": "QSL Shendrones Terraplane and Hydroplane Molded Duct",
+    "part_type": "frame",
+    "variant_name": "QSL Shendrones Terraplane and Hydroplane Molded Duct"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-aluminum-colorful-spacer-2mm",
+    "title": "NewBeeDrone M2 Aluminum Colorful Spacer - 2mm",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M2 Aluminum Colorful Spacer - 2mm"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Light Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Gold"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Pink"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Titanium Gray"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Silver"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Black"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Green"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Orange"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Dark Red"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M2 Flanged Motor Lock Nut Various Colors Purple"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Green"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Light Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Titanium Gray"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Black"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Silver"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Orange"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Purple"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Pink"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Dark Red"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m5-flanged-motor-lock-nut-various-colors",
+    "title": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone M5 Flanged Motor Lock Nut Various Colors/Propnut Gold"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-aluminum-standoffs-various-color-length",
+    "title": "NewBeeDrone M2 Aluminum Standoffs Various Color & Length",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M2 Aluminum Standoffs Various Color & Length"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/lumenier-qav-s-johnnyfpv-frame-spare-parts-carbon-fiber-and-hardware",
+    "title": "Lumenier QAV-S JohnnyFPV Frame Spare Parts - Carbon Fiber, Aluminum, and Hardware",
+    "part_type": "frame",
+    "variant_name": "Lumenier QAV-S JohnnyFPV Frame Spare Parts - Carbon Fiber, Aluminum, and Hardware"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/rushfpv-gopro-mount-for-the-stp-gunn-v2-5-freestyle-fpv-drone-frame",
+    "title": "RushFPV GoPro Mount for the STP Gunn V2 5” Freestyle FPV Drone Frame",
+    "part_type": "frame",
+    "variant_name": "RushFPV GoPro Mount for the STP Gunn V2 5” Freestyle FPV Drone Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-siccario-universal-camera-mount",
+    "title": "Shendrones Siccario Universal Camera Mount",
+    "part_type": "frame",
+    "variant_name": "Shendrones Siccario Universal Camera Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-micro-apex-frame-spare-parts-carbon-fiber-hardware-and-plastics",
+    "title": "ImpulseRC Micro Apex Frame Spare Parts - Carbon Fiber, Hardware, and Plastics",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC Micro Apex Frame Spare Parts - Carbon Fiber, Hardware, and Plastics"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-kopis-cinelifter-x8-frame-kit",
+    "title": "Holybro Kopis Cinelifter X8 Frame Kit",
+    "part_type": "frame",
+    "variant_name": "Holybro Kopis Cinelifter X8 Frame Kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-beebrain-goober-canopy-neck-collar-replacement",
+    "title": "NewBeeDrone BeeBrain Goober Canopy Neck Collar Replacement",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone BeeBrain Goober Canopy Neck Collar Replacement"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/emax-babyhawk-hd-spare-frame-parts",
+    "title": "EMAX Babyhawk HD Spare Frame Parts",
+    "part_type": "frame",
+    "variant_name": "EMAX Babyhawk HD Spare Frame Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-source-micro-v0-2",
+    "title": "TBS Source Micro V0.2",
+    "part_type": "frame",
+    "variant_name": "TBS Source Micro V0.2"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-mosquito-xl-frame",
+    "title": "NewBeeDrone Mosquito XL Frame",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Mosquito XL Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/axisflying-airforce-pro-x8-gopro-9-tpu-mount",
+    "title": "AxisFlying AirForce Pro X8 GoPro 9 TPU Mount",
+    "part_type": "frame",
+    "variant_name": "AxisFlying AirForce Pro X8 GoPro 9 TPU Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-cinemah-3d-printed-accessories",
+    "title": "NewBeeDrone CineMah 3D Printed Accessories  - GoPro Mounts, Ducts, Etc.",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone CineMah 3D Printed Accessories  - GoPro Mounts, Ducts, Etc."
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-fpv-propeller-guard",
+    "title": "DJI FPV Propeller Guard",
+    "part_type": "frame",
+    "variant_name": "DJI FPV Propeller Guard"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-grommet",
+    "title": "NewBeeDrone M2 Grommet",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M2 Grommet"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/reptile-tpu-action-sport-camera-mount-30-degree-inclined-fpv-camera-holder-for-gopro-5-6-7-fpv-racing-drone",
+    "title": "Reptile TPU Action Sport Camera Mount 30 Degree Inclined FPV Camera Holder For Gopro 5/6/7 FPV Racing Drone",
+    "part_type": "frame",
+    "variant_name": "Reptile TPU Action Sport Camera Mount 30 Degree Inclined FPV Camera Holder For Gopro 5/6/7 FPV Racing Drone"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vim-v2-replacement-parts",
+    "title": "NewBeeDrone VIM V2 Replacement Parts",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone VIM V2 Replacement Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-whirligig-v2-replacement-parts",
+    "title": "NewBeeDrone Whirligig V2 Replacement Parts",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Whirligig V2 Replacement Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-sma-grommet-for-marmotte-rooster-chameleon-ti-vtx-plate",
+    "title": "Armattan SMA Grommet for Marmotte/Rooster/Chameleon Ti VTX Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan SMA Grommet for Marmotte/Rooster/Chameleon Ti VTX Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-sma-plate-includes-rubber-grommet",
+    "title": "Armattan Marmotte SMA Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte SMA Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-anchor-titanium",
+    "title": "Armattan Marmotte Anchor (Titanium)",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte Anchor (Titanium)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-aluminum-tail-post",
+    "title": "Armattan Marmotte Aluminum Tail Post",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte Aluminum Tail Post"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-badger-hardware-set",
+    "title": "Armattan Badger Hardware Set",
+    "part_type": "frame",
+    "variant_name": "Armattan Badger Hardware Set"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-lipo-top-plate",
+    "title": "Armattan Marmotte LiPo Top Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte LiPo Top Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-badger-dji-edition-center-plate",
+    "title": "Armattan Badger DJI Edition Center Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Badger DJI Edition Center Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-lipo-plate-adhesive-foam",
+    "title": "Armattan Marmotte LiPo Plate Adhesive Foam",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte LiPo Plate Adhesive Foam"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-hd-cam-plate-adhesive-foam",
+    "title": "Armattan Marmotte HD cam Plate Adhesive Foam",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte HD cam Plate Adhesive Foam"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/view-larger-armattan-marmotte-badger-tbs-vtx-plate",
+    "title": "Armattan Marmotte/Badger TBS VTX Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte/Badger TBS VTX Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-badger-left-brace-titanium",
+    "title": "Armattan Marmotte/Badger Left Brace (Titanium)",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte/Badger Left Brace (Titanium)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-badger-center-plate",
+    "title": "Armattan Badger Center Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Badger Center Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-badger-marmotte-dji-edition-lipo-plate",
+    "title": "Armattan Badger/Marmotte DJI Edition Lipo Plate",
+    "part_type": "frame",
+    "variant_name": "Armattan Badger/Marmotte DJI Edition Lipo Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-marmotte-dji-edition-hardware-set",
+    "title": "Armattan Marmotte DJI Edition Hardware Set",
+    "part_type": "frame",
+    "variant_name": "Armattan Marmotte DJI Edition Hardware Set"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/armattan-badger-marmotte-dji-edition-lipo-plate-adhesive-foam",
+    "title": "Armattan Badger/Marmotte DJI Edition Lipo Plate Adhesive Foam",
+    "part_type": "frame",
+    "variant_name": "Armattan Badger/Marmotte DJI Edition Lipo Plate Adhesive Foam"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/emax-nanohawk-spare-parts-hardware-kit",
+    "title": "EMAX Nanohawk Spare Parts - Hardware Kit",
+    "part_type": "frame",
+    "variant_name": "EMAX Nanohawk Spare Parts - Hardware Kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/emax-nanohawk-spare-parts-polycarbonate-frame",
+    "title": "EMAX Nanohawk Spare Parts - Polycarbonate Frame",
+    "part_type": "frame",
+    "variant_name": "EMAX Nanohawk Spare Parts - Polycarbonate Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-7-screw-x3",
+    "title": "NewBeeDrone M2*7 Screw x3",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M2*7 Screw x3"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-mosquito-frame",
+    "title": "NewBeeDrone Mosquito Frame",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Mosquito Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/project399-super-g-top-plate",
+    "title": "Project399 Super G Top Plate",
+    "part_type": "frame",
+    "variant_name": "Project399 Super G Top Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/project399-gopro-mount",
+    "title": "Project399 GoPro Mount",
+    "part_type": "frame",
+    "variant_name": "Project399 GoPro Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-replacement-m3-pressnuts-for-vivid-frame",
+    "title": "NewBeeDrone Replacement M3 Pressnuts for Vivid Frame",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Replacement M3 Pressnuts for Vivid Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-ichabod-jr-1-1-fpv-frame",
+    "title": "Shendrones Ichabod Jr 1.1 FPV Frame",
+    "part_type": "frame",
+    "variant_name": "Shendrones Ichabod Jr 1.1 FPV Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-hydrophobe-marine-fpv-frame",
+    "title": "Shendrones Hydrophobe - Marine FPV Frame",
+    "part_type": "frame",
+    "variant_name": "Shendrones Hydrophobe - Marine FPV Frame"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/shendrones-squirt-v2-cinewhoop",
+    "title": "Shendrones Squirt V2 with Variable Angle Hero Mount",
+    "part_type": "frame",
+    "variant_name": "Shendrones Squirt V2 with Variable Angle Hero Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mx-c-taycan-replacement-antenna-mounting",
+    "title": "Diatone MX-C Taycan - Replacement Antenna Mounting",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Antenna Mounting"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-brushless-whoop-motor-screws-set-of-15",
+    "title": "NewBeeDrone Motor Screws for Cockroach75 M1.4*3mm - Set of 15",
+    "part_type": "motor",
+    "variant_name": "NewBeeDrone Motor Screws for Cockroach75 M1.4*3mm - Set of 15"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mx-c-taycan-replacement-dji-air-unit-mounting",
+    "title": "Diatone MX-C Taycan - Replacement Dji Air Unit Mounting",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Dji Air Unit Mounting"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mx-c-taycan-replacement-frame-guard-ring-orange",
+    "title": "Diatone MX-C Taycan - Replacement Frame Guard Ring (Orange)",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Frame Guard Ring (Orange)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mx-c-taycan-camera-mount",
+    "title": "Diatone MX-C Taycan - Replacement Camera Mount (Choose Left or Right)",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Camera Mount (Choose Left or Right)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/copy-of-diatone-mx-c-taycan-upper-plate",
+    "title": "Diatone MX-C Taycan - Replacement Lower Plate",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Lower Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mx-c-taycan-replacement-upper-plate",
+    "title": "Diatone MX-C Taycan - Replacement Upper Plate",
+    "part_type": "frame",
+    "variant_name": "Diatone MX-C Taycan - Replacement Upper Plate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vivid-frame-spare-parts",
+    "title": "NewBeeDrone Vivid Frame Spare Parts",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Vivid Frame Spare Parts"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-vivid-gopro-tpu-mount",
+    "title": "NewBeeDrone Vivid GoPro TPU Mount",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Vivid GoPro TPU Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-apex-fpv-frame-kit",
+    "title": "ImpulseRC Apex FPV Frame Kit",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC Apex FPV Frame Kit"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-apex-arm-set-4-pack",
+    "title": "ImpulseRC Apex Arm Set - (4 Pack)",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC Apex Arm Set - (4 Pack)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/impulserc-apex-frame-spare-parts",
+    "title": "ImpulseRC Apex Frame Spare Parts - Carbon Fiber, Hardware, and Plastics",
+    "part_type": "frame",
+    "variant_name": "ImpulseRC Apex Frame Spare Parts - Carbon Fiber, Hardware, and Plastics"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-brushed-color-combo-goober-bundle",
+    "title": "NewBeeDrone Brushed Color Combo Goober Bundle",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Brushed Color Combo Goober Bundle"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-beebrain-goober-canopy-multiple-colors",
+    "title": "NewBeeDrone BeeBrain Goober Canopy - Multiple Colors",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone BeeBrain Goober Canopy - Multiple Colors"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-grommets-and-screws-for-beebrain",
+    "title": "NewBeeDrone Grommets and screws for BeeBrain",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Grommets and screws for BeeBrain"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m2-dampener",
+    "title": "NewBeeDrone  M2 Dampener",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone  M2 Dampener"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-beebrain-v2-camera-color-mount",
+    "title": "NewBeeDrone BeeBrain V2 Camera Color Mount",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone BeeBrain V2 Camera Color Mount"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m3-colorful-spacer",
+    "title": "NewBeeDrone M3 Colorful Spacer",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M3 Colorful Spacer"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-screws-various-color-length",
+    "title": "NewBeeDrone Screws Various Color & Length",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone Screws Various Color & Length"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-m3-aluminum-standoffs-various-color-length",
+    "title": "NewBeeDrone M3 Aluminum Standoffs Various Color & Length",
+    "part_type": "frame",
+    "variant_name": "NewBeeDrone M3 Aluminum Standoffs Various Color & Length"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pm03d-power-module",
+    "title": "Holybro PM03D Power Module with I2C Digital Power Monitoring",
+    "part_type": "aio",
+    "variant_name": "Holybro PM03D Power Module with I2C Digital Power Monitoring"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6x-rev3-flight-controller",
+    "title": "Holybro Pixhawk 6X (Rev 3) Flight Controller",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 6X (Rev 3) Flight Controller"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-baseboards-plastic",
+    "title": "Holybro Pixhawk Baseboards (Plastic)",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk Baseboards (Plastic)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6c-flight-controller",
+    "title": "Holybro Pixhawk 6C Flight Controller",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 6C Flight Controller"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pm07-power-module-board",
+    "title": "Holybro PM07 Power Module Board (14S)",
+    "part_type": "aio",
+    "variant_name": "Holybro PM07 Power Module Board (14S)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-jetson-baseboard-bundle",
+    "title": "Holybro Pixhawk Jetson Baseboard Bundle – Autopilot & AI Processing",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk Jetson Baseboard Bundle – Autopilot & AI Processing"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6x-1",
+    "title": "Holybro Pixhawk 6X",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 6X"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pm06-v2-power-module",
+    "title": "Holybro PM06 V2 Power Module",
+    "part_type": "aio",
+    "variant_name": "Holybro PM06 V2 Power Module"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-4",
+    "title": "Holybro Pixhawk 4",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 4"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6x-pro",
+    "title": "Holybro Pixhawk 6X Pro",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 6X Pro"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6x-icm-45686",
+    "title": "Holybro Pixhawk 6X (ICM-45686)",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk 6X (ICM-45686)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-i2c-airspeed-sensor-ms4525do",
+    "title": "3DR I2C AIRSPEED SENSOR MS4525DO",
+    "part_type": "aio",
+    "variant_name": "3DR I2C AIRSPEED SENSOR MS4525DO"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-mro-kitcan",
+    "title": "3DR MRO KITCAN",
+    "part_type": "aio",
+    "variant_name": "3DR MRO KITCAN"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-can-node-f303",
+    "title": "3DR CAN NODE F303",
+    "part_type": "aio",
+    "variant_name": "3DR CAN NODE F303"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-high-precision-can-airspeed-sensor-dlvr-1",
+    "title": "3DR HIGH PRECISION CAN AIRSPEED SENSOR DLVR",
+    "part_type": "aio",
+    "variant_name": "3DR HIGH PRECISION CAN AIRSPEED SENSOR DLVR"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-power-zero",
+    "title": "3DR POWER ZERO",
+    "part_type": "aio",
+    "variant_name": "3DR POWER ZERO"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-can-power-module",
+    "title": "3DR CAN POWER MODULE",
+    "part_type": "aio",
+    "variant_name": "3DR CAN POWER MODULE"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-high-current-pwr",
+    "title": "3DR HIGH CURRENT PWR",
+    "part_type": "aio",
+    "variant_name": "3DR HIGH CURRENT PWR"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-can-pwm-adapter",
+    "title": "3DR CAN PWM ADAPTER",
+    "part_type": "aio",
+    "variant_name": "3DR CAN PWM ADAPTER"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-dual-band-wi-fi-radio-ublox-odin-w260-module",
+    "title": "3DR DUAL BAND WI-FI RADIO: UBLOX ODIN-W260 MODULE",
+    "part_type": "aio",
+    "variant_name": "3DR DUAL BAND WI-FI RADIO: UBLOX ODIN-W260 MODULE"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-control-zero-h7",
+    "title": "3DR CONTROL ZERO H7 - FULL CABLE KIT",
+    "part_type": "aio",
+    "variant_name": "3DR CONTROL ZERO H7 - FULL CABLE KIT"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-control-zero-classic",
+    "title": "3DR CONTROL ZERO CLASSIC",
+    "part_type": "aio",
+    "variant_name": "3DR CONTROL ZERO CLASSIC"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-pixracer-pro",
+    "title": "3DR PIXRACER PRO",
+    "part_type": "aio",
+    "variant_name": "3DR PIXRACER PRO"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/3dr-quad-zero-carrier-board",
+    "title": "3DR QUAD ZERO CARRIER BOARD",
+    "part_type": "aio",
+    "variant_name": "3DR QUAD ZERO CARRIER BOARD"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-jetson-baseboard",
+    "title": "Holybro Pixhawk Jetson Baseboard",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk Jetson Baseboard"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-f55a-pro-iii-8s-4in1-esc",
+    "title": "T-MOTOR F55A PRO III 8S 4IN1 ESC",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR F55A PRO III 8S 4IN1 ESC"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mamba-f40mini40a-parts-package",
+    "title": "Diatone Mamba F40Mini(40A) Parts Package",
+    "part_type": "aio",
+    "variant_name": "Diatone Mamba F40Mini(40A) Parts Package"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cuav-pixhawk-v6x-flight-controller",
+    "title": "CUAV Pixhawk V6X Flight Controller",
+    "part_type": "aio",
+    "variant_name": "CUAV Pixhawk V6X Flight Controller"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cuav-v5-core",
+    "title": "CUAV V5+ Core",
+    "part_type": "aio",
+    "variant_name": "CUAV V5+ Core"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cuav-drone-pixhawk-v5-flight-controller-drone-autopilot-px4-apm",
+    "title": "CUAV Drone Pixhawk V5+ Flight Controller | Drone Autopilot PX4 APM",
+    "part_type": "aio",
+    "variant_name": "CUAV Drone Pixhawk V5+ Flight Controller | Drone Autopilot PX4 APM"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hakrc-60a-f405-fly-tower",
+    "title": "HAKRC 60A F405 Fly Tower",
+    "part_type": "aio",
+    "variant_name": "HAKRC 60A F405 Fly Tower"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-kakute-f4-v2-4",
+    "title": "Holybro Kakute F4 V2.4",
+    "part_type": "aio",
+    "variant_name": "Holybro Kakute F4 V2.4"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-pacer-alpha-g4-fc",
+    "title": "T-MOTOR Pacer Alpha G4 FC",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR Pacer Alpha G4 FC"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-p60a-v2-4in1-esc",
+    "title": "T-MOTOR P60A V2 4IN1 ESC",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR P60A V2 4IN1 ESC"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/foxeer-h7-mini-mpu6000-fc-8s-dual-bec-barometer",
+    "title": "Foxeer H7 Mini MPU6000 FC 8S Dual BEC Barometer",
+    "part_type": "aio",
+    "variant_name": "Foxeer H7 Mini MPU6000 FC 8S Dual BEC Barometer"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/foxeer-h7-mpu6000-fc-8s-dual-bec-barometer-x8",
+    "title": "Foxeer H7 MPU6000 FC 8S Dual BEC Barometer X8",
+    "part_type": "aio",
+    "variant_name": "Foxeer H7 MPU6000 FC 8S Dual BEC Barometer X8"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-velox-cine-f7",
+    "title": "T-MOTOR Velox CINE F7",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR Velox CINE F7"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-rpi-cm4-baseboard",
+    "title": "Holybro Pixhawk RPi CM4 Baseboard",
+    "part_type": "aio",
+    "variant_name": "Holybro Pixhawk RPi CM4 Baseboard"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/diatone-mamba-mk4-h743-v2-flight-control-30mm-m3",
+    "title": "Diatone MAMBA MK4 H743 V2 Flight Control 30mm/M3",
+    "part_type": "aio",
+    "variant_name": "Diatone MAMBA MK4 H743 V2 Flight Control 30mm/M3"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-pixhawk-6c-aluminum-case-pm07-power-module-m8n-gps",
+    "title": "HolyBro Pixhawk 6C (Aluminum Case)&PM07 Power module& M8N GPS",
+    "part_type": "aio",
+    "variant_name": "HolyBro Pixhawk 6C (Aluminum Case)&PM07 Power module& M8N GPS"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/runcam-night-eagle-3-v2",
+    "title": "RunCam Night Eagle 3 V2",
+    "part_type": "camera",
+    "variant_name": "RunCam Night Eagle 3 V2"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/runcam-dvr-s",
+    "title": "RUNCAM-DVR-S",
+    "part_type": "camera",
+    "variant_name": "RUNCAM-DVR-S"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/vifly-cam-switcher-compatible-with-racing-drone-airplane",
+    "title": "VIFLY Cam Switcher (Compatible with racing drone & airplane)",
+    "part_type": "camera",
+    "variant_name": "VIFLY Cam Switcher (Compatible with racing drone & airplane)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro-5g8-hv-7-pin-vtx-pigtail",
+    "title": "TBS Unify Pro 5G8 HV 7-Pin VTx Pigtail",
+    "part_type": "camera",
+    "variant_name": "TBS Unify Pro 5G8 HV 7-Pin VTx Pigtail"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/speedybee-tx800-video-transmitter",
+    "title": "SpeedyBee TX800 Video Transmitter",
+    "part_type": "camera",
+    "variant_name": "SpeedyBee TX800 Video Transmitter"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro32-hv-mmcx",
+    "title": "TBS UNIFY PRO32 HV (MMCX)",
+    "part_type": "camera",
+    "variant_name": "TBS UNIFY PRO32 HV (MMCX)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/runcam-rc21-fpv-short-lens-2-1mm-fov165-wide-angle",
+    "title": "RunCam RC21 FPV short Lens 2.1mm FOV165 Wide Angle",
+    "part_type": "camera",
+    "variant_name": "RunCam RC21 FPV short Lens 2.1mm FOV165 Wide Angle"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/foxeer-915-868mhz-moxon-antenna-915m",
+    "title": "Foxeer 915MHz Moxon Antenna – Long-Range FPV Receiver Antenna",
+    "part_type": "aio",
+    "variant_name": "Foxeer 915MHz Moxon Antenna – Long-Range FPV Receiver Antenna"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cuav-p8-radio-drone-telemetry",
+    "title": "CUAV P8 Radio Drone Telemetry",
+    "part_type": "rx",
+    "variant_name": "CUAV P8 Radio Drone Telemetry"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/holybro-sik-telemetry-radio-v3",
+    "title": "Holybro SiK Telemetry Radio V3",
+    "part_type": "rx",
+    "variant_name": "Holybro SiK Telemetry Radio V3"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-crossfire-micro-rx-v2-adapter",
+    "title": "TBS Crossfire Micro Rx V2 Adapter",
+    "part_type": "rx",
+    "variant_name": "TBS Crossfire Micro Rx V2 Adapter"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hq-ultralight-whoop-prop-40mmx21-6x1-2-2cw-2ccw-1mm-shaft",
+    "title": "HQ Ultralight Whoop Prop 40MMX2(1.6X1.2) (2CW+2CCW)-1MM Shaft",
+    "part_type": "motor",
+    "variant_name": "HQ Ultralight Whoop Prop 40MMX2(1.6X1.2) (2CW+2CCW)-1MM Shaft Grey"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hq-ultralight-whoop-prop-40mmx21-6x1-2-2cw-2ccw-1mm-shaft",
+    "title": "HQ Ultralight Whoop Prop 40MMX2(1.6X1.2) (2CW+2CCW)-1MM Shaft",
+    "part_type": "motor",
+    "variant_name": "HQ Ultralight Whoop Prop 40MMX2(1.6X1.2) (2CW+2CCW)-1MM Shaft Pink"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hqprop-15x10-1ccw-1cw-black-glass-fiber-reinforced-nylon",
+    "title": "HQProp 15X10 (1CCW+1CW) Black-Glass Fiber Reinforced Nylon",
     "part_type": "propeller",
-    "variant_name": "BETAFPV Gemfan 1219S 3-Blade Propellers (1.0mm Shaft)"
+    "variant_name": "HQProp 15X10 (1CCW+1CW) Black-Glass Fiber Reinforced Nylon"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/gemfan-d90s-3-blade-propellers1-5mm-shaft",
-    "title": "GemFan D90S 3-Blade Propellers (1.5mm Shaft)",
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hqprop-15x7x3r-cw-black-glass-fiber-reinforced-nylon",
+    "title": "HQProp 15X7X3R (CW) Black-Glass Fiber Reinforced Nylon",
     "part_type": "propeller",
-    "variant_name": "BETAFPV GemFan D90S 3-Blade Propellers (1.5mm Shaft)"
+    "variant_name": "HQProp 15X7X3R (CW) Black-Glass Fiber Reinforced Nylon"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/aquila20-exclusive-battery-2pcs",
-    "title": "Aquila20 Exclusive Battery (2PCS)",
-    "part_type": "battery",
-    "variant_name": "BETAFPV Aquila20 Exclusive Battery (2PCS)"
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hqprop-15x7x3-ccw-black-glass-fiber-reinforced-nylon",
+    "title": "HQProp 15X7X3  (CCW) Black-Glass Fiber Reinforced Nylon",
+    "part_type": "propeller",
+    "variant_name": "HQProp 15X7X3  (CCW) Black-Glass Fiber Reinforced Nylon"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/aquila16-exclusive-battery-2pcs",
-    "title": "Aquila16 Exclusive Battery (2PCS)",
-    "part_type": "battery",
-    "variant_name": "BETAFPV Aquila16 Exclusive Battery (2PCS)"
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hqprop-mck-prop-yellow-2cw-2ccw-poly-carbonate",
+    "title": "HQProp MCK Prop Yellow (2CW+2CCW)-Poly Carbonate",
+    "part_type": "propeller",
+    "variant_name": "HQProp MCK Prop Yellow (2CW+2CCW)-Poly Carbonate"
   },
   {
-    "source": "betafpv",
-    "source_url": "https://betafpv.com/products/bt3-0-550mah-2s-battery-2pcs",
-    "title": "BT3.0 550mAh 2S Battery (2PCS)",
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hqprop-5135v2-r35v2-2cw-2ccw-poly-carbonate",
+    "title": "HQProp 5135V2 (R35V2) (2CW+2CCW) - Poly Carbonate",
+    "part_type": "propeller",
+    "variant_name": "HQProp 5135V2 (R35V2) (2CW+2CCW) - Poly Carbonate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ultimate-propeller-combo",
+    "title": "Ultimate Propeller Combo",
+    "part_type": "propeller",
+    "variant_name": "Ultimate Propeller Combo"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-avata-2-propellers",
+    "title": "DJI Avata 2 Propellers",
+    "part_type": "propeller",
+    "variant_name": "DJI Avata 2 Propellers"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/axisflying-co-brand-with-blackbird-v3-bb39-freestyle-props",
+    "title": "Axisflying Co-Brand With BlackBird V3 BB39 Freestyle Props",
+    "part_type": "propeller",
+    "variant_name": "Axisflying Co-Brand With BlackBird V3 BB39 Freestyle Props"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-p3-3-mango-lassi-2cw-2ccw-poly-carbonate",
+    "title": "ETHIX P3.3 Mango Lassi (2CW+2CCW)-Poly Carbonate",
+    "part_type": "propeller",
+    "variant_name": "ETHIX P3.3 Mango Lassi (2CW+2CCW)-Poly Carbonate"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-avata-propellers",
+    "title": "DJI Avata Propellers",
+    "part_type": "propeller",
+    "variant_name": "DJI Avata Propellers"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-p49436-fpv-propeller",
+    "title": "T-MOTOR P49436 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR P49436 FPV Propeller Clear Gray"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-p49436-fpv-propeller",
+    "title": "T-MOTOR P49436 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR P49436 FPV Propeller Clear Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-p49436-fpv-propeller",
+    "title": "T-MOTOR P49436 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR P49436 FPV Propeller Clear Red"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gemfan-f4019-floppy-proppy-3-blade",
+    "title": "GemFan F4019 FLOPPY PROPPY 3 BLADE",
+    "part_type": "propeller",
+    "variant_name": "GemFan F4019 FLOPPY PROPPY 3 BLADE"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gemfan-f4019-floppy-proppy-2-blade",
+    "title": "GemFan F4019 FLOPPY PROPPY 2 BLADE",
+    "part_type": "propeller",
+    "variant_name": "GemFan F4019 FLOPPY PROPPY 2 BLADE"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gemfan-f3015-floppy-proppy-3-blade",
+    "title": "GemFan F3015 Floppy Proppy 3 Blade",
+    "part_type": "propeller",
+    "variant_name": "GemFan F3015 Floppy Proppy 3 Blade"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-p3b-bi-blade-peanut-butter-jelly-prop",
+    "title": "Ethix P3B BI-BLADE Peanut Butter & Jelly Prop",
+    "part_type": "propeller",
+    "variant_name": "Ethix P3B BI-BLADE Peanut Butter & Jelly Prop"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gemfan-513d-durable-3-blade-prop",
+    "title": "Gemfan 513D Durable 3 Blade Prop",
+    "part_type": "propeller",
+    "variant_name": "Gemfan 513D Durable 3 Blade Prop"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t5143s-fpv-propeller",
+    "title": "T-MOTOR  T5143S FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR  T5143S FPV Propeller Clear Gray"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t5143s-fpv-propeller",
+    "title": "T-MOTOR  T5143S FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR  T5143S FPV Propeller Clear blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t5143s-fpv-propeller",
+    "title": "T-MOTOR  T5143S FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR  T5143S FPV Propeller Red"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t5143s-fpv-propeller",
+    "title": "T-MOTOR  T5143S FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR  T5143S FPV Propeller Orange"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t6143-fpv-propeller",
+    "title": "T-MOTOR T6143 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR T6143 FPV Propeller Clear"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t6143-fpv-propeller",
+    "title": "T-MOTOR T6143 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR T6143 FPV Propeller Clear Orange"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t6143-fpv-propeller",
+    "title": "T-MOTOR T6143 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR T6143 FPV Propeller Clear Red"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t6143-fpv-propeller",
+    "title": "T-MOTOR T6143 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR T6143 FPV Propeller Clear Blue"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/t-motor-t6143-fpv-propeller",
+    "title": "T-MOTOR T6143 FPV Propeller",
+    "part_type": "motor",
+    "variant_name": "T-MOTOR T6143 FPV Propeller Yellow"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-p3-peanut-butter-jelly-prop",
+    "title": "Ethix P3 Peanut Butter & Jelly Prop",
+    "part_type": "propeller",
+    "variant_name": "Ethix P3 Peanut Butter & Jelly Prop"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gemfan-f5135-floppy-proppy-3-blade",
+    "title": "Gemfan F5135 Floppy Proppy 3 Blade",
+    "part_type": "propeller",
+    "variant_name": "Gemfan F5135 Floppy Proppy 3 Blade"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/hq-durable-prop-duct-3-for-cinewhoop2cw-2ccw",
+    "title": "HQ Durable Prop Duct-3 for Cinewhoop(2CW+2CCW)",
+    "part_type": "propeller",
+    "variant_name": "HQ Durable Prop Duct-3 for Cinewhoop(2CW+2CCW)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-s5-props",
+    "title": "ETHIX S5 PROPS",
+    "part_type": "propeller",
+    "variant_name": "ETHIX S5 PROPS"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-s4-lemon-lime-props",
+    "title": "ETHIX S4 LEMON LIME PROPS",
+    "part_type": "propeller",
+    "variant_name": "ETHIX S4 LEMON LIME PROPS"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/ethix-s3-watermelon-props",
+    "title": "ETHIX S3 WATERMELON PROPS",
+    "part_type": "propeller",
+    "variant_name": "ETHIX S3 WATERMELON PROPS"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-21700-5000mah-li-ion-battery",
+    "title": "NewBeeDrone 21700 5000mAh Li-ion Battery – XT30 & JST-XH Connector",
     "part_type": "battery",
-    "variant_name": "BETAFPV BT3.0 550mAh 2S Battery (2PCS)"
+    "variant_name": "NewBeeDrone 21700 5000mAh Li-ion Battery – XT30 & JST-XH Connector"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tattu-300mah-3-8v-hv-75c-lipo-battery-pack",
+    "title": "Tattu 300mAh 3.8V HV 75C Lipo Battery Pack BT2.0 Plug (5pcs)",
+    "part_type": "battery",
+    "variant_name": "Tattu 300mAh 3.8V HV 75C Lipo Battery Pack BT2.0 Plug (5pcs)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-mavic-air-2-intelligent-battery-global",
+    "title": "DJI Mavic Air 2 Intelligent Battery (Global)",
+    "part_type": "battery",
+    "variant_name": "DJI Mavic Air 2 Intelligent Battery (Global)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tattu-300mah-3-8v-hv-75c-lipo-0battery-pack-ph2-0-plug5pcsk",
+    "title": "Tattu 300mAh 3.8V HV 75C Lipo Battery Pack PH2.0 Plug (5pcs)",
+    "part_type": "battery",
+    "variant_name": "Tattu 300mAh 3.8V HV 75C Lipo Battery Pack PH2.0 Plug (5pcs)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/gnb-lipo-battery-2s-2500mah-7-4v",
+    "title": "GNB LiPo Battery 2S 2500MAH 7.4V 5C 10C for FrSky X9D plus 2019 new edition XT60 XH2.54 connector",
+    "part_type": "battery",
+    "variant_name": "GNB LiPo Battery 2S 2500MAH 7.4V 5C 10C for FrSky X9D plus 2019 new edition XT60 XH2.54 connector"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-avata-battery-charging-hub",
+    "title": "DJI Avata Battery Charging Hub",
+    "part_type": "battery",
+    "variant_name": "DJI Avata Battery Charging Hub"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/dji-fpv-battery-charging-hub",
+    "title": "DJI FPV Battery Charging Hub",
+    "part_type": "battery",
+    "variant_name": "DJI FPV Battery Charging Hub"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/orqa-fpv-one-mk2-pilot-goggles-5-free-newbeedrone-goggle-strap",
+    "title": "Orqa FPV.One MK2 Pilot Goggles + 5 Free NewBeeDrone Goggle Strap!",
+    "part_type": "goggles",
+    "variant_name": "Orqa FPV.One MK2 Pilot Goggles + 5 Free NewBeeDrone Goggle Strap!"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/cleanup-used-futaba-t8j-transmitter-8j-8-channel-digital-proportional-r-c-system-futaba-8j-2-4ghz-radio-control-system-s-fhss-s-bus-suitable-for-rc-airplane-rc-aircraft-rc-helicopter-rc-multicopter",
+    "title": "CLEANUP: Used Futaba T8J Transmitter, 8J 8-Channel Digital Proportional R/C System, Futaba 8J 2.4GHz Radio Control System, S-FHSS S.BUS. Suitable For RC Airplane, RC Aircraft, RC Helicopter, RC Multicopter",
+    "part_type": "propeller",
+    "variant_name": "CLEANUP: Used Futaba T8J Transmitter, 8J 8-Channel Digital Proportional R/C System, Futaba 8J 2.4GHz Radio Control System, S-FHSS S.BUS. Suitable For RC Airplane, RC Aircraft, RC Helicopter, RC Multicopter"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/orqa-fpv-ctrl-radio",
+    "title": "ORQA FPV.Ctrl Radio",
+    "part_type": "radio",
+    "variant_name": "ORQA FPV.Ctrl Radio"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-mambo-fpv-rc-radio-drone-controller",
+    "title": "TBS Mambo - FPV RC Radio Drone Controller",
+    "part_type": "radio",
+    "variant_name": "TBS Mambo - FPV RC Radio Drone Controller"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/d-pole-2-4-mk-ii",
+    "title": "D-POLE 2.4 MK II",
+    "part_type": "antenna",
+    "variant_name": "D-POLE 2.4 MK II"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-mmcx-to-sma-extensions-90-degree-mmcx-2-pack",
+    "title": "NewBeeDrone MMCX to SMA Extensions 90 Degree MMCX 2-Pack",
+    "part_type": "vtx",
+    "variant_name": "NewBeeDrone MMCX to SMA Extensions 90 Degree MMCX 2-Pack"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro-5g8-rp-sma-pigtail",
+    "title": "TBS Unify Pro 5G8 RP-SMA Pigtail",
+    "part_type": "vtx",
+    "variant_name": "TBS Unify Pro 5G8 RP-SMA Pigtail"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/vas-crosshair-xtreme-diversity-system-for-analog",
+    "title": "Vas Crosshair Xtreme Diversity System for Analog",
+    "part_type": "goggles",
+    "variant_name": "Vas Crosshair Xtreme Diversity System for Analog"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/truerc-d-pole-mmcx-5g-1",
+    "title": "TrueRC D-POLE-MMCX 5G",
+    "part_type": "vtx",
+    "variant_name": "TrueRC D-POLE-MMCX 5G"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/rushfpv-cherry-sma-j-extended-antenna",
+    "title": "RUSHFPV Cherry SMA-J Extended LHCP/RHCP",
+    "part_type": "vtx",
+    "variant_name": "RUSHFPV Cherry SMA-J Extended LHCP/RHCP"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/rushfpv-cherry-sma-j-lhcp-rhcp",
+    "title": "RUSHFPV Cherry SMA-J LHCP/RHCP",
+    "part_type": "vtx",
+    "variant_name": "RUSHFPV Cherry SMA-J LHCP/RHCP"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-rhcp-u-fl",
+    "title": "TBS TRIUMPH PRO - RHCP (U.FL)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - RHCP (U.FL)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-rhcp-mmcx",
+    "title": "TBS TRIUMPH PRO - RHCP (MMCX)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - RHCP (MMCX)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-lhcp-u-fl",
+    "title": "TBS TRIUMPH PRO - LHCP (U.FL)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - LHCP (U.FL)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-lhcp-mmcx",
+    "title": "TBS TRIUMPH PRO - LHCP (MMCX)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - LHCP (MMCX)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro-5g8-sma-pigtail-90-mmcx",
+    "title": "TBS Unify Pro 5G8 SMA Pigtail 90°(MMCX)",
+    "part_type": "vtx",
+    "variant_name": "TBS Unify Pro 5G8 SMA Pigtail 90°(MMCX)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-lhcp-sma",
+    "title": "TBS TRIUMPH PRO - LHCP (SMA)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - LHCP (SMA)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-sma-stub-lhcp",
+    "title": "TBS TRIUMPH PRO (SMA STUB LHCP)",
+    "part_type": "goggles",
+    "variant_name": "TBS TRIUMPH PRO (SMA STUB LHCP)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro-5g8-sma-pigtail-u-fl",
+    "title": "TBS UNIFY PRO 5G8 SMA PIGTAIL (U.FL)",
+    "part_type": "vtx",
+    "variant_name": "TBS UNIFY PRO 5G8 SMA PIGTAIL (U.FL)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-unify-pro-5g8-sma-pigtail-mmcx",
+    "title": "TBS Unify Pro 5G8  SMA PIGTAIL (MMCX)",
+    "part_type": "vtx",
+    "variant_name": "TBS Unify Pro 5G8  SMA PIGTAIL (MMCX)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-replacement-antennas2-4-ghzfor-beeceiver-v2",
+    "title": "NewBeeDrone Replacement Antennas (2.4 Ghz) for Beeceiver V2",
+    "part_type": "rx",
+    "variant_name": "NewBeeDrone Replacement Antennas (2.4 Ghz) for Beeceiver V2"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-sma-stub-rhcp",
+    "title": "TBS TRIUMPH PRO (SMA STUB RHCP)",
+    "part_type": "goggles",
+    "variant_name": "TBS TRIUMPH PRO (SMA STUB RHCP)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/truerc-d-pole-mmcx90-5g-antenna",
+    "title": "TrueRC D-POLE-MMCX90 5G",
+    "part_type": "vtx",
+    "variant_name": "TrueRC D-POLE-MMCX90 5G"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-mmcx-to-sma-extensions-straight-mmcx-2-pack",
+    "title": "NewBeeDrone MMCX to SMA Extensions Straight MMCX 2-Pack",
+    "part_type": "vtx",
+    "variant_name": "NewBeeDrone MMCX to SMA Extensions Straight MMCX 2-Pack"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/tbs-triumph-pro-rhcp-sma",
+    "title": "TBS TRIUMPH PRO - RHCP (SMA)",
+    "part_type": "vtx",
+    "variant_name": "TBS TRIUMPH PRO - RHCP (SMA)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-2-4-ghz-u-fl-mhf4-l-replacement-antennas-5-pack",
+    "title": "NewBeeDrone 2.4 GHz u.fl MHF4-L Replacement Antennas  (5 Pack)",
+    "part_type": "rx",
+    "variant_name": "NewBeeDrone 2.4 GHz u.fl MHF4-L Replacement Antennas  (5 Pack)"
+  },
+  {
+    "source": "newbeedrone",
+    "source_url": "https://newbeedrone.com/products/newbeedrone-replacement-antennas-2-4ghz-2-pack",
+    "title": "NewBeeDrone Replacement Antennas (2.4Ghz) 2 Pack",
+    "part_type": "rx",
+    "variant_name": "NewBeeDrone Replacement Antennas (2.4Ghz) 2 Pack"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/copy-of-if-you-click-this-link-you-must-eat-one",
+    "title": "Oh hey by the way want a free sticky hand toy?",
+    "part_type": "battery",
+    "variant_name": "Oh hey by the way want a free sticky hand toy?"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors Red"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors Yellow"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors Green"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors Blue"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors White"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/custom-motor-wire-colors",
+    "title": "Custom Motor Wire Colors",
+    "part_type": "motor",
+    "variant_name": "Custom Motor Wire Colors Black"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/micro-brushless-motor-c-clips-and-washers-set",
+    "title": "Micro Brushless motor C-Clips and Washers set",
+    "part_type": "motor",
+    "variant_name": "Micro Brushless motor C-Clips and Washers set"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/tinywhoopmotoroil",
+    "title": "Tiny Whoop Motor Oil",
+    "part_type": "motor",
+    "variant_name": "Tiny Whoop Motor Oil"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/mmw-6x15mm-motor-speed-fast",
+    "title": "MMW 6x15mm motor (speed: fast) - 14000kv",
+    "part_type": "motor",
+    "variant_name": "MMW 6x15mm motor (speed: fast) - 14000kv"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/mmw-6x15mm-motor-speed-insane-set-of-4",
+    "title": "MMW 6x15mm motor (speed: INSANE) - 19000kv",
+    "part_type": "motor",
+    "variant_name": "MMW 6x15mm motor (speed: INSANE) - 19000kv"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/1-4mm-drill-bit-for-propeller-modification",
+    "title": "Drill Bit - 1.4mm for Propeller Modification",
+    "part_type": "propeller",
+    "variant_name": "Drill Bit - 1.4mm for Propeller Modification"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/free-motor-plugs-and-wires-for-nbd-boards",
+    "title": "FREE Motor plugs and wires for NBD boards",
+    "part_type": "motor",
+    "variant_name": "FREE Motor plugs and wires for NBD boards"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/betafpv-brushed-716-17500kv-motor-set",
+    "title": "BetaFPV Brushed 716 17500kV Motor Set",
+    "part_type": "motor",
+    "variant_name": "BetaFPV Brushed 716 17500kV Motor Set"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/motor-spacers-risers-for-702-and-802-motors-2-sets",
+    "title": "Motor Spacers/Risers for 702 and 802 motors (2 sets)",
+    "part_type": "motor",
+    "variant_name": "Motor Spacers/Risers for 702 and 802 motors (2 sets)"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/fractal-wingman-frame-kit",
+    "title": "Fractal Wingman Frame Kit",
+    "part_type": "frame",
+    "variant_name": "Fractal Wingman Frame Kit"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/xt30-pigtail",
+    "title": "XT30 Pigtail",
+    "part_type": "battery",
+    "variant_name": "XT30 Pigtail"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/prop-popper-kit-box",
+    "title": "Prop Popper Kit Box",
+    "part_type": "propeller",
+    "variant_name": "Prop Popper Kit Box"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/t-motor-triblade-31mm-prop-1mm-shaft-m12199",
+    "title": "T-Motor M12199 31mm 3-Blade 1mm Shaft",
+    "part_type": "motor",
+    "variant_name": "T-Motor M12199 31mm 3-Blade 1mm Shaft Clear Blue"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/t-motor-triblade-31mm-prop-1mm-shaft-m12199",
+    "title": "T-Motor M12199 31mm 3-Blade 1mm Shaft",
+    "part_type": "motor",
+    "variant_name": "T-Motor M12199 31mm 3-Blade 1mm Shaft Clear Purple"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/t-motor-triblade-31mm-prop-1mm-shaft-m12199",
+    "title": "T-Motor M12199 31mm 3-Blade 1mm Shaft",
+    "part_type": "motor",
+    "variant_name": "T-Motor M12199 31mm 3-Blade 1mm Shaft Clear Grey"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/props-fpv-plus-set-black-and-red",
+    "title": "Inductrix Plus Propeller Set",
+    "part_type": "propeller",
+    "variant_name": "Inductrix Plus Propeller Set"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/lightweightpropremovaltool",
+    "title": "Beluga Prop Removal Tool",
+    "part_type": "propeller",
+    "variant_name": "Beluga Prop Removal Tool"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/dtrcpropellerremovaltool",
+    "title": "DTRC Propeller Removal Tool",
+    "part_type": "propeller",
+    "variant_name": "DTRC Propeller Removal Tool"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/tiny-whoop-hv-48mah-battery-bt2-or-direct-solder",
+    "title": "Tony Whoop HV 48mAh Battery - BT2 or Direct-solder",
+    "part_type": "battery",
+    "variant_name": "Tony Whoop HV 48mAh Battery - BT2 or Direct-solder"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/juicebox",
+    "title": "Tiny Whoop Juice Box - Battery Storage and Voltage Checker",
+    "part_type": "battery",
+    "variant_name": "Tiny Whoop Juice Box - Battery Storage and Voltage Checker"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/playdoh",
+    "title": "Teensy Playdoh Tub or yo Kiddo!",
+    "part_type": "battery",
+    "variant_name": "Teensy Playdoh Tub or yo Kiddo!"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/bt3-0-pigtail-by-ac-unit",
+    "title": "BT3.0 Pigtail by AC Unit",
+    "part_type": "battery",
+    "variant_name": "BT3.0 Pigtail by AC Unit"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/whoop-juice-transfer-station",
+    "title": "Whoop Juice Transfer Station",
+    "part_type": "battery",
+    "variant_name": "Whoop Juice Transfer Station"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/2-0-jst-pigtail-crimped-wire-version",
+    "title": "PH2.0 Pigtail Crimped Wire",
+    "part_type": "battery",
+    "variant_name": "PH2.0 Pigtail Crimped Wire"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/upgraded-battery-pigtail",
+    "title": "Micro JST Pigtail - JST 1.25",
+    "part_type": "battery",
+    "variant_name": "Micro JST Pigtail - JST 1.25"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/mylipo-470mah-2s-hv-7-6v-lipo-battery-xt30-connector",
+    "title": "MyLipo 470mAH 2S HV 7.6v Lipo Battery - XT30 Connector",
+    "part_type": "battery",
+    "variant_name": "MyLipo 470mAH 2S HV 7.6v Lipo Battery - XT30 Connector"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/6x6-port-parallel-charging-board-for-1s-lipos",
+    "title": "Parallel Charging Board - Micro JST / PH2.0",
+    "part_type": "battery",
+    "variant_name": "Parallel Charging Board - Micro JST / PH2.0"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/jst-charging-harness",
+    "title": "JST Charging Harness",
+    "part_type": "battery",
+    "variant_name": "JST Charging Harness"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/banana-to-barrel-charge-lead",
+    "title": "Banana to Barrel Charge Lead",
+    "part_type": "battery",
+    "variant_name": "Banana to Barrel Charge Lead"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/banana-to-xt30-charge-cable",
+    "title": "Banana to XT30 charge cable",
+    "part_type": "battery",
+    "variant_name": "Banana to XT30 charge cable"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/bt3-0-connectors",
+    "title": "BT3.0 Connectors - Pack",
+    "part_type": "battery",
+    "variant_name": "BT3.0 Connectors - Pack"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/bt3-0-adapter-cable",
+    "title": "BT3.0 Adapter Cable",
+    "part_type": "battery",
+    "variant_name": "BT3.0 Adapter Cable"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/18650-3200mah-3-7v-battery-2pcs",
+    "title": "18650 3200mAh 3.7V Battery (2pcs)",
+    "part_type": "battery",
+    "variant_name": "18650 3200mAh 3.7V Battery (2pcs)"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/replacement-lens-for-nano-v3-lux",
+    "title": "Replacement lens for Nano V3/Lux",
+    "part_type": "camera",
+    "variant_name": "Replacement lens for Nano V3/Lux"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/pound-mount-for-the-tiny-whoop-pinch-cam",
+    "title": "Pound Mount for the Tiny Whoop Pinch cam",
+    "part_type": "camera",
+    "variant_name": "Pound Mount for the Tiny Whoop Pinch cam"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/ppmount",
+    "title": "PP Pinch Mount for the Tiny Whoop Pinch cam",
+    "part_type": "camera",
+    "variant_name": "PP Pinch Mount for the Tiny Whoop Pinch cam"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/pp-pro-seat-belt-pinch-camera-mount",
+    "title": "PP Seat belt Pinch Camera Mount",
+    "part_type": "camera",
+    "variant_name": "PP Seat belt Pinch Camera Mount"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/fractalboostybaby",
+    "title": "Fractal 5V Boostybaby Ultra Small High Power Voltage Booster",
+    "part_type": "camera",
+    "variant_name": "Fractal 5V Boostybaby Ultra Small High Power Voltage Booster"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/tiny-whoop-dipole",
+    "title": "Tiny Whoop Dipole",
+    "part_type": "antenna",
+    "variant_name": "Tiny Whoop Dipole"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/vas-lhcp-naked-airblade",
+    "title": "VAS LHCP Naked Airblade",
+    "part_type": "antenna",
+    "variant_name": "VAS LHCP Naked Airblade"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/walksnail-avatar-vrx-1",
+    "title": "Walksnail Avatar FPV VRX",
+    "part_type": "goggles",
+    "variant_name": "Walksnail Avatar FPV VRX"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/ag01-nano-cnc-hall-gimbals-for-pocket-radio",
+    "title": "AG01 NANO CNC Hall Gimbals for Pocket Radio",
+    "part_type": "radio",
+    "variant_name": "AG01 NANO CNC Hall Gimbals for Pocket Radio"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/lite-radio-4",
+    "title": "Lite Radio 4",
+    "part_type": "radio",
+    "variant_name": "Lite Radio 4"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/test",
+    "title": "LiteRadio 2 SIM Controller",
+    "part_type": "radio",
+    "variant_name": "LiteRadio 2 SIM Controller"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/betafpv-storage-case-for-literadio",
+    "title": "BETAFPV Storage Case for LiteRadio",
+    "part_type": "radio",
+    "variant_name": "BETAFPV Storage Case for LiteRadio"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/happymodel-es24tx-pro-elrs-2-4ghz-rc-transmitter-module-1",
+    "title": "HappyModel ES24TX Pro ELRS 2.4GHz RC Transmitter Module",
+    "part_type": "radio",
+    "variant_name": "HappyModel ES24TX Pro ELRS 2.4GHz RC Transmitter Module"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/happymodel-es24tx-slim-pro-elrs-2-4ghz-rc-transmitter-module",
+    "title": "HappyModel ES24TX Slim Pro ELRS 2.4GHz RC Transmitter Module",
+    "part_type": "radio",
+    "variant_name": "HappyModel ES24TX Slim Pro ELRS 2.4GHz RC Transmitter Module"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/betafpv-elrs-micro-900mhz-rc-transmitter-module-white",
+    "title": "BetaFPV ELRS Micro 900MHz RC Transmitter Module -White",
+    "part_type": "radio",
+    "variant_name": "BetaFPV ELRS Micro 900MHz RC Transmitter Module -White"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/radiomaster-pocket-radio-case-pink",
+    "title": "Radiomaster Pocket Radio Case - Pink",
+    "part_type": "radio",
+    "variant_name": "Radiomaster Pocket Radio Case - Pink"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/betafpv04hdcanopy",
+    "title": "BetaFPV 04 HD Canopy",
+    "part_type": "camera",
+    "variant_name": "BetaFPV 04 HD Canopy"
+  },
+  {
+    "source": "tinywhoop",
+    "source_url": "https://www.tinywhoop.com/products/bt2-0-pigtail-straight-black-red-wire",
+    "title": "BT2.0  Pigtail - Straight Black/Red Wire",
+    "part_type": "battery",
+    "variant_name": "BT2.0  Pigtail - Straight Black/Red Wire"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/xnova-x-class-lightning-12s-fpv-motor-shaft-a",
+    "title": "XNOVA X-CLASS LIGHTNING 12S FPV MOTOR SHAFT A",
+    "part_type": "motor",
+    "variant_name": "XNOVA X-CLASS LIGHTNING 12S FPV MOTOR SHAFT A 700kv (6s)"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/xnova-x-class-lightning-12s-fpv-motor-shaft-a",
+    "title": "XNOVA X-CLASS LIGHTNING 12S FPV MOTOR SHAFT A",
+    "part_type": "motor",
+    "variant_name": "XNOVA X-CLASS LIGHTNING 12S FPV MOTOR SHAFT A 350kv (12s)"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/botgrinder-demibot-tpu-camera-mount-black",
+    "title": "Botgrinder Demibot TPU Camera Mount - Black",
+    "part_type": "camera",
+    "variant_name": "Botgrinder Demibot TPU Camera Mount - Black"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/botgrinder-grinderino-fpv-camera-mount",
+    "title": "Botgrinder Grinderino FPV Camera Mount",
+    "part_type": "camera",
+    "variant_name": "Botgrinder Grinderino FPV Camera Mount"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/ummagrip-lite-blue-universal-super-sticky-battery-pad-laser-cut-choose-frame",
+    "title": "UmmaGrip Lite Blue 1.5mm - Universal Super Sticky Battery Pad (Laser Cut Choose Frame)",
+    "part_type": "frame",
+    "variant_name": "UmmaGrip Lite Blue 1.5mm - Universal Super Sticky Battery Pad (Laser Cut Choose Frame)"
+  },
+  {
+    "source": "ummagawd",
+    "source_url": "https://www.ummagawd.com/products/ummagrip-lite-purple-universal-super-sticky-battery-pad-laser-cut-choose-frame",
+    "title": "UmmaGrip Lite 1.5mm Purple - Universal Super Sticky Battery Pad (Laser Cut Choose Frame)",
+    "part_type": "frame",
+    "variant_name": "UmmaGrip Lite 1.5mm Purple - Universal Super Sticky Battery Pad (Laser Cut Choose Frame)"
   }
 ]

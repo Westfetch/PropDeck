@@ -1,100 +1,61 @@
 import { ShopifyScraper } from './_base.js';
 import { log } from '../lib/log.js';
 
-// BetaFPV collections — full catalogue
+// NewBeeDrone collections covering their FPV parts catalogue
 const COLLECTIONS = [
-  'brushless-motors',
-  'brushless-whoop-drone',      // Complete BNF/RTF quads
-  'aio-toothpick-boards',       // AIO flight controllers
-  'flight-controller',
-  'fpv-camera',
-  'fpv-vtx',
-  'frame',
-  'propellers',
-  'battery-charger',
-  'batteries',
-  'radio-transmitter',
-  'elrs-receiver',
-  'fpv-goggles',
-  'cinewhoop',                  // Cinewhoop BNF drones
-  'toothpick',                  // Toothpick BNF drones
+  'drone-motors',
+  'drone-frame',
+  'drone-fc-esc',
+  'drone-vtx-camera-systems',
+  'drone-receiver',
+  'drone-propellers',
+  'drone-batteries',
+  'chargers',
+  'goggles',
+  'remote-controller',
+  'drone-antennas',
 ];
 
-// Parse specs from Shopify product description HTML
+// Spec extraction from product description HTML
 const parseSpecsFromDescription = (html) => {
   if (!html) return {};
   const specs = {};
 
-  // KV rating
   const kvMatch = html.match(/(\d{3,5})\s*KV/i);
   if (kvMatch) specs.kv = kvMatch[1];
 
-  // Stator size
   const statorMatch = html.match(/(?:stator|motor)\s*(?:size)?[:\s]*(\d{4})/i) ||
                        html.match(/(\d{4})\s*(?:brushless|motor)/i);
   if (statorMatch) specs.stator_size = statorMatch[1];
 
-  // Weight
   const weightMatch = html.match(/(?:weight|motor weight)[:\s]*([\d.]+)\s*g/i);
   if (weightMatch) specs.weight_g = parseFloat(weightMatch[1]);
 
-  // Shaft diameter
   const shaftMatch = html.match(/(?:shaft|shaft diameter)[:\s]*[ø⌀]?([\d.]+)\s*mm/i);
   if (shaftMatch) specs.shaft = `${shaftMatch[1]}mm`;
 
-  // Rated voltage / cell count
-  const voltageMatch = html.match(/([\d.]+)\s*V\s*\((\d)S\)/i) ||
-                        html.match(/(\d)S\s*(?:lipo|battery|rated)/i);
-  if (voltageMatch) specs.cell_count = `${voltageMatch[2] || voltageMatch[1]}S`;
-
-  // Protocol (for AIO/RX)
   const protoMatch = html.match(/\b(ELRS|ExpressLRS|Crossfire|FrSky|TBS)\b/i);
   if (protoMatch) specs.protocol = protoMatch[1].toUpperCase() === 'EXPRESSLRS' ? 'ELRS' : protoMatch[1];
 
-  // Amperage (for AIO/ESC)
   const ampMatch = html.match(/(\d+)\s*A\s*(?:ESC|continuous|BLHeli)/i);
   if (ampMatch) specs.amperage = `${ampMatch[1]}A`;
 
-  // Frame size
-  const frameMatch = html.match(/(\d{2,3})\s*mm\s*(?:wheelbase|frame|whoop)/i);
-  if (frameMatch) specs.frame_size = `${frameMatch[1]}mm`;
-
-  // Connector
   const connMatch = html.match(/\b(BT\s*2\.0|PH\s*2\.0|XT30|XT60)\b/i);
   if (connMatch) specs.connector = connMatch[1].replace(/\s/g, '');
 
-  // Firmware
-  const fwMatch = html.match(/\b(Betaflight|INAV|iNAV)\b/i);
-  if (fwMatch) specs.firmware = fwMatch[1];
-
-  // Video system
   const vidMatch = html.match(/\b(Analog|HDZero|Walksnail|DJI\s*O[34])\b/i);
   if (vidMatch) specs.video = vidMatch[1];
 
-  // Camera sensor
-  const sensorMatch = html.match(/(1\/[234](?:\.\d)?["\s]*CMOS)/i);
-  if (sensorMatch) specs.sensor = sensorMatch[1].replace(/"/g, '"');
-
-  // FOV
-  const fovMatch = html.match(/FOV[:\s]*([\d.]+)/i);
-  if (fovMatch) specs.fov = fovMatch[1];
-
-  // VTX power
   const powerMatch = html.match(/(\d+)\s*mW/i);
   if (powerMatch) specs.power = `${powerMatch[1]}mW`;
 
-  // Build type from title-ish patterns
-  const buildMatch = html.match(/\b(BNF|RTF|PNP|Kit)\b/i);
-  if (buildMatch) specs.build_type = buildMatch[1].toUpperCase();
-
-  // Capacity (battery)
   const capMatch = html.match(/(\d{2,4})\s*mAh/i);
   if (capMatch) specs.capacity_mah = capMatch[1];
 
   return specs;
 };
 
-// Classify what part type this product is
+// Classify part type from product data
 const classifyPartType = (product) => {
   const title = (product.title || '').toLowerCase();
   const type = (product.product_type || '').toLowerCase();
@@ -102,37 +63,81 @@ const classifyPartType = (product) => {
   const tags = (typeof rawTags === 'string' ? rawTags.split(',').map(t => t.trim()) : rawTags).map(t => t.toLowerCase());
   const all = `${title} ${type} ${tags.join(' ')}`;
 
+  // Title-level checks first
+  if (title.includes('frame') || title.includes('frame kit')) return 'frame';
+  if (title.includes('motor base') || title.includes('body plate') || title.includes('motor guard')) return 'unknown';
+  if (title.includes('aio') || title.includes('flight controller')) return 'aio';
+
   if (all.includes('motor') || all.includes('brushless motor')) return 'motor';
-  if (all.includes('aio') || all.includes('flight controller') || all.includes('toothpick board')) return 'aio';
-  if (all.includes('frame') || all.includes('whoop frame')) return 'frame';
-  if (all.includes('camera') || all.includes('fpv camera')) return 'camera';
+  if (all.includes('stack') || all.includes('flight controller') || all.includes('fc') && all.includes('esc')) return 'aio';
+  if (all.includes('frame')) return 'frame';
+  if (all.includes('camera') || all.includes('fpv cam')) return 'camera';
   if (all.includes('vtx') || all.includes('video transmitter')) return 'vtx';
-  if (all.includes('receiver') || all.includes('elrs rx')) return 'rx';
-  if (all.includes('propeller') || all.includes('props')) return 'propeller';
-  if (all.includes('battery') || all.includes('lipo')) return 'battery';
+  if (all.includes('receiver') || all.includes('elrs rx') || all.includes('expresslrs')) return 'rx';
+  if (all.includes('propeller') || all.includes('props') || all.includes('prop')) return 'propeller';
+  if (all.includes('battery') || all.includes('lipo') || all.includes('lihv')) return 'battery';
   if (all.includes('charger')) return 'charger';
-  if (all.includes('radio') || all.includes('transmitter') || all.includes('controller')) return 'radio';
+  if (all.includes('radio') || all.includes('transmitter')) return 'radio';
   if (all.includes('goggle')) return 'goggles';
   if (all.includes('antenna')) return 'antenna';
 
-  // Check if it's a complete quad (BNF/RTF)
-  if (all.includes('bnf') || all.includes('rtf') || all.includes('drone') || all.includes('whoop drone')) return 'quad';
+  // Complete quads
+  if (all.includes('bnf') || all.includes('rtf') || all.includes('drone')) return 'quad';
 
   return 'unknown';
 };
 
-// Generate a stable variant_id slug
 const makeVariantId = (brand, name) => {
-  return `${brand}-${name}`
+  return `nbd-${brand}-${name}`
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 64);
 };
 
-export class BetaFPVScraper extends ShopifyScraper {
+// Extract brand from product title (NewBeeDrone sells their own brand + others)
+const extractBrand = (title) => {
+  const brandPatterns = [
+    /^(NewBeeDrone)/i,
+    /^(BETAFPV|BetaFPV)/i,
+    /^(Happymodel)/i,
+    /^(EMAX|Emax)/i,
+    /^(GepRC|GEPRC)/i,
+    /^(iFlight)/i,
+    /^(Flywoo)/i,
+    /^(Caddx)/i,
+    /^(RunCam|Runcam)/i,
+    /^(TBS|Team BlackSheep)/i,
+    /^(RadioMaster)/i,
+    /^(Gemfan)/i,
+    /^(HQProp|HQ)/i,
+    /^(GNB|Gaoneng)/i,
+    /^(Tattu)/i,
+    /^(VIFLY)/i,
+    /^(HGLRC)/i,
+    /^(Diatone)/i,
+    /^(Foxeer)/i,
+    /^(RUSHFPV|Rush)/i,
+    /^(T-Motor|Tmotor)/i,
+    /^(DarwinFPV)/i,
+    /^(Sub250)/i,
+    /^(Lumenier)/i,
+    /^(HDZero)/i,
+    /^(Walksnail)/i,
+    /^(FrSky)/i,
+  ];
+
+  for (const pattern of brandPatterns) {
+    const match = title.match(pattern);
+    if (match) return match[1];
+  }
+  return 'NewBeeDrone';
+};
+
+export class NewBeeDroneScraper extends ShopifyScraper {
   constructor() {
-    super('betafpv', 'https://betafpv.com', COLLECTIONS);
+    super('newbeedrone', 'https://newbeedrone.com', COLLECTIONS);
+    this.delayMs = 1500;
   }
 
   extractProduct(product, url) {
@@ -144,47 +149,38 @@ export class BetaFPVScraper extends ShopifyScraper {
       return null;
     }
 
+    const brand = extractBrand(product.title || '');
     const specs = parseSpecsFromDescription(product.body_html || '');
     const variants = (product.variants || []).map(v => ({
       shopify_variant_id: v.id,
       title: v.title,
       price: v.price,
       sku: v.sku,
-      weight: v.weight,
       available: v.available,
     }));
 
-    // For motors, each Shopify variant (different KV) is a separate brain variant
-    // For other parts, the Shopify product is usually one brain variant
     const brainVariants = [];
 
     if (partType === 'motor' && variants.length > 1) {
       for (const v of variants) {
-        const variantTitle = `${product.title} ${v.title}`.trim();
+        const variantTitle = v.title !== 'Default Title' ? `${product.title} ${v.title}` : product.title;
         const variantSpecs = { ...specs };
-
-        // Try to extract KV from variant title
-        const kvMatch = v.title.match(/(\d{3,5})\s*KV/i) || v.title.match(/(\d{3,5})KV/i);
+        const kvMatch = v.title.match(/(\d{3,5})\s*KV/i);
         if (kvMatch) variantSpecs.kv = kvMatch[1];
 
-        // Parse weight from variant title if present
-        const wMatch = v.title.match(/([\d.]+)\s*g/i);
-        if (wMatch) variantSpecs.weight_g = parseFloat(wMatch[1]);
-
         brainVariants.push({
-          variant_id: makeVariantId('betafpv', `${product.title}-${v.title}`),
-          product_name: `BETAFPV ${variantTitle}`,
-          brand: 'BETAFPV',
+          variant_id: makeVariantId(brand, variantTitle),
+          product_name: variantTitle,
+          brand,
           price: v.price,
           ...variantSpecs,
         });
       }
     } else if (partType === 'quad') {
-      // Complete quads become product patterns, not variants
       brainVariants.push({
-        variant_id: makeVariantId('betafpv', product.title),
-        product_name: `BETAFPV ${product.title}`,
-        brand: 'BETAFPV',
+        variant_id: makeVariantId(brand, product.title),
+        product_name: product.title,
+        brand,
         price: variants[0]?.price,
         build_type: specs.build_type || 'BNF',
         is_quad: true,
@@ -192,16 +188,16 @@ export class BetaFPVScraper extends ShopifyScraper {
       });
     } else {
       brainVariants.push({
-        variant_id: makeVariantId('betafpv', product.title),
-        product_name: `BETAFPV ${product.title}`,
-        brand: 'BETAFPV',
+        variant_id: makeVariantId(brand, product.title),
+        product_name: product.title,
+        brand,
         price: variants[0]?.price,
         ...specs,
       });
     }
 
     return {
-      source: 'betafpv',
+      source: 'newbeedrone',
       source_url: url.replace('.json', ''),
       scraped_at: new Date().toISOString(),
       shopify_id: product.id,
@@ -216,4 +212,4 @@ export class BetaFPVScraper extends ShopifyScraper {
   }
 }
 
-export default BetaFPVScraper;
+export default NewBeeDroneScraper;

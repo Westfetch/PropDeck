@@ -12,9 +12,9 @@ const OUTPUT_DIR = join(__dirname, '..', 'output');
 const SCRAPERS = {
   betafpv: () => import('../scrapers/betafpv.js').then(m => new m.BetaFPVScraper()),
   racedayquads: () => import('../scrapers/racedayquads.js').then(m => new m.RaceDayQuadsScraper()),
-  // Future scrapers:
-  // happymodel: () => import('../scrapers/happymodel.js').then(m => new m.HappymodelScraper()),
-  // getfpv: () => import('../scrapers/getfpv.js').then(m => new m.GetFPVScraper()),
+  newbeedrone: () => import('../scrapers/newbeedrone.js').then(m => new m.NewBeeDroneScraper()),
+  tinywhoop: () => import('../scrapers/tinywhoop.js').then(m => new m.TinyWhoopScraper()),
+  ummagawd: () => import('../scrapers/ummagawd.js').then(m => new m.UmmagawdScraper()),
 };
 
 const parseArgs = () => {

@@ -1,57 +1,25 @@
 import { ShopifyScraper } from './_base.js';
 import { log } from '../lib/log.js';
 
-// RaceDayQuads collections covering whoop + micro + freestyle + cinewhoop
+// TinyWhoop collections - whoop-focused store with granular categories
+// Using broadest non-overlapping collections to avoid duplicate scraping
 const COLLECTIONS = [
-  // Motors (whoop through freestyle)
-  '07xx-motors',
-  '08xx-brushless-motors',
-  '10xx-brushless-motors',
-  '11xx-brushless-motors',
-  '12xx-brushless-motors',
-  '13xx-brushless-motors',
-  '14xx-brushless-motors',
-  '15xx-brushless-motors',
-  '16xx-brushless-motors',
-  '18xx-brushless-motors',
-  '20xx-brushless-motors',
-  '22xx-brushless-motors',
-  '23xx-brushless-motors',
-  // Frames (all sizes)
-  'micro-frames',
-  '2-frames',
-  '2-5-frames',
-  '2-3-frames-1',
-  '3-frames',
-  '3-5-frames',
-  '5-frames',
-  // Electronics
-  '25x25-aio',
-  '20x20-stacks',
-  'all-16x16-electronics',
-  '30x30-stacks',
-  // Props (all sizes)
-  'micro-props',
-  '2-props',
-  '2-3-props',
-  '2-5-65mm-props',
-  '3-props',
-  '5-props',
-  // Batteries
-  '1s-batteries',
-  '2s-batteries',
-  '4s-batteries',
-  '6s-batteries',
-  // Receivers
-  'expresslrs-receivers',
-  // Cameras
-  'fpv-cameras',
-  // VTX
-  'analog-vtx',
-  'digital-vtx',
+  'motors',           // 121 products - all brushless motors
+  'frames',           // 87 products - all frames
+  'props',            // 170 products - all propellers
+  'batteries',        // 86 products - all batteries
+  'cameras',          // 48 products - FPV cameras
+  'receivers',        // 12 products - receivers
+  'antennas',         // 42 products - antennas
+  'chargers',         // 13 products - chargers
+  'goggles-and-screens', // 6 products - goggles
+  'transmitters-and-tx-modules', // 24 products - radios + TX modules
+  'hd-tiny-whoop-equipment', // 60 products - HDZero/Walksnail whoop gear
+  'bnf',              // 69 products - BNF quads
+  'esc-fc',           // (from sub-collections via brushless components)
 ];
 
-// Same spec extraction as betafpv but adapted for retailer product descriptions
+// Spec extraction from product description HTML
 const parseSpecsFromDescription = (html) => {
   if (!html) return {};
   const specs = {};
@@ -72,17 +40,8 @@ const parseSpecsFromDescription = (html) => {
   const protoMatch = html.match(/\b(ELRS|ExpressLRS|Crossfire|FrSky|TBS)\b/i);
   if (protoMatch) specs.protocol = protoMatch[1].toUpperCase() === 'EXPRESSLRS' ? 'ELRS' : protoMatch[1];
 
-  const ampMatch = html.match(/(\d+)\s*A\s*(?:ESC|continuous|BLHeli)/i);
-  if (ampMatch) specs.amperage = `${ampMatch[1]}A`;
-
   const connMatch = html.match(/\b(BT\s*2\.0|PH\s*2\.0|XT30|XT60)\b/i);
   if (connMatch) specs.connector = connMatch[1].replace(/\s/g, '');
-
-  const vidMatch = html.match(/\b(Analog|HDZero|Walksnail|DJI\s*O[34])\b/i);
-  if (vidMatch) specs.video = vidMatch[1];
-
-  const powerMatch = html.match(/(\d+)\s*mW/i);
-  if (powerMatch) specs.power = `${powerMatch[1]}mW`;
 
   const capMatch = html.match(/(\d{2,4})\s*mAh/i);
   if (capMatch) specs.capacity_mah = capMatch[1];
@@ -91,8 +50,6 @@ const parseSpecsFromDescription = (html) => {
 };
 
 // Classify part type from product data
-// Title-level checks run first because RDQ tags contain misleading keywords
-// like "Motor Bolt Pattern_6mm Tri" on frame products and "Stack Size_20x20"
 const classifyPartType = (product) => {
   const title = (product.title || '').toLowerCase();
   const type = (product.product_type || '').toLowerCase();
@@ -100,75 +57,73 @@ const classifyPartType = (product) => {
   const tags = (typeof rawTags === 'string' ? rawTags.split(',').map(t => t.trim()) : rawTags).map(t => t.toLowerCase());
   const all = `${title} ${type} ${tags.join(' ')}`;
 
-  // Title-level checks first to avoid tag pollution
-  if (title.includes('frame') || title.includes('frame kit')) return 'frame';
-  if (title.includes('motor base') || title.includes('body plate') || title.includes('motor guard') || title.includes('standoff') || title.includes('soft mount')) return 'unknown';
-  if (title.includes('prop') && title.includes('blade')) return 'propeller';
-  if (title.includes('stack') && (title.includes('fc') || title.includes('esc'))) return 'aio';
-  if (title.includes('aio') || title.includes('flight controller')) return 'aio';
-  if (title.includes('bnf') && (title.includes('quad') || title.includes('micro') || title.includes('whoop'))) return 'quad';
+  // Title-level keywords first (most reliable)
+  if (/frame kit|frame\b/i.test(title) && !/camera mount|cam mount|canopy/i.test(title)) return 'frame';
+  if (/spare bell|motor base|motor screw|motor guard/i.test(title)) return 'unknown';
+  if (/\baio\b|flight controller/i.test(title)) return 'aio';
+  if (/\bprop\b|\bprops\b|propeller/i.test(title)) return 'propeller';
+  if (/\bmotor\b/i.test(title) && !/motor mount|motor screw/i.test(title)) return 'motor';
 
-  // Broader checks using title + type + tags
-  if (all.includes('motor') || all.includes('brushless motor')) return 'motor';
-  if (all.includes('stack') || all.includes('flight controller')) return 'aio';
-  if (all.includes('frame')) return 'frame';
+  if (all.includes('stack') || (all.includes('fc') && all.includes('esc'))) return 'aio';
   if (all.includes('camera') || all.includes('fpv cam')) return 'camera';
   if (all.includes('vtx') || all.includes('video transmitter')) return 'vtx';
-  if (all.includes('receiver') || all.includes('elrs rx') || all.includes('expresslrs')) return 'rx';
-  if (all.includes('propeller') || all.includes('props') || all.includes('prop')) return 'propeller';
+  if (all.includes('receiver') || all.includes('elrs rx')) return 'rx';
   if (all.includes('battery') || all.includes('lipo') || all.includes('lihv')) return 'battery';
   if (all.includes('charger')) return 'charger';
-  if (all.includes('radio') || all.includes('transmitter')) return 'radio';
+  if (all.includes('radio') || all.includes('transmitter') || all.includes('tx module')) return 'radio';
   if (all.includes('goggle')) return 'goggles';
   if (all.includes('antenna')) return 'antenna';
+  if (all.includes('bnf') || all.includes('rtf')) return 'quad';
 
   return 'unknown';
 };
 
 const makeVariantId = (brand, name) => {
-  return `rdq-${brand}-${name}`
+  return `tw-${brand}-${name}`
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 64);
 };
 
-// Extract brand from product title (RDQ sells multiple brands)
 const extractBrand = (title) => {
   const brandPatterns = [
+    /^(Tiny Whoop)/i,
     /^(BETAFPV|BetaFPV)/i,
     /^(Happymodel)/i,
     /^(EMAX|Emax)/i,
     /^(GepRC|GEPRC)/i,
     /^(iFlight)/i,
-    /^(Flywoo)/i,
-    /^(NewBeeDrone)/i,
     /^(Caddx)/i,
     /^(RunCam|Runcam)/i,
-    /^(TBS|Team BlackSheep)/i,
-    /^(RadioMaster)/i,
     /^(Gemfan)/i,
-    /^(HQProp|HQ)/i,
+    /^(HQProp|HQ Prop)/i,
     /^(GNB|Gaoneng)/i,
     /^(Tattu)/i,
-    /^(VIFLY)/i,
-    /^(HGLRC)/i,
-    /^(Diatone)/i,
+    /^(Flywoo)/i,
+    /^(HDZero)/i,
+    /^(Walksnail)/i,
+    /^(Rcinpower|RCINpower)/i,
+    /^(T-Motor|Tmotor)/i,
+    /^(RadioMaster)/i,
+    /^(TBS|Team BlackSheep)/i,
+    /^(FrSky)/i,
     /^(Foxeer)/i,
-    /^(RUSHFPV|Rush)/i,
+    /^(NewBeeDrone)/i,
+    /^(Sub250)/i,
   ];
 
   for (const pattern of brandPatterns) {
     const match = title.match(pattern);
     if (match) return match[1];
   }
-  return 'Unknown';
+  return 'Tiny Whoop';
 };
 
-export class RaceDayQuadsScraper extends ShopifyScraper {
+export class TinyWhoopScraper extends ShopifyScraper {
   constructor() {
-    super('racedayquads', 'https://www.racedayquads.com', COLLECTIONS);
-    this.delayMs = 1500; // slightly more polite for retailer
+    super('tinywhoop', 'https://www.tinywhoop.com', COLLECTIONS);
+    this.delayMs = 1500;
   }
 
   extractProduct(product, url) {
@@ -207,11 +162,20 @@ export class RaceDayQuadsScraper extends ShopifyScraper {
           ...variantSpecs,
         });
       }
-    } else {
-      const variantTitle = product.title;
+    } else if (partType === 'quad') {
       brainVariants.push({
-        variant_id: makeVariantId(brand, variantTitle),
-        product_name: variantTitle,
+        variant_id: makeVariantId(brand, product.title),
+        product_name: product.title,
+        brand,
+        price: variants[0]?.price,
+        build_type: 'BNF',
+        is_quad: true,
+        ...specs,
+      });
+    } else {
+      brainVariants.push({
+        variant_id: makeVariantId(brand, product.title),
+        product_name: product.title,
         brand,
         price: variants[0]?.price,
         ...specs,
@@ -219,7 +183,7 @@ export class RaceDayQuadsScraper extends ShopifyScraper {
     }
 
     return {
-      source: 'racedayquads',
+      source: 'tinywhoop',
       source_url: url.replace('.json', ''),
       scraped_at: new Date().toISOString(),
       shopify_id: product.id,
@@ -234,4 +198,4 @@ export class RaceDayQuadsScraper extends ShopifyScraper {
   }
 }
 
-export default RaceDayQuadsScraper;
+export default TinyWhoopScraper;

@@ -217,6 +217,60 @@
         "message_advanced": "0702/0802 standard: 1.0mm shaft, press-fit prop. 1102+ may use 1.5mm shaft. T-mount is incompatible with whoop prop hubs.",
         "confidence": "high",
         "source": "community_consensus"
+      },
+      {
+        "rule_id": "TW-13",
+        "summary": "BT2.0 connector outperforms PH2.0 for whoop batteries",
+        "category": "tinywhoop_class",
+        "severity": "strong_recommendation",
+        "applies_to": ["1S whoop battery"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.connector",
+          "operator": "in",
+          "values": ["BT2.0", "PH2.0"]
+        },
+        "action": "recommend",
+        "message_beginner": "BT2.0 battery connectors give more power and longer flights than the older PH2.0 connector. Pick one and stick with it, your batteries and charger need to match.",
+        "message_advanced": "BT2.0: significantly lower resistance than PH2.0, measurably more flight time and punch. Commit early, connector ecosystem lock-in affects batteries and charger. Adapter cables are fine for charging only, never fly with adapters.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "TW-14",
+        "summary": "300mAh square cell is the current 65mm battery standard",
+        "category": "tinywhoop_class",
+        "severity": "soft_guidance",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.capacity_mah",
+          "operator": "equals",
+          "values": [300]
+        },
+        "action": "info",
+        "message_beginner": "For 65mm whoops, 300mAh square cell batteries give 3+ minutes of flight. They're the current gold standard across all brands.",
+        "message_advanced": "1S 300mAh 75C HV square cells (BT2.0): 3+ min sag-free. Brands (WeBleedFPV, TinyWhoop, Tattu, NewBeeDrone) believed to use the same cells. 450mAh for 75mm builds. Always charge to HV (4.35V) for full performance.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "TW-15",
+        "summary": "Bi-blade props can outperform tri-blade on whoops",
+        "category": "tinywhoop_class",
+        "severity": "soft_guidance",
+        "applies_to": ["65mm whoop frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.blade_count",
+          "operator": "in",
+          "values": [2]
+        },
+        "action": "info",
+        "message_beginner": "Two-blade props on whoops can actually beat three-blade in thrust, efficiency, and response. Try Gemfan 1210-2 for freestyle.",
+        "message_advanced": "Gemfan 1210-2 bi-blade outperforms most tri/quad-blade in response time, efficiency, and thrust on 65mm. 1208-3 tri-blade preferred for racing (extra grip). On 75mm, Gemfan 1610-2 bi-blade for efficiency, 1608-3 tri-blade for grip on 1002 motors.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
       }
     ],
     "receiver_protocol": [
@@ -441,6 +495,48 @@
         "message_advanced": "Walksnail Avatar Nano: ~5-7g, fits 75mm+ frames. Feasible on 75mm 2S with 1102 motors. Weight penalty significant on 1S builds.",
         "confidence": "medium",
         "source": "community_consensus"
+      },
+      {
+        "rule_id": "VID-07",
+        "summary": "Never power a VTX without an antenna connected",
+        "category": "video_system",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {},
+        "action": "warn_if_violated",
+        "message_beginner": "Never plug in a battery with your video transmitter connected but no antenna attached. It will burn out the VTX instantly.",
+        "message_advanced": "Operating a VTX without a matched load (antenna) causes reflected RF energy that destroys the output amplifier. This applies to all VTX types: analog, DJI, HDZero, Walksnail. Even a few seconds can cause permanent damage.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "VID-08",
+        "summary": "Antenna polarity must match between quad and goggles",
+        "category": "video_system",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.antenna_polarity",
+          "operator": "match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Your antenna on the drone and the antenna on your goggles must be the same type: both RHCP or both LHCP. Mismatched antennas cause terrible video.",
+        "message_advanced": "RHCP/LHCP cross-polarisation causes ~20dB signal loss, equivalent to reducing VTX power by 100x. RHCP is the community default. Match polarity on all antennas in the system. Lumenier colour codes: white=LHCP, black=RHCP.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "VID-09",
+        "summary": "HDZero goggles are the only triple-system option",
+        "category": "video_system",
+        "severity": "info",
+        "applies_to": ["HDZero Goggles"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "HDZero goggles can receive analog, HDZero, and Walksnail video. They're the only goggles that work with all three systems.",
+        "message_advanced": "HDZero goggles: native HDZero at 90fps/14ms latency. Analog via module bay with best-in-class deinterlacing. Walksnail via HDMI at 100fps (lowest Walksnail latency available). The only single-goggle solution for all analog/digital systems.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
       }
     ],
     "battery_connector": [
@@ -798,6 +894,448 @@
         "message_advanced": "5-inch freestyle: 2204-2306 motors, 4S-6S, open frame, no ducts. Not safe for proximity/indoor. Cinewhoop = ducted props + camera focus.",
         "confidence": "high",
         "source": "community_consensus"
+      }
+    ],
+    "five_inch_freestyle": [
+      {
+        "rule_id": "5IN-01",
+        "summary": "5-inch frames pair with 2205-2306 motors",
+        "category": "five_inch_freestyle",
+        "severity": "hard_constraint",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["2204", "2205", "2206", "2207", "2208", "2305", "2306", "2307", "2406"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "5-inch builds use 22xx or 23xx motors. Smaller motors can't handle 5-inch props, larger motors are overkill and add weight.",
+        "message_advanced": "5-inch standard: 2205-2306 stators. 2207 is the community workhorse. 2406 for heavy camera builds. Anything below 2204 lacks torque for 5-inch props.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-02",
+        "summary": "5-inch builds need a 30x30 or 20x20 stack, not an AIO",
+        "category": "five_inch_freestyle",
+        "severity": "strong_recommendation",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "aio",
+          "field": "specs.mount",
+          "operator": "in",
+          "values": ["30x30", "20x20"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "5-inch quads use a separate flight controller and ESC (called a stack), not a whoop AIO board. The current draw is too high for AIO boards.",
+        "message_advanced": "5-inch draws 80-120A burst. Whoop AIOs max at 12-25A. 30x30 is standard mount, 20x20 for lightweight builds. 4-in-1 ESC + separate FC.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-03",
+        "summary": "4S vs 6S motor KV ranges for 5-inch",
+        "category": "five_inch_freestyle",
+        "severity": "strong_recommendation",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "field": "variant.kv_cell_match",
+          "operator": "range_check"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "4S batteries need higher KV motors (2400KV). 6S batteries need lower KV (1750-1950KV). Wrong KV for your battery means either no power or blown motors.",
+        "message_advanced": "RPM = KV x voltage. 6S freestyle sweet spot: 1800-1955KV (Bardwell recommends 1855KV as all-rounder). 4S: 2400KV. 1700KV on 6S gives longer flight time but less punch. 1950KV+ on 6S is more aggressive.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-04",
+        "summary": "XT60 connector standard for 4S and above",
+        "category": "five_inch_freestyle",
+        "severity": "hard_constraint",
+        "applies_to": ["5 inch frame", "6 inch frame", "7 inch frame"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.connector",
+          "operator": "equals",
+          "values": ["XT60"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "5-inch and larger builds use XT60 connectors. XT30 can't handle the current draw safely.",
+        "message_advanced": "XT60 rated 60A continuous, 120A burst. XT30 rated 30A/60A. 5-inch 6S draws 80-120A burst. XT30 will overheat and melt under freestyle loads.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-05",
+        "summary": "5-inch props: 5040-5051 tri-blade is standard",
+        "category": "five_inch_freestyle",
+        "severity": "info",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.size",
+          "operator": "equals",
+          "values": ["5inch"]
+        },
+        "action": "info",
+        "message_beginner": "5040 or 5051 tri-blade props are the standard for freestyle. Higher pitch (51) gives more speed, lower pitch (40) is smoother.",
+        "message_advanced": "5040: balanced efficiency and thrust. 5051: aggressive pitch for speed/punch. 5045: middle ground. Bi-blade for efficiency, quad-blade for grip in turns.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-06",
+        "summary": "GPS recommended for long-range 5-inch",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "field": "build_intent",
+          "operator": "includes",
+          "values": ["long-range"]
+        },
+        "action": "info",
+        "message_beginner": "If you're flying 5-inch beyond visual line of sight, add a GPS module. It enables return-to-home if you lose signal.",
+        "message_advanced": "GPS rescue mode in Betaflight/iNav. ~5g weight penalty. Essential for LR. BN-880 or M10 GPS modules. Requires a free UART.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-07",
+        "summary": "Action camera adds 120-150g to AUW",
+        "category": "five_inch_freestyle",
+        "severity": "info",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "camera",
+          "field": "canonical_name",
+          "operator": "equals",
+          "values": ["action camera"]
+        },
+        "action": "info",
+        "message_beginner": "Mounting a GoPro or action camera adds about 120-150g. Your quad will feel heavier and less agile. Tune accordingly.",
+        "message_advanced": "Full GoPro: 120-150g. Naked GoPro: 25-35g. DJI Action 2: 56g. Weight affects PID tune, propwash handling, and flight time. Re-tune after adding camera.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-08",
+        "summary": "Arm thickness: 4mm minimum for 5-inch",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "field": "specs.arm_thickness",
+          "operator": "greater_than_or_equal",
+          "values": [4]
+        },
+        "action": "info",
+        "message_beginner": "5-inch frames should have arms at least 4mm thick. Thinner arms break on crashes.",
+        "message_advanced": "4mm carbon arms standard for freestyle. 5mm for racing (stiffer, heavier). 3mm only viable for ultralight builds with careful flying. True-X geometry for freestyle, stretched-X for racing.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "5IN-09",
+        "summary": "Typical 5-inch freestyle AUW is 600-750g with battery",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "field": "calculated.auw_grams",
+          "operator": "range",
+          "values": [550, 800]
+        },
+        "action": "info",
+        "message_beginner": "A 5-inch freestyle build usually weighs 600-750g with battery. Under 600g is ultralight, over 800g is heavy and will fly sluggish.",
+        "message_advanced": "5-inch freestyle AUW target: 650-700g with 1300mAh 6S. Sub-600g ultralight possible with analog. Over 750g with action cam is normal. 670g is a current sweet spot for aggressive freestyle.",
+        "confidence": "high",
+        "source": "youtube_extraction:mr_steele_2026"
+      },
+      {
+        "rule_id": "5IN-10",
+        "summary": "Props out gaining adoption for freestyle over props in",
+        "category": "five_inch_freestyle",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {
+          "field": "build_preference.prop_direction"
+        },
+        "action": "info",
+        "message_beginner": "Motor direction (props in vs props out) is a personal preference. Props out is becoming more popular for freestyle because it reduces prop entanglement in trees.",
+        "message_advanced": "Props in: slightly more centre authority, traditional default. Props out: better dirty air recovery, less likely to wrap branches. Most firmware defaults to props out now. Performance difference is minimal, it's mostly about handling feel.",
+        "confidence": "medium",
+        "source": "youtube_extraction:mr_steele_2026"
+      },
+      {
+        "rule_id": "5IN-11",
+        "summary": "6S 1100-1400mAh is the freestyle battery sweet spot",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.capacity_mah",
+          "operator": "range",
+          "values": [1100, 1400]
+        },
+        "action": "info",
+        "message_beginner": "For 5-inch freestyle, a 6S battery between 1100-1400mAh gives the best balance of flight time and weight. 1300mAh is the most popular choice.",
+        "message_advanced": "6S freestyle battery: 1100-1400mAh, 180-220g, minimum 100C. 1300mAh 6S at ~200g is the community standard. Higher capacity (1550mAh) adds weight but suits cinematic/cruising. Below 1100mAh noticeably shorter flights.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "5IN-12",
+        "summary": "Prop pitch 3.5-3.7 inch for responsive freestyle",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.pitch"
+        },
+        "action": "info",
+        "message_beginner": "For freestyle, 5-inch props with 3.5-3.7 inch pitch give the best throttle response. Lower pitch (3.5) is smoother, higher pitch (3.7+) is more aggressive.",
+        "message_advanced": "Gemfan Hurricane 51433 (3.5\" pitch): smooth, efficient. 51466 (3.6\"): balanced. 51477 (3.7\"): aggressive freestyle. HQ Ethix S3/S5: lightweight, responsive on sub-650g builds. Gemfan Sbang 4934: snappy for sbang style. 51499 (4.2\"): racing oriented.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "5IN-13",
+        "summary": "Lightweight builds under 650g benefit from lighter props",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "If your 5-inch build is under 650g, use lighter props like the HQ Ethix series. They give better throttle feel on light builds.",
+        "message_advanced": "HQ Ethix S3/S5: optimised for 500-650g AUW. On heavier builds (700g+ with action cam), switch to Gemfan Hurricane for more thrust. Prop choice should match build weight, not just frame size.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "5IN-14",
+        "summary": "TBS Lucid H7 is a current go-to FC for 5-inch builds",
+        "category": "five_inch_freestyle",
+        "severity": "soft_guidance",
+        "applies_to": ["5 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "The TBS Lucid H7 flight controller is a popular choice for 5-inch builds. It has dual gyros, 7 UARTs, and supports up to 8S batteries.",
+        "message_advanced": "TBS Lucid H7: dual gyros, baro, 13 motor outputs, 7 UARTs, dual camera switcher, 8S, SD card blackbox. Betaflight/iNav/Ardupilot compatible. Bardwell's current go-to FC. Pair with TBS Lucid 60A ESC for a complete stack.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "5IN-15",
+        "summary": "ImpulseRC Apex frame is discontinued",
+        "category": "five_inch_freestyle",
+        "severity": "info",
+        "applies_to": ["ImpulseRC Apex"],
+        "condition": {
+          "part_type": "frame",
+          "field": "name",
+          "operator": "contains",
+          "values": ["Apex", "ImpulseRC"]
+        },
+        "action": "info",
+        "message_beginner": "The ImpulseRC Apex was a legendary freestyle frame but the company has shut down. Spare parts are hard to find. Look at alternatives for new builds.",
+        "message_advanced": "ImpulseRC discontinued. Apex spare parts are unobtanium. Current alternatives: Vannystyle, Badger, Five33 Switchback, TBS Source One (open source). If you find an Apex, hold onto it.",
+        "confidence": "high",
+        "source": "youtube_extraction:mr_steele_2026"
+      }
+    ],
+    "long_range": [
+      {
+        "rule_id": "LR-01",
+        "summary": "7-inch frames pair with 2806-2807 motors",
+        "category": "long_range",
+        "severity": "hard_constraint",
+        "applies_to": ["7 inch frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["2806", "2807", "2808", "3010", "3110"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "7-inch long-range builds need larger motors than 5-inch. 2806 or 2807 are the standard sizes for 7-inch props.",
+        "message_advanced": "7-inch: 2806.5-2807 for efficiency at cruise. 3010/3110 for cinematic payload. Lower KV than 5-inch: 1100-1500KV on 6S.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "LR-02",
+        "summary": "915MHz ELRS for long-range, not 2.4GHz",
+        "category": "long_range",
+        "severity": "strong_recommendation",
+        "applies_to": ["7 inch frame", "8 inch frame", "10 inch frame"],
+        "condition": {
+          "part_type": "rx",
+          "field": "specs.frequency",
+          "operator": "equals",
+          "values": ["915MHz"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "For long-range flying, use 915MHz ELRS instead of 2.4GHz. Lower frequency travels much further.",
+        "message_advanced": "915MHz ELRS: 30-50km+ range at 100mW. 2.4GHz ELRS: 5-15km practical range. 915MHz has better obstacle penetration and diffraction. Use 150Hz or 50Hz packet rates for maximum range.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "LR-03",
+        "summary": "GPS and return-to-home mandatory for long range",
+        "category": "long_range",
+        "severity": "strong_recommendation",
+        "applies_to": ["7 inch frame", "8 inch frame", "10 inch frame"],
+        "condition": {
+          "field": "build_features.gps",
+          "operator": "equals",
+          "values": [true]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Long-range builds must have GPS for return-to-home. Without it, a signal loss means a lost quad.",
+        "message_advanced": "GPS rescue in Betaflight or iNav. M10 GPS recommended for fast fix. Set failsafe to GPS rescue, not drop. Test RTH before flying distance.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "LR-04",
+        "summary": "Battery capacity vs weight for long-range endurance",
+        "category": "long_range",
+        "severity": "info",
+        "applies_to": ["7 inch frame", "8 inch frame"],
+        "condition": {
+          "part_type": "battery",
+          "field": "specs.capacity_range"
+        },
+        "action": "info",
+        "message_beginner": "Bigger batteries fly longer but add weight. For 7-inch long range, 1300-1800mAh 6S is the sweet spot. Aim for 20-40 minute flights.",
+        "message_advanced": "7-inch 6S: 1300mAh for agility, 1800mAh for endurance. Li-ion 18650 packs offer 2x flight time at cost of burst current. Samsung 30Q 4S2P for maximum range.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "LR-05",
+        "summary": "10-inch frames use 2812-3120 motors",
+        "category": "long_range",
+        "severity": "hard_constraint",
+        "applies_to": ["10 inch frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["2812", "2814", "3110", "3115", "3120", "3215"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "10-inch builds are heavy and need large motors. 2812 or bigger is required to spin 10-inch props effectively.",
+        "message_advanced": "10-inch cinematic/LR: 2812-3120 stators at 300-600KV on 6S-8S. These are slow-spinning, high-torque platforms for cinema cameras or extreme endurance.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "digital_video_ecosystem": [
+      {
+        "rule_id": "DIG-01",
+        "summary": "DJI O4 requires DJI Goggles 3 or N3",
+        "category": "digital_video_ecosystem",
+        "severity": "hard_constraint",
+        "applies_to": ["DJI O4 Air Unit"],
+        "condition": {
+          "part_type": "goggles",
+          "field": "specs.video",
+          "operator": "equals",
+          "values": ["DJI"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "DJI O4 only works with DJI Goggles 3 or Goggles N3. Older DJI goggles (V1, V2, Integra) do not support O4.",
+        "message_advanced": "DJI O4 uses a new protocol incompatible with O3-era goggles. Goggles 3 support both O3 and O4. Goggles 2/V2/Integra only support O3.",
+        "confidence": "high",
+        "source": "manufacturer_specs"
+      },
+      {
+        "rule_id": "DIG-02",
+        "summary": "Walksnail goggles are not compatible with DJI",
+        "category": "digital_video_ecosystem",
+        "severity": "hard_constraint",
+        "applies_to": ["Walksnail goggles", "Walksnail Avatar VTX", "Walksnail Avatar Nano"],
+        "condition": {
+          "field": "specs.video",
+          "operator": "ecosystem_match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Walksnail and DJI are completely separate systems. Walksnail goggles only work with Walksnail VTX, and DJI goggles only work with DJI air units.",
+        "message_advanced": "Despite both being 'digital HD', Walksnail Avatar and DJI use incompatible protocols. No cross-compatibility. Choosing one locks your goggle and VTX ecosystem.",
+        "confidence": "high",
+        "source": "manufacturer_specs"
+      },
+      {
+        "rule_id": "DIG-03",
+        "summary": "HDZero Race VTX needs 20x20 or 25x25 mount",
+        "category": "digital_video_ecosystem",
+        "severity": "info",
+        "applies_to": ["HDZero Race VTX"],
+        "condition": {
+          "field": "specs.mount",
+          "operator": "in",
+          "values": ["20x20", "25x25"]
+        },
+        "action": "info",
+        "message_beginner": "The HDZero Race and Freestyle VTX boards are 20x20 or 25x25 mount. Check your frame supports this stack size.",
+        "message_advanced": "HDZero Race V3: 25.5x25.5mm, ~6g. Fits 20x20 and 25x25 frames. HDZero Freestyle V3: same mount. Whoop Lite: 16x16mm for sub-3-inch.",
+        "confidence": "high",
+        "source": "manufacturer_specs"
+      },
+      {
+        "rule_id": "DIG-04",
+        "summary": "Walksnail Avatar VTX minimum 3-inch frame",
+        "category": "digital_video_ecosystem",
+        "severity": "strong_recommendation",
+        "applies_to": ["Walksnail Avatar VTX"],
+        "condition": {
+          "field": "specs.size",
+          "operator": "minimum_frame",
+          "values": ["3inch"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "The full Walksnail Avatar VTX is too heavy for anything smaller than a 3-inch frame. Use the Avatar Nano for smaller builds.",
+        "message_advanced": "Walksnail Avatar VTX: ~10g + camera ~8g. Total ~18g digital system. Minimum viable on 3-inch 4S. Avatar Nano/Mini for 75mm-2.5-inch class at ~7g total.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "DIG-05",
+        "summary": "DJI O4 cameras are fragile and expensive to replace",
+        "category": "digital_video_ecosystem",
+        "severity": "soft_guidance",
+        "applies_to": ["DJI O4"],
+        "condition": {
+          "part_type": "camera",
+          "field": "specs.video_system",
+          "operator": "equals",
+          "values": ["DJI O4"]
+        },
+        "action": "info",
+        "message_beginner": "DJI O4 cameras break easily on crashes and cost $300-400 to replace. Protect them with a TPU mount and avoid bando bashing until you're confident.",
+        "message_advanced": "O4 camera module $300-400 USD, often out of stock. Frame-specific TPU mounts and conformal coating help. Some pilots mod the camera for durability. Stock availability is inconsistent, buy spares when you can find them.",
+        "confidence": "high",
+        "source": "youtube_extraction:mr_steele_2026"
+      },
+      {
+        "rule_id": "DIG-06",
+        "summary": "Analog video is seeing renewed interest due to DJI cost",
+        "category": "digital_video_ecosystem",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Analog video is cheaper and easier to repair than DJI. Some experienced pilots are going back to analog because replacing digital gear after crashes gets expensive.",
+        "message_advanced": "DJI O4 ecosystem cost: goggles $500+, VTX $80+, camera $300+. Analog full setup under $100. For crash-heavy flying styles (bando, racing), analog TCO is significantly lower. Analog latency is sub-1ms vs DJI ~28ms.",
+        "confidence": "medium",
+        "source": "youtube_extraction:mr_steele_2026"
       }
     ]
   }
