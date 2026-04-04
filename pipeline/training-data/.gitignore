@@ -1,0 +1,13 @@
+# Data files (don't commit scraped data)
+data/raw/
+data/processed/
+
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/

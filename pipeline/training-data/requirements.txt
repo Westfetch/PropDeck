@@ -1,0 +1,23 @@
+# FPV Brain — Training Data Collection
+# pip install -r requirements.txt
+
+# Reddit
+praw>=7.7
+
+# YouTube
+google-api-python-client>=2.100
+youtube-transcript-api>=0.6
+
+# Web scraping
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# Data export (optional — for Parquet output)
+pyarrow>=14.0
+
+# Scheduling (optional — for cron-style scheduling)
+schedule>=1.2
+
+# Environment
+python-dotenv>=1.0
