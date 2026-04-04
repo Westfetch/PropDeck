@@ -1337,6 +1337,428 @@
         "confidence": "medium",
         "source": "youtube_extraction:mr_steele_2026"
       }
+    ],
+    "antenna_setup": [
+      {
+        "rule_id": "ANT-01",
+        "summary": "Antenna polarity must match between VTX and goggles",
+        "category": "antenna_setup",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.antenna_polarity",
+          "operator": "match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Your quad antenna and goggle antenna must be the same polarity: both LHCP or both RHCP. Mismatched polarity cuts your range by 90%.",
+        "message_advanced": "Cross-polarised antennas suffer ~15-20dB loss. RHCP is the community standard for analog. If everyone at your field flies RHCP, matching lets you watch their feeds too.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "ANT-02",
+        "summary": "RHCP is the community default for analog video",
+        "category": "antenna_setup",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.video",
+          "operator": "equals",
+          "values": ["analog"]
+        },
+        "action": "info",
+        "message_beginner": "Most analog pilots fly RHCP antennas. Start with RHCP so you can watch other pilots' feeds at the field.",
+        "message_advanced": "RHCP is the de facto standard. No performance difference between LHCP and RHCP. Matching the community means spectators can watch your feed and vice versa. LHCP only if you need band isolation from nearby RHCP pilots.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "ANT-03",
+        "summary": "Antenna connector must match VTX and goggles",
+        "category": "antenna_setup",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.antenna_connector",
+          "operator": "match"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Antennas come with different connectors. Goggles use SMA or RP-SMA. VTX boards use UFL or MMCX. Make sure the connector matches before buying.",
+        "message_advanced": "Goggle side: SMA or RP-SMA (check your goggles). VTX side: UFL (fragile, whoop/micro) or MMCX (sturdier, 5-inch). SMA and RP-SMA look similar but don't mate. Adapters exist but add loss.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "ANT-04",
+        "summary": "Stubby antennas for freestyle, pagoda/lollipop for range",
+        "category": "antenna_setup",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Shorter (stubby) antennas are tougher and lighter, great for freestyle crashes. Longer antennas give better range for long-distance flying.",
+        "message_advanced": "Stubby: lower gain, wider pattern, crash-resistant. Lollipop/pagoda: higher gain, better axial ratio, more range. TrueRC Singularity stubby is the community standard for freestyle. For whoops, ultra-short UFL antennas fit inside canopies.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "ANT-05",
+        "summary": "Directional antenna on goggles boosts range significantly",
+        "category": "antenna_setup",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Using one directional (patch) antenna and one omni antenna on your goggles gives much better range than two omni antennas.",
+        "message_advanced": "Diversity receiver in goggles switches between best signal. Omni + directional combo: omni covers close/behind, directional covers long-range forward. TrueRC X-Air or ImmersionRC SpiroNet Patch are popular directional options.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "ANT-06",
+        "summary": "Never power VTX without antenna or it will burn out",
+        "category": "antenna_setup",
+        "severity": "hard_constraint",
+        "applies_to": [],
+        "condition": {},
+        "action": "warn_if_violated",
+        "message_beginner": "Always connect the antenna before powering on. A VTX without an antenna will overheat and die within seconds.",
+        "message_advanced": "VTX output stage dumps RF energy as heat without antenna load. Even 25mW can damage the PA over time. At 400-800mW, damage is near-instant. Always bench-test with antenna attached.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "radio_selection": [
+      {
+        "rule_id": "RAD-01",
+        "summary": "Buy a radio with internal ELRS module",
+        "category": "radio_selection",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "For your first radio, get one with ELRS built in. It works with most modern drones and has better range than older protocols.",
+        "message_advanced": "Internal ELRS radios: RadioMaster Pocket, Zorro, Boxer, TX16S MKII. ELRS is open-source, lowest latency, widest BNF compatibility. 2.4GHz for short/mid range, 915MHz module for long range.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "RAD-02",
+        "summary": "4-in-1 module for pilots with legacy receivers",
+        "category": "radio_selection",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "If you already have drones with FrSky, FlySky, or Spektrum receivers, a radio with a 4-in-1 module can bind to most of them.",
+        "message_advanced": "4-in-1 multi-protocol module: supports FrSky D8/D16/ACCESS, FlySky, Spektrum DSM2/DSMX, Futaba. Use it to bind legacy fleet, then buy ELRS BNF going forward. 4-in-1 range is shorter than native ELRS.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "RAD-03",
+        "summary": "External module bay extends radio capability",
+        "category": "radio_selection",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Radios with a module bay on the back let you plug in different transmitters. You can add Crossfire, ELRS 915MHz, or other modules later.",
+        "message_advanced": "JR-compatible module bay: standard on full-size radios (TX16S, Boxer). Nano module bay: RadioMaster Pocket/Zorro. External module overrides internal. Useful for Crossfire or 915MHz ELRS long range on a radio that shipped with 2.4GHz ELRS internally.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "RAD-04",
+        "summary": "Crossfire uses a dedicated external module, not built-in",
+        "category": "radio_selection",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.protocol",
+          "operator": "equals",
+          "values": ["Crossfire"]
+        },
+        "action": "info",
+        "message_beginner": "TBS Crossfire requires a separate module you plug into the back of your radio. Only the TBS Tango 2 has it built in.",
+        "message_advanced": "TBS Crossfire TX module: JR bay or Nano bay. 868MHz/915MHz ISM band. Crossfire Nano RX diversity: best-in-class range reliability. Tango 2 is the only radio with internal CRSF. All others need external module.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      }
+    ],
+    "four_inch_class": [
+      {
+        "rule_id": "4IN-01",
+        "summary": "4-inch frames pair with 1404-1507 motors",
+        "category": "four_inch_class",
+        "severity": "hard_constraint",
+        "applies_to": ["4 inch frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["1404", "1408", "1507"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "4-inch builds use smaller motors than 5-inch. 1404 or 1507 stators are the right size for 4-inch props.",
+        "message_advanced": "4-inch class: 1404 for lightweight analog builds, 1507 for more power or camera payload. 4S at 3600-4500KV, 6S at 2400-3000KV. Bridge between micro and 5-inch.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "4IN-02",
+        "summary": "4-inch is the sweet spot for sub-250g builds",
+        "category": "four_inch_class",
+        "severity": "info",
+        "applies_to": ["4 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "4-inch builds can come in under 250g, which avoids drone registration in many countries. Perfect for flying in more places legally.",
+        "message_advanced": "Sub-250g 4-inch: possible with analog, tight with HDZero, impossible with DJI O3/O4. Frame + AIO + motors + props ~120g, leaving ~130g for VTX, camera, RX, battery. 850mAh 4S is a common battery choice.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "4IN-03",
+        "summary": "4-inch builds can use 20x20 AIO or stack",
+        "category": "four_inch_class",
+        "severity": "info",
+        "applies_to": ["4 inch frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "4-inch builds can use either a compact AIO board or a small stack with separate FC and ESC. Both work, AIO saves weight.",
+        "message_advanced": "20x20 35A AIO boards handle 4-inch current draws (~40-60A burst). Saves 5-10g vs stacked FC+ESC. SpeedyBee F405 20x20 AIO or JHEMCU GHF420 are popular. Stack option for more UART flexibility.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      }
+    ],
+    "toothpick_class": [
+      {
+        "rule_id": "TP-01",
+        "summary": "Toothpicks use 1102-1303 motors without prop guards",
+        "category": "toothpick_class",
+        "severity": "hard_constraint",
+        "applies_to": ["toothpick frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.stator_size",
+          "operator": "in",
+          "values": ["1102", "1103", "1202", "1204", "1303"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Toothpicks are ultralight open-frame quads that use 1102-1303 motors. They fly like mini freestyle quads, not whoops.",
+        "message_advanced": "Toothpick class: 2.5-3 inch props, no ducts, 1S-3S. 1102 for 1S-2S, 1303 for 2S-3S. Lighter and faster than same-size whoop. More fragile without prop guards. Indoor use requires skill.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "TP-02",
+        "summary": "Toothpicks fly 2.5-3 inch props",
+        "category": "toothpick_class",
+        "severity": "hard_constraint",
+        "applies_to": ["toothpick frame"],
+        "condition": {
+          "part_type": "propeller",
+          "field": "specs.size",
+          "operator": "in",
+          "values": ["2.5inch", "3inch"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Toothpicks use 2.5 to 3 inch props. These are larger than whoop props but smaller than 5-inch freestyle props.",
+        "message_advanced": "2.5-inch toothpick: tighter spaces, lower weight. 3-inch toothpick: more thrust, better outdoor wind handling. Gemfan 3018 and HQ 3020 are common choices for 3-inch toothpick builds.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      }
+    ],
+    "esc_protocol": [
+      {
+        "rule_id": "ESC-01",
+        "summary": "DShot300 or DShot600 required for modern Betaflight",
+        "category": "esc_protocol",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.esc_protocol",
+          "operator": "in",
+          "values": ["DShot300", "DShot600"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Modern Betaflight needs DShot300 or DShot600 motor protocol. Older protocols like OneShot or MultiShot are outdated and perform worse.",
+        "message_advanced": "DShot600 for F7 FCs running 8K PID loop. DShot300 for F4 FCs at 4K. DShot is digital, no calibration needed. Bidirectional DShot required for RPM filtering.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "ESC-02",
+        "summary": "Bidirectional DShot enables RPM filtering",
+        "category": "esc_protocol",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Bidirectional DShot lets your flight controller read motor RPM, which enables better noise filtering and smoother flights.",
+        "message_advanced": "Bidirectional DShot: ESC reports RPM back to FC via same signal wire. Enables RPM notch filter in Betaflight, which tracks and cancels motor noise harmonics. Major improvement in propwash handling. Requires BLHeli_32 or BLHeli_S with Bluejay/AM32 firmware.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "ESC-03",
+        "summary": "ESC continuous current rating should be 1.5-2x motor draw",
+        "category": "esc_protocol",
+        "severity": "strong_recommendation",
+        "applies_to": [],
+        "condition": {
+          "field": "specs.esc_current_rating"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Your ESC should handle at least 1.5x the maximum current your motors draw. Running ESC at its limit causes overheating and failures.",
+        "message_advanced": "Motor max draw 30A per motor = need 45-60A rated ESC per motor (or 4-in-1 rated accordingly). Whoop AIOs: 12-25A is fine for 0702-1102 motors. 5-inch: 45-60A 4-in-1 ESC minimum. Continuous rating matters more than burst rating.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "firmware_setup": [
+      {
+        "rule_id": "FW-01",
+        "summary": "F4 processors run Betaflight at 4K/4K, F7 at 8K/8K",
+        "category": "firmware_setup",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Your flight controller's processor determines how fast Betaflight runs. F4 boards run at 4K, F7 boards at 8K. Both fly fine.",
+        "message_advanced": "F4 (STM32F405): 4K PID loop, DShot300. F7 (STM32F722/H743): 8K PID loop, DShot600. H7 (STM32H743): fastest, most UARTs. Real-world difference between 4K and 8K is marginal for most pilots. F7/H7 future-proofs for firmware features.",
+        "confidence": "high",
+        "source": "community_consensus"
+      },
+      {
+        "rule_id": "FW-02",
+        "summary": "Motor output limit is safer than swapping to lower KV",
+        "category": "firmware_setup",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "If your quad feels too powerful, use Betaflight's motor output limit slider instead of buying lower KV motors. You can always turn it back up as you improve.",
+        "message_advanced": "Motor output limit in Betaflight PID tab: caps throttle percentage. Set to 60-80% for beginners. Higher KV + output limit = same effective power as lower KV, but with headroom to unlock later. Cheaper than motor swaps.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "FW-03",
+        "summary": "Flash ESC firmware to Bluejay or AM32 for BLHeli_S ESCs",
+        "category": "firmware_setup",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "If your ESC runs BLHeli_S firmware, flashing Bluejay or AM32 firmware gives you bidirectional DShot for free. It's a significant performance upgrade.",
+        "message_advanced": "BLHeli_S stock: no bidirectional DShot. Bluejay: open-source BLHeli_S fork with bidirectional DShot, 48kHz PWM. AM32: for BLHeli_32 hardware. Flash via Betaflight passthrough or BLHeli configurator. Bluejay is the community standard for whoop AIOs.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "build_sizing": [
+      {
+        "rule_id": "SZ-01",
+        "summary": "85mm whoops are awkward, go 75mm or 95mm instead",
+        "category": "build_sizing",
+        "severity": "soft_guidance",
+        "applies_to": ["85mm whoop frame"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "85mm whoops sit in an awkward middle ground. They're too heavy for tight indoor flying and too small for outdoor wind. Go 75mm for indoors or step up to a 95mm or 2-inch build.",
+        "message_advanced": "85mm: neither the agility of 65-75mm nor the power of 95mm+. Only justified as smallest DJI carrier (iFlight Alpha A85). Otherwise, 75mm 2S covers the same space lighter, or 95mm/2-inch gives more capability.",
+        "confidence": "medium",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "SZ-02",
+        "summary": "6-inch is better for cinematic, 5-inch for pure freestyle",
+        "category": "build_sizing",
+        "severity": "soft_guidance",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "6-inch frames carry more weight and fly more smoothly than 5-inch. Better for filming. 5-inch is snappier and better for tricks.",
+        "message_advanced": "6-inch: 2207-2407 motors, 6S, more stable platform for HD camera. Higher inertia = smoother footage, less responsive to stick input. 5-inch: pure freestyle, snap rolls, powerloops. Pick based on primary use case.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "SZ-03",
+        "summary": "Deadcat frames hide props from camera view",
+        "category": "build_sizing",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Deadcat frame layout pushes the front arms wider so props don't appear in your camera view. Great for cinematic flying.",
+        "message_advanced": "Deadcat: front arms wider than rear, props out of FPV camera FOV. Trade-off: slightly less neutral in snap rolls due to asymmetric weight distribution. True-X: best handling, props may appear in wide-angle footage.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "SZ-04",
+        "summary": "Whoop frame must match motor mount spacing",
+        "category": "build_sizing",
+        "severity": "hard_constraint",
+        "applies_to": ["65mm whoop frame", "75mm whoop frame"],
+        "condition": {
+          "part_type": "motor",
+          "field": "specs.mount_diameter"
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "Whoop frames have specific motor mount holes. 65mm frames fit 6.5mm mount motors, 75mm frames fit 9mm mount motors. Wrong motors won't bolt in.",
+        "message_advanced": "65mm whoops: 6.5mm motor-to-mount diagonal. 75mm: 9mm or 10mm depending on frame. Happymodel/BetaFPV frames use 6.5mm for 65mm class. Motor base diameter and shaft length must also match frame depth.",
+        "confidence": "high",
+        "source": "community_consensus"
+      }
+    ],
+    "goggle_selection": [
+      {
+        "rule_id": "GOG-01",
+        "summary": "HDZero goggles receive analog, HDZero, and with module DJI",
+        "category": "goggle_selection",
+        "severity": "info",
+        "applies_to": ["HDZero goggles"],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "HDZero goggles are the most versatile. They receive HDZero and analog out of the box, and with an adapter module can receive DJI too.",
+        "message_advanced": "HDZero Goggle X: native HDZero + analog RX built in. With Walksnail Avatar or DJI module adapter, can receive all three major systems. Only goggle that covers the full ecosystem. Trade-off: higher total cost when adding modules.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "GOG-02",
+        "summary": "DJI goggles only work with DJI video system",
+        "category": "goggle_selection",
+        "severity": "hard_constraint",
+        "applies_to": ["DJI goggles"],
+        "condition": {
+          "field": "specs.video",
+          "operator": "equals",
+          "values": ["DJI"]
+        },
+        "action": "warn_if_violated",
+        "message_beginner": "DJI goggles only receive DJI video. They cannot receive analog, HDZero, or Walksnail signals. You're locked into the DJI ecosystem.",
+        "message_advanced": "DJI Goggles 3: DJI O3 + O4. Goggles 2/V2/Integra: O3 only. No analog RX module exists for DJI goggles. Ecosystem lock is total.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      },
+      {
+        "rule_id": "GOG-03",
+        "summary": "Goggles are the most important investment in FPV",
+        "category": "goggle_selection",
+        "severity": "info",
+        "applies_to": [],
+        "condition": {},
+        "action": "info",
+        "message_beginner": "Your goggles last longer than any quad. Invest in good goggles first because you'll look through them every single flight, no matter which quad you fly.",
+        "message_advanced": "Quads crash and get replaced. Goggles persist across your entire fleet. Budget allocation: goggles > radio > quad. OLED panels, comfort, and receiver sensitivity matter more than resolution numbers.",
+        "confidence": "high",
+        "source": "fpvknowitall:bardwell"
+      }
     ]
   }
 }

@@ -72,6 +72,7 @@ def scrape_article(url: str, content_selector: str) -> dict | None:
         logger.debug(f"Failed to fetch {url}: {e}")
         return None
 
+    resp.encoding = resp.apparent_encoding or "utf-8"
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Get title

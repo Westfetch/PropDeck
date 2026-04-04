@@ -28,7 +28,7 @@ def save_items(items: list[dict], source: str, sub_source: str, raw_dir: Path):
     # Load existing hashes for dedup
     existing_hashes = set()
     if output_file.exists():
-        with open(output_file, "r", encoding="utf-8") as f:
+        with open(output_file, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 try:
                     existing = json.loads(line)
@@ -64,7 +64,7 @@ def load_raw_items(raw_dir: Path, source: str = None) -> list[dict]:
     search_dir = raw_dir / source if source else raw_dir
 
     for jsonl_file in search_dir.rglob("*.jsonl"):
-        with open(jsonl_file, "r", encoding="utf-8") as f:
+        with open(jsonl_file, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 try:
                     items.append(json.loads(line))
@@ -81,7 +81,7 @@ def get_stats(raw_dir: Path) -> dict:
         if source_dir.is_dir():
             count = 0
             for jsonl_file in source_dir.rglob("*.jsonl"):
-                with open(jsonl_file, "r", encoding="utf-8") as f:
+                with open(jsonl_file, "r", encoding="utf-8", errors="replace") as f:
                     count += sum(1 for line in f if line.strip())
             stats[source_dir.name] = count
     stats["total"] = sum(stats.values())
